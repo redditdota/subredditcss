@@ -1,28 +1,3 @@
-/*
-/r/DotA2 Stylesheet
-Created  July 2015
-
-Contributors:
-  Jpon9
-  ReaverXai was here 04/19/2016
-  Leafeator 
-  Hellspawn  
-  Intolerable
-  Decency
-  Sushi
-*/ 
-
-/***************
-* Sidebar: #202125
-* Sidebar Select: #2a2e31
-* Background: #111214te
-* Search BG: #383c3d
-* Sidebar Text: #91b9b7
-* Sub Text: #737b88  
-* Headings: #9b3624
-***************/
-
-/* Demonyms */
 .subscribers span.number:before {
     content: "";
 }
@@ -77,9 +52,6 @@ Contributors:
 .res-nightmode .users-online .number:after {
     content: " (solo rating)";
 }
-
-
-/* Stylesheet */
 
 #stylesheet_contents,#default_stylesheet {
     font-family:Inconsolata,Courier,"Courier New",monospace;
@@ -441,9 +413,7 @@ h1.redditname {display: none;}
     height: 10px;
 } 
 
-.side .titlebox form.res-sr_style_toggle {
-    margin-bottom: 5px;
-}
+.side .titlebox form.res-sr_style_toggle { margin-bottom: 5px; }
 
 .side form.toggle:before {
     content: "";
@@ -456,9 +426,7 @@ h1.redditname {display: none;}
     background: #2A2E31;
 }
 
-.side form.res-sr_style_toggle:before {
-    height: 20px;
-}
+.side form.res-sr_style_toggle:before {  height: 20px; }
 
 .side form.toggle input {
     position: absolute;
@@ -472,9 +440,7 @@ h1.redditname {display: none;}
     display: block;
 }
 
-.side form.res-sr_style_toggle input {
-    top: 3px;
-}
+.side form.res-sr_style_toggle input { top: 3px; }
 
 .side form.res-sr_style_toggle label {
     position: relative;
@@ -483,9 +449,7 @@ h1.redditname {display: none;}
 
 /* USER FLAIR */
 
-.titlebox form.toggle, .leavemoderator {
-font-size: 10px;
-}
+.titlebox form.toggle, .leavemoderator { font-size: 10px; }
 
 .side .flairselector.drop-choices.active { /* !important used to override individual element styling */
     left: -230px!important;
@@ -543,11 +507,9 @@ font-size: 10px;
 .side a, .side .tagline a, .side .titlebox h1 a {color: #91b9b7;}
 
 /* HIDE CREATED BY */
-.titlebox .bottom {visibility: hidden;margin-bottom:15px;}
+.titlebox .bottom { visibility: hidden;margin-bottom:15px;}
 
-.titlebox .bottom span {
-    display: none;
-}
+.titlebox .bottom span { display: none; }
 
 /* SIDEBAR STICKY */
 .side .md>ol {
@@ -713,9 +675,7 @@ font-size: 10px;
     font-weight: bold;
     color:#ECEDED!important;
 }
-.side p:nth-child(1) a[href*='#heading'] > em {
-    font-size: 14px;
-}
+.side p:nth-child(1) a[href*='#heading'] > em { font-size: 14px; }
 
 /* TOP WIKI HEADING */
 .side .usertext a[href*='#intro'] {
@@ -817,9 +777,7 @@ a + div + ul li {
   display: inline-block;
 }
 
-a+div+ul li .RESUserTag, a+div+ul li .voteWeight {
-    display: none !important;
-}
+a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
 
 
 .sidecontentbox .collapse-button {vertical-align: 2px;margin: 0 8px;}
@@ -1064,7 +1022,9 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight {
     text-shadow: 1px 1px #000
 }
 
-.side .md>blockquote>blockquote>blockquote p del:nth-child(4) { top: 21px }
+.side .md>blockquote>blockquote>blockquote p del:nth-child(4) {
+    top: 21px
+}
 
 .side .md>blockquote>blockquote>blockquote p del:nth-child(2) {
     left: 5px;
@@ -1242,7 +1202,9 @@ body .content {margin-right: 345px;margin-left:8px;}
     margin: 0px 7px 0 0
 }
 
-.thumbnail.self,.thumbnail.default { height: 56px }
+.thumbnail.self,.thumbnail.default {
+    height: 56px
+}
 
 a.thumbnail img {
     height: auto;
@@ -1289,7 +1251,7 @@ a.thumbnail img {
 .commentarea > .usertext {margin-bottom: 0}
 .usertext-edit {width: 50%}
 .comments-page .usertext-edit div textarea {
-    background: #FFF url(%%comment-box-troll%%) bottom right no-repeat;
+    background: #FFF url(%%comment-box7%%) bottom right no-repeat;
     border: 1px solid #000;
     opacity: 0.8;
     outline: 0; 
@@ -1384,11 +1346,11 @@ span.gilded-icon {
 
 /* Hover to view */
 
-.comment .md h4+h5+h6+p,.comment .md h4+h5+h6+p+p,.comment .md h4+h5+h6+p+p+p,.comment .md h4+h5+h6+p+p+p+table,.comment .md h4+h5+h6+p+p+p+table+p,.comment .md h4+h5+h6+p+p+p+table+p+table,.comment .md h4+h5+h6+p+p+p+table+p+table+hr,.comment .md h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md h4+h5+h6+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md h4+h5+h6+p+p+table+p+table+p+p+p+p,.comment .md h4+h5+h6+p+table+p+table+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+table,.comment .md h4+h5+h6+p+p+p+p+table+p,.comment .md h4+h5+h6+p+p+p+p+table+p+table {
+.comment .md h4+h5+h6+p,.comment .md h4+h5+h6+p+table,.comment .md h4+h5+h6+p+table+hr,.comment .md h4+h5+h6+p+table+hr+p,.comment .md h4+h5+h6+p+table+p,.comment .md h4+h5+h6+p+table+p+hr,.comment .md h4+h5+h6+p+table+p+hr+p,.comment .md h4+h5+h6+p+p,.comment .md h4+h5+h6+p+p+p,.comment .md h4+h5+h6+p+p+p+table,.comment .md h4+h5+h6+p+p+p+table+p,.comment .md h4+h5+h6+p+p+p+table+p+table,.comment .md h4+h5+h6+p+p+p+table+p+table+hr,.comment .md h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md h4+h5+h6+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md h4+h5+h6+p+p+table+p+table+p+p+p+p,.comment .md h4+h5+h6+p+table+p+table+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+table,.comment .md h4+h5+h6+p+p+p+p+table+p,.comment .md h4+h5+h6+p+p+p+p+table+p+table {
 display:none
 }
 
-.comment .md:hover h4+h5+h6+p,.comment .md:hover h4+h5+h6+p+p,.comment .md:hover h4+h5+h6+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+table,.comment .md:hover h4+h5+h6+p+p+p+table+p,.comment .md:hover h4+h5+h6+p+p+p+table+p+table,.comment .md:hover h4+h5+h6+p+p+p+table+p+table+hr,.comment .md:hover h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md:hover h4+h5+h6+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md:hover h4+h5+h6+p+p+table+p+table+p+p+p+p,.comment .md:hover h4+h5+h6+p+table+p+table+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+table,.comment .md:hover h4+h5+h6+p+p+p+p+table+p,.comment .md:hover h4+h5+h6+p+p+p+p+table+p+table {
+.comment .md:hover h4+h5+h6+p,.comment .md:hover h4+h5+h6+p+table,.comment .md:hover h4+h5+h6+p+table+hr,.comment .md:hover h4+h5+h6+p+table+hr+p,.comment .md:hover h4+h5+h6+p+table+p,.comment .md:hover h4+h5+h6+p+table+p+hr,.comment .md:hover h4+h5+h6+p+table+p+hr+p,.comment .md:hover h4+h5+h6+p+p,.comment .md:hover h4+h5+h6+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+table,.comment .md:hover h4+h5+h6+p+p+p+table+p,.comment .md:hover h4+h5+h6+p+p+p+table+p+table,.comment .md:hover h4+h5+h6+p+p+p+table+p+table+hr,.comment .md:hover h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md:hover h4+h5+h6+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md:hover h4+h5+h6+p+p+table+p+table+p+p+p+p,.comment .md:hover h4+h5+h6+p+table+p+table+p+p+p+p+p,.comment .md:hover h4+h5+h6+p+p+p+p+table,.comment .md:hover h4+h5+h6+p+p+p+p+table+p,.comment .md:hover h4+h5+h6+p+p+p+p+table+p+table {
 display:block
 }
 
@@ -2172,7 +2134,6 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-forcestaff, a[href="/custom-forcestaff"]:after       {background-position: 0 -224px}
 .flair-matt, a[href="/custom-matt"]:after             {background-position: 0 -252px}
 .flair-bloodstone, a[href="/custom-bloodstone"]:after       {background-position: 0 -280px}
-
 .flair-refresh, a[href="/custom-refresh"]:after          {background-position: 0 -336px}
 .flair-blink, a[href="/custom-blink"]:after            {background-position: 0 -364px}
 .flair-midas, a[href="/custom-midas"]:after            {background-position: 0 -392px}
@@ -2186,10 +2147,12 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-creepymaiden, a[href="/custom-creepymaiden"]:after         {background-position: 0 -616px} 
 .flair-arcanazeus, a[href="/custom-arcanazeus"]:after         {background-position: 0 -644px}
 .flair-ironbranch, a[href="/custom-ironbranch"]:after         {background-position: 0 -672px}
-.flair-aegis, a[href="/custom-aegis"]:after         {background-position: 0 -700px}
-.flair-cheese, a[href="/custom-cheese"]:after         {background-position: 0 -728px}
+
+.flair-aegis, a[href="/custom-aegis"]:after         {background-position: 0 -700px}		
+.flair-cheese, a[href="/custom-cheese"]:after         {background-position: 0 -728px}		
 
 /* Joey fixing techiesface creepymaiden MEMES */
+
 a[href="/techiesface"]:after,a[href="/creepymaiden"]:after {
      background:transparent url(%%custom%%) no-repeat;
      width:50px;
@@ -2204,6 +2167,7 @@ a[href="/techiesface"]:after {background-position:0 -560px}
 a[href="/creepymaiden"]:after {background-position:0 -616px}
 
 /* Print out Team Logos */
+
 a[href|="/logo"]:after {
     background:transparent url(%%logos%%) no-repeat;
     width:60px;
@@ -2245,6 +2209,7 @@ a[href|="/logo-speed"]:after            { background-position:-258px -89px }
 a[href|="/logo-hehe"]:after         { background-position:-2px -118px }
 a[href|="/logo-hgt"]:after          { background-position:-66px -118px }
 a[href|="/logo-ig"]:after           { background-position:-130px -118px }
+
 a[href|="/logo-isurus"]:after           { background-position:-194px -118px }
 a[href|="/logo-lgd"]:after          { background-position:-2px -147px }
 a[href|="/logo-liquid"]:after           { background-position:-66px -147px }
