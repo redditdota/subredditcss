@@ -2059,6 +2059,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-gigabyte, a[href="/org-gigabyte"]:after         {background-position: 0 -1820px}
 .flair-secret, a[href="/org-secret"]:after           {background-position: 0 -1848px}
 .flair-empire, a[href="/org-empire"]:after           {background-position: 0 -1876px}
+.flair-np, a[href="/org-np"]:after           {background-position: 0 -1904px}
 .flair-teamrs, a[href="/pennant-rs"]:after           {background-position: 0 -0px}
 .flair-teamfnatic, a[href="/pennant-fnatic"]:after       {background-position: 0 -28px}
 .flair-teamdk, a[href="/pennant-dk"]:after           {background-position: 0 -56px}
