@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " outgoing damage";
+    content: " visa applications";
 }
 
 .users-online .number:after {
-    content: " Visas Denied";
+    content: " visas denied";
     text-transform: none;
 }
 
