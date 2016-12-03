@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " visa applications";
+    content: " Visas Denied";
 }
 
 .users-online .number:after {
-    content: " visas denied";
+    content: " Teams Replaced";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #000000 url(%%banner-jugg%%) left no-repeat; background-position: 11px 5px;}
+#header, body.res-nightmode #header {background: #000000 url(%%banner-boston2%%) left no-repeat; background-position: 11px 5px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -99,7 +99,7 @@ height: 20px;
     width: 316px!important;
     height: 110px!important;
     display: block!important;
-    background-image: url(%%logo-white3%%)!important;
+    background-image: url(%%logo-white2%%)!important;
     background-repeat: no-repeat!important;
     margin: 0 auto!important;
     font-size: 0!important;
@@ -569,7 +569,7 @@ h1.redditname {display: none;}
 /* HEADINGS */
 
 .side .usertext a[href*='#heading'], .sidecontentbox .title, .side .usertext a[href*='#tiheading'] {
-    background: transparent url('%%sidebar-headings%%') no-repeat;
+    background: transparent url('%%sidebar-heading3%%') no-repeat;
 }
 
 .side .usertext a[href*='#heading'] {
