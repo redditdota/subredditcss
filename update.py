@@ -7,8 +7,8 @@ reddit = praw.Reddit(client_id='tVM2iiNWzJ3pdg',
                      username='VRCkid')
 
 sub = reddit.subreddit('VRCkid')
-stylesheet = dota.stylesheet
+stylesheet = sub.stylesheet
 
-with open('stylesheet.css.mini', 'r') as m:
+with open('stylesheet.css', 'r') as m:
 	newSheet = m.read()
 	stylesheet.update(newSheet)
