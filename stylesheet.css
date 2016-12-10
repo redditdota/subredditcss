@@ -2141,9 +2141,6 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-arcanazeus, a[href="/custom-arcanazeus"]:after         {background-position: 0 -644px}
 .flair-ironbranch, a[href="/custom-ironbranch"]:after         {background-position: 0 -672px}
 
-.flair-aegis, a[href="/custom-aegis"]:after         {background-position: 0 -700px}
-.flair-cheese, a[href="/custom-cheese"]:after         {background-position: 0 -728px}
-
 /* Joey fixing techiesface creepymaiden MEMES */
 
 a[href="/techiesface"]:after,a[href="/creepymaiden"]:after {
