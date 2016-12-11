@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " waiting for 700";
+    content: " 700_HUB_SUBSCRIBERS";
 }
 
 .users-online .number:after {
-    content: " icefrog tweets";
+    content: " 活跃用户";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #000000 url(%%monkeykingbanner%%) left no-repeat; background-position: -400px 5px;}
+#header, body.res-nightmode #header {background: #000000 url(%%monkeykingbanner%%) left no-repeat; background-position: 0px 5px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -99,7 +99,7 @@ height: 20px;
     width: 316px!important;
     height: 110px!important;
     display: block!important;
-    background-image: url(%%logo-red%%)!important;
+    background-image: url(%%logo-white2%%)!important;
     background-repeat: no-repeat!important;
     margin: 0 auto!important;
     font-size: 0!important;
