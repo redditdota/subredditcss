@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #000000 url(%%banner-boston2%%) left no-repeat; background-position: 11px 5px;}
+#header, body.res-nightmode #header {background: #000000 url(%%monkeykingbanner%%) left no-repeat; background-position: -400px 5px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -99,7 +99,7 @@ height: 20px;
     width: 316px!important;
     height: 110px!important;
     display: block!important;
-    background-image: url(%%logo-white2%%)!important;
+    background-image: url(%%logo-red%%)!important;
     background-repeat: no-repeat!important;
     margin: 0 auto!important;
     font-size: 0!important;
@@ -569,7 +569,7 @@ h1.redditname {display: none;}
 /* HEADINGS */
 
 .side .usertext a[href*='#heading'], .sidecontentbox .title, .side .usertext a[href*='#tiheading'] {
-    background: transparent url('%%sidebar-heading3%%') no-repeat;
+    background: transparent url('%%sidebar-headings%%') no-repeat;
 }
 
 .side .usertext a[href*='#heading'] {
@@ -1432,7 +1432,7 @@ content:""
 
 .self .md th {
     font-weight:700;
-    background-color:#3e8a22;
+    background-color:#9b3624;
     color:#fff;
     text-align:center
 }
@@ -2399,67 +2399,3 @@ background-position:-2px -234px
     background-position:bottom
 }
 
-/* Fade Flair  */
-.post-linkflair-esports .flair-teamrs {opacity: .2;}
-.post-linkflair-esports .flair-teamdk {opacity: .2;}
-.post-linkflair-esports .flair-teamtongfu {opacity: .2;}
-.post-linkflair-esports .flair-teamcol {opacity: .2;}
-.post-linkflair-esports .flair-teammouz {opacity: .2;}
-.post-linkflair-esports .flair-teammtw {opacity: .2;}
-.post-linkflair-esports .flair-teamclg {opacity: .2;}
-.post-linkflair-esports .flair-teamzenith {opacity: .2;}
-.post-linkflair-esports .flair-teamal {opacity: .2;}
-.post-linkflair-esports .flair-teamig {opacity: .2;}
-.post-linkflair-esports .flair-teamdarer {opacity: .2;}
-.post-linkflair-esports .flair-teamm5 {opacity: .2;}
-.post-linkflair-esports .flair-teamoj {opacity: .2;}
-.post-linkflair-esports .flair-teamvp {opacity: .2;}
-.post-linkflair-esports .flair-teamquantic {opacity: .2;}
-.post-linkflair-esports .flair-teamlgdint {opacity: .2;}
-.post-linkflair-esports .flair-teamdignitas {opacity: .2;}
-.post-linkflair-esports .flair-teammufc {opacity: .2;}
-.post-linkflair-esports .flair-teamspeed {opacity: .2;}
-.post-linkflair-esports .flair-teamsigma {opacity: .2;}
-.post-linkflair-esports .flair-teamc9 {opacity: .2;}
-.post-linkflair-esports .flair-teamrox {opacity: .2;}
-.post-linkflair-esports .flair-teamehug {opacity: .2;}
-.post-linkflair-esports .flair-teamempire {opacity: .2;}
-.post-linkflair-esports .flair-teamtitan {opacity: .2;}
-.post-linkflair-esports .flair-teamdt {opacity: .2;}
-.post-linkflair-esports .flair-teamnavina {opacity: .2;}
-.post-linkflair-esports .flair-teamarrow {opacity: .2;}
-.post-linkflair-esports .flair-teamcis {opacity: .2;}
-.post-linkflair-esports .flair-teamnyx {opacity: .2;}
-.post-linkflair-esports .flair-teamtinker {opacity: .2;}
-.post-linkflair-esports .flair-teamanchor {opacity: .2;}
-.post-linkflair-esports .flair-teamnt {opacity: .2;}
-.post-linkflair-esports .flair-teambiggod {opacity: .2;}
-.post-linkflair-esports .flair-teamcdec {opacity: .2;}
-.post-linkflair-esports .flair-teamhr {opacity: .2;}
-.post-linkflair-esports .flair-teamnip {opacity: .2;}
-.post-linkflair-esports .flair-teamrave {opacity: .2;}
-.post-linkflair-esports .flair-teamvega {opacity: .2;}
-.post-linkflair-esports .flair-teamlc {opacity: .2;}
-.post-linkflair-esports .flair-teamxtcn {opacity: .2;}
-.post-linkflair-esports .flair-teamunknown  {opacity: .2;}
-.post-linkflair-esports .flair-teammineski  {opacity: .2;}
-.post-linkflair-esports .flair-teamarchon {opacity: .2;}
-.post-linkflair-esports .flair-teamvici {opacity: .2;}
-.post-linkflair-esports .flair-teamescape {opacity: .2;}
-.post-linkflair-esports .flair-teamsecret {opacity: .2;}
-.post-linkflair-esports .flair-teamnavi {opacity: .2;}
-//.post-linkflair-esports .flair-teammonkey {opacity: .2;}
-//.post-linkflair-esports .flair-teamlgd {opacity: .2;}
-.post-linkflair-esports .flair-teama {opacity: .2;}
-.post-linkflair-esports .flair-teamnewbee {opacity: .2;}
-.post-linkflair-esports .flair-teamtnc {opacity: .2;}
-.post-linkflair-esports .flair-teamtl {opacity: .2;}
-.post-linkflair-esports .flair-teamehome {opacity: .2;}
-.post-linkflair-esports .flair-teammvp {opacity: .2;}
-.post-linkflair-esports .flair-teamfnatic {opacity: .2;}
-//.post-linkflair-esports .flair-teameg {opacity: .2;}
-//.post-linkflair-esports .flair-teamdc {opacity: .2;}
-.post-linkflair-esports .flair-teamwings {opacity: .2;}
-//.post-linkflair-esports .flair-teamadfinem {opacity: .2;}
-//.post-linkflair-esports .flair-teamnp {opacity: .2;}
-.post-linkflair-esports .flair-teamfaceless {opacity: .2;}
