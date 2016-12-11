@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Visas Denied";
+    content: " waiting for 700";
 }
 
 .users-online .number:after {
-    content: " Double Rampages";
+    content: " icefrog tweets";
     text-transform: none;
 }
 
