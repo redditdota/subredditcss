@@ -1138,7 +1138,8 @@ body .content {margin-right: 345px;margin-left:8px;}
 
 /* LINK CONTENT */
 .listing-page .link .usertext .md, .commentarea .usertext .md {background: none!important;}
-.commentingAs { display: none; }
+/*!!~*/
+.listing-page .edited-timestamp { display: none; }
 
 /* FADE LINKS ON POST
 .link .flat-list .first, .link .flat-list .flairselectbtn {opacity:0.8}
@@ -1461,7 +1462,7 @@ ul.tabmenu.formtab {display: inline-block;}
 .submit-page .content h1 {display:none;}
 
 .infobar {background-color: #2a2e31;border: 0;color: #fff;}
-.markdownEditor-wrapper { width:100%!important; max-height: 30px!important; margin-bottom: 5px }
+.markdownEditor-wrapper { width:100%!important; max-height: 30px!important; margin-bottom: 25px }
 
 
 /********************
