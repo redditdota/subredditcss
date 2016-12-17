@@ -1980,6 +1980,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-rizzrak, a[href="/hero-timbersaw"]:after          {background-position: 0 -3080px}
 .flair-dragonus, a[href="/hero-skywrathmage"]:after         {background-position: 0 -3108px}
 .flair-xin, a[href="/hero-emberspirit"]:after          {background-position: 0 -3136px}
+.flair-monkeyking,a[href="/hero-monkeyking"]:after {background-position:0 -3164px}
 
 /* Remove (In Order): adl, Zephyr, */
 
@@ -2141,6 +2142,9 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-creepymaiden, a[href="/custom-creepymaiden"]:after         {background-position: 0 -616px}
 .flair-arcanazeus, a[href="/custom-arcanazeus"]:after         {background-position: 0 -644px}
 .flair-ironbranch, a[href="/custom-ironbranch"]:after         {background-position: 0 -672px}
+.flair-aegis, a[href="/custom-aegis"]:after         {background-position: 0 -700px}
+.flair-cheese, a[href="/custom-cheese"]:after         {background-position: 0 -728px}
+.flair-arcanamonkeyking,a[href="/custom-arcanamonkeyking"]:after {background-position:0 -756px}
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
