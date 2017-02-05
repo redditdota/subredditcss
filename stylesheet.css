@@ -29,7 +29,7 @@
 
 #stylesheet_contents,#default_stylesheet {
     font-family:Inconsolata,Courier,"Courier New",monospace;
-    background-color:#000;
+    background-color:#0e1a1e;
     color:#c6c6c6;
     font-size:13px;
     height:600px;
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #000000 url(%%banner-lc%%) left no-repeat; background-position: 0px 5px;}
+#header, body.res-nightmode #header {background: #0e1a1e url(%%banner-lc%%) left no-repeat; background-position: 0px 5px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
