@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " 700_HUB_SUBSCRIBERS";
+    content: " low prios for SingSing";
 }
 
 .users-online .number:after {
-    content: " 活跃用户";
+    content: " useless mods";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #000000 url(%%monkeykingbanner%%) left no-repeat; background-position: 0px 5px;}
+#header, body.res-nightmode #header {background: #000000 url(%%banner-lc%%) left no-repeat; background-position: 0px 5px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -201,22 +201,6 @@ ul.tabmenu li.selected:hover {font-weight: 700!important;}
 
 .md {overflow: inherit;}
 
-/* MK COUNTDOWN */
-.side a[href*='#countdown'] {
-    background: url(%%mk-countdown%%) no-repeat center top;
-    margin: 0;
-    height: 120px;
-    width: 220px;
-    line-height: 120px;
-    text-align: center;
-    padding-left: 90px;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-shadow: 0 0 10px #62d5ff;
-    display: inline-block;
-}
 
 /* SIDEBAR BACKGROUND */
 .side {background: transparent!important;}
