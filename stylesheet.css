@@ -337,7 +337,7 @@ h1.redditname {display: none;}
   color: #91b9b7;
   outline: 0;
 }
-.side .fancy-toggle-button .add {background: #953224;color: #ffffff;}
+.side .fancy-toggle-button .add {background: #0e4889;color: #ffffff;}
 .side .fancy-toggle-button .add:active,
 .side .fancy-toggle-button .remove:active {outline: none;}
 .side .fancy-toggle-button.toggle .option.active {display: block;  width: 95%;  margin: 0 auto;}
@@ -553,7 +553,7 @@ h1.redditname {display: none;}
 /* HEADINGS */
 
 .side .usertext a[href*='#heading'], .sidecontentbox .title, .side .usertext a[href*='#tiheading'] {
-    background: transparent url('%%sidebar-headings%%') no-repeat;
+    background: transparent url('%%sidebar-heading-b4%%') no-repeat;
 }
 
 .side .usertext a[href*='#heading'] {
