@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " low prios for SingSing";
+    content: " Brazilian Cheers";
 }
 
 .users-online .number:after {
-    content: " useless mods";
+    content: " Na'Vi Tears";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #0e1a1e url(%%banner-lc%%) left no-repeat; background-position: 0px 5px;}
+#header, body.res-nightmode #header {background: #0e1a1e url(%%banner-kievv%%) left no-repeat; background-position: 0px 5px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -2100,6 +2100,8 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-teamadfinem, a[href="/pennant-af"]:after           {background-position: 0 -1680px}
 .flair-teamfaceless, a[href="/pennant-faceless"]:after           {background-position: 0 -1708px}
 .flair-teamnp, a[href="/pennant-np"]:after           {background-position: 0 -1736px}
+.flair-teamonyx,a[href="/pennant-onyx"]:after{background-position:0 -1764px}
+.flair-teamsg,a[href="/pennant-sg"]:after{background-position:0 -1792px}
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after       {background-position: 0 -0px}
 .flair-arcanalc, a[href="/custom-arcanalc"]:after         {background-position: 0 -28px}
@@ -2178,7 +2180,7 @@ a[href|="/logo-lev"]:after          { background-position:-258px -31px }
 a[href|="/logo-og"]:after          { background-position:-2px -60px }
 a[href|="/logo-root"]:after         { background-position:-66px -60px }
 a[href|="/logo-eg"]:after           { background-position:-130px -60px }
-a[href|="/logo-ehug"]:after         { background-position:-194px -60px }
+a[href|="/logo-sg"]:after         { background-position:-194px -60px }
 a[href|="/logo-nar"]:after          { background-position:-258px -60px }
 a[href|="/logo-empire"]:after           { background-position:-2px -89px }
 a[href|="/logo-execration"]:after       { background-position:-66px -89px }
@@ -2200,7 +2202,7 @@ a[href|="/logo-mym"]:after          { background-position:-130px -176px }
 a[href|="/logo-navius"]:after           { background-position:-194px -176px }
 a[href|="/logo-navi"]:after         { background-position:-2px -205px }
 a[href|="/logo-newbee"]:after           { background-position:-66px -205px }
-a[href|="/logo-lc"]:after           { background-position:-130px -205px }
+a[href|="/logo-onyx"]:after           { background-position:-130px -205px }
 a[href|="/logo-next"]:after         { background-position:-194px -205px }
 a[href|="/logo-escape"]:after            { background-position:-2px -234px }
 a[href|="/logo-faceless"]:after           { background-position:-66px -234px }
@@ -2212,7 +2214,7 @@ a[href|="/logo-wg"]:after          { background-position:-130px -263px }
 a[href|="/logo-rexregum"]:after         { background-position:-194px -263px }
 a[href|="/logo-titan"]:after            { background-position:-258px -118px }
 a[href|="/logo-tongfu"]:after           { background-position:-258px -147px }
-a[href|="/logo-balkanb"]:after          { background-position:-258px -176px }
+a[href|="/logo-vgj"]:after          { background-position:-258px -176px }
 a[href|="/logo-union"]:after            { background-position:-258px -205px }
 a[href|="/logo-vg"]:after           { background-position:-258px -234px }
 a[href|="/logo-virtus"]:after           { background-position:-258px -263px }
