@@ -128,7 +128,7 @@ height: 20px;
     border-right: 1px solid #000 !important;
 }
 
-.res-nightmode .userkarma { color: #9b3624 !important; }
+.res-nightmode .userkarma { color: #0e4889 !important; }
 
 
 /* HEADER NAVIGATION */
@@ -435,12 +435,12 @@ h1.redditname {display: none;}
 }
 
 .side .flairselector.drop-choices.active h2 {
-    background-color: #9b3624;
+    background-color: #0e4889;
     color: #131313;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.side .flairselector.drop-choices.active form {background-color: #9b3624;}
+.side .flairselector.drop-choices.active form {background-color: #0e4889;}
 .side .flairselector.drop-choices.active button {margin-bottom: 6px;}
 .side .flairselector.drop-choices.active .flairselection,
 .side .flairselector.drop-choices.active .flairselection a,
@@ -1213,7 +1213,7 @@ a.thumbnail img {
     padding: 5px;
     font-weight: normal;
     border: 0px solid #020202;
-    background: #9b3624;
+    background: #0e4889;
     content: " Downvote only if you think this post has no value, not if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -1245,10 +1245,10 @@ a.thumbnail img {
     background: #FFF;
     opacity: 1;
     outline: none !important;
-    border:1px solid #9b3624;
-    -webkit-box-shadow:0 0 5px #9b3624;
-    -moz-box-shadow: 0 0 5px #9b3624;
-    box-shadow: 0 0 5px #9b3624;
+    border:1px solid #0e4889;
+    -webkit-box-shadow:0 0 5px #0e4889;
+    -moz-box-shadow: 0 0 5px #0e4889;
+    box-shadow: 0 0 5px #0e4889;
 }
 
 .res-nightmode .comments-page .usertext-edit div textarea {
@@ -1296,7 +1296,7 @@ a.thumbnail img {
 }
 
 .sidetable nestedlisting{
-    background-color:#9b3624!important;
+    background-color:#0e4889!important;
 }
 
 
@@ -1417,7 +1417,7 @@ content:""
 
 .self .md th {
     font-weight:700;
-    background-color:#9b3624;
+    background-color:#0e4889;
     color:#fff;
     text-align:center
 }
@@ -1454,18 +1454,18 @@ ul.tabmenu.formtab {display: inline-block;}
 ********************/
 
 a[href$="/spoiler"] {
-    background:#9b3624!important;
-    color:#9b3624!important
+    background:#0e4889!important;
+    color:#0e4889!important
 }
 
 a[href$="/spoiler"]:hover {
-    color:#9b3624!important;
+    color:#0e4889!important;
     background:transparent!important
 }
 
 a[href|="#s"] {
     display:inline-block;
-    background:#9b3624!important;
+    background:#0e4889!important;
     color:#fff!important;
     cursor:default;
     padding:1px 2px
@@ -1474,8 +1474,8 @@ a[href|="#s"] {
 a[href|="#s"]::after {
     content:attr(title);
     display:inline-block;
-    background:#9b3624!important;
-    color:#9b3624!important;
+    background:#0e4889!important;
+    color:#0e4889!important;
     visibility:visible;
     padding:0 8px
 }
@@ -1519,7 +1519,7 @@ a[href="#s-250"]::after {
 #noresults {
     padding: 10px;
     color: #fff;
-    background-color: #9b3624;
+    background-color: #0e4889;
     margin-left: 5px;
 }
 #noresults.tb-kitteh {background-color: transparent}
@@ -1556,7 +1556,7 @@ a[href="#s-250"]::after {
     width: 210px;
     padding: 5px;
     border: 0px solid #010713;
-    background: #9b3624;
+    background: #0e4889;
     content: " Downvote only if off-topic or factually wrong, NOT if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -2164,7 +2164,7 @@ a[href|="/logo"] {
 }
 
 a[href$="spoiler"]:not(:hover):after {
-background:#9b3624;
+background:#0e4889;
 }
 
 a[href|="/logo-alliance"]:after         { background-position:-2px -2px }
