@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Brazilian Cheers";
+    content: " Compendiums / second";
 }
 
 .users-online .number:after {
-    content: " Na'Vi Tears";
+    content: " Double Downs Lost"
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #0e1a1e url(%%banner-kievv%%) left no-repeat; background-position: 0px 5px;}
+#header, body.res-nightmode #header {background: #0e1a1e url(%%banner-sum17%%) left no-repeat; background-position: 0px 5px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -553,7 +553,7 @@ h1.redditname {display: none;}
 /* HEADINGS */
 
 .side .usertext a[href*='#heading'], .sidecontentbox .title, .side .usertext a[href*='#tiheading'] {
-    background: transparent url('%%sidebar-heading-b4%%') no-repeat;
+    background: transparent url('%%sidebar-headings%%') no-repeat;
 }
 
 .side .usertext a[href*='#heading'] {
@@ -590,37 +590,41 @@ h1.redditname {display: none;}
     content: "";
 }
 
+/********************/
+/*PRIZE POOL TRACKER*/
+/********************/
 .side .titlebox h6 {
-    font-size:24px;
-    color:#C9C9C9;
-    position:relative;
-    top:-226px;
-    margin-left:74px;
-    text-decoration:none;
-    height: 0;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #d2d0cf;
+    position: relative;
+    top: -180px;
+    text-decoration: none;
+    width: 310px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
 }
 
-.side .titlebox a[href="http://www.dota2.com/international/compendium"]{
-    margin-left: -10px;
+.side .titlebox a[href="http://www.dota2.com/international/battlepass/"] {
+    margin-left: -10px
 }
 
-.side .titlebox a[href="http://www.dota2.com/international/compendium"]:after {
-    background:transparent url(%%compendium%%) repeat;
+.side .titlebox a[href="http://www.dota2.com/international/battlepass/"]:after {
+    background: url(%%battlepass-ti7%%) top;
     height: 285px;
     width: 330px;
-    top: -11px;
     position: relative;
     display: inline-block;
-    background-position: top;
     content: " ";
     font-size: 18px;
     color: #fff;
-    margin-bottom: -43px;
-    margin-top: -11px;
+    margin-bottom: -50px;
+    margin-top: -6px;
 }
 
-.side .titlebox a[href="http://www.dota2.com/international/compendium"]:hover:after {
-    background-position:bottom
+.side .titlebox a[href="http://www.dota2.com/international/battlepass/"]:hover:after {
+    background-position: bottom
 }
 
 .side .titlebox blockquote:nth-child(2) {
@@ -2031,7 +2035,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-marstv, a[href="/org-marstv"]:after           {background-position: 0 -1680px}
 .flair-faceit, a[href="/org-faceit"]:after           {background-position: 0 -1708px}
 .flair-vg, a[href="/org-vg"]:after           {background-position: 0 -1736px}
-.flair-rave, a[href="/org-rave"]:after             {background-position: 0 -1764px}
+.flair-met, a[href="/org-met"]:after             {background-position: 0 -1764px}
 .flair-levi, a[href="/org-levi"]:after             {background-position: 0 -1792px}
 .flair-gigabyte, a[href="/org-gigabyte"]:after         {background-position: 0 -1820px}
 .flair-secret, a[href="/org-secret"]:after           {background-position: 0 -1848px}
@@ -2131,6 +2135,8 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-aegis, a[href="/custom-aegis"]:after         {background-position: 0 -700px}
 .flair-cheese, a[href="/custom-cheese"]:after         {background-position: 0 -728px}
 .flair-arcanamonkeyking,a[href="/custom-arcanamonkeyking"]:after {background-position:0 -756px}
+.flair-arcanajuggernaut,a[href="/custom-arcanajuggernaut"]:after {background-position:0 -784px}
+.flair-arcanajuggernaut2,a[href="/custom-arcanajuggernaut2"]:after {background-position:0 -812px}
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
@@ -2356,37 +2362,3 @@ background-position:-2px -234px
 .linklisting .thing[data-fullname$="3tpwdy"] a.title { color: #CC0000;  font-weight: bold; }
 
 .side .md h2 { color: #d2d0cf; padding: 4rem; }
-
-/** TI2016 */
-.side .titlebox h6 {
-    font-size:24px;
-    color:#d2d0cf;
-    position:relative;
-    top:-226px;
-    margin-left:75px;
-    text-decoration:none;
-    height: 0;
-}
-
-.side .titlebox a[href="http://www.dota2.com/international/compendium"]{
-    margin-left: -10px;
-}
-
-.side .titlebox a[href="http://www.dota2.com/international/compendium"]:after {
-    background:transparent url(%%battlepass%%) repeat;
-    height: 285px;
-    width: 330px;
-    position: relative;
-    display: inline-block;
-    background-position: top;
-    content: " ";
-    font-size: 18px;
-    color: #fff;
-    margin-bottom: -25px;
-    top: 0px;
-}
-
-.side .titlebox a[href="http://www.dota2.com/international/compendium"]:hover:after {
-    background-position:bottom
-}
-
