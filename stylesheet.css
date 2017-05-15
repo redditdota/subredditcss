@@ -1702,7 +1702,7 @@ a[href$='#salt-icon'] { background:rgba(89,110,144,0.8) url(%%flair-icons2%%) no
 
 span.flair[title*='sheever' i] {
     border-color: #EA80B0 !important;
-    box-shadow: 0 0 7px 2px #EA80B0 inset !important;
+    box-shadow: 0 0 7px 3px #EA80B0 inset !important;
 }
 
 .linkflairlabel {
