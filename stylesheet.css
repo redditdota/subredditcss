@@ -2362,3 +2362,52 @@ background-position:-2px -234px
 .linklisting .thing[data-fullname$="3tpwdy"] a.title { color: #CC0000;  font-weight: bold; }
 
 .side .md h2 { color: #d2d0cf; padding: 4rem; }
+
+.side .md table:nth-child(23) {
+    width: 100%
+}
+
+.side .md table:nth-child(23) td {
+    display: table-cell;
+    color: #DDD;
+    text-align: center;
+    border: 0px solid #111214;
+    border-bottom: 1px solid #111214;
+    background-color: #202125;
+    font-weight: normal;
+    padding-top: .5em;
+    padding-bottom: .5em
+}
+
+.side .md table:nth-child(23) a {
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+    color: white
+}
+
+.side .md table:nth-child(23) a:hover {
+    text-decoration: none;
+    color: #91b9b7
+}
+
+.side .md table:nth-child(23) thead {
+    display: none
+}
+
+.side .md table:nth-child(23) td:first-child {
+    color: #ddd;
+    background: #2a2e31;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Verdana,Candara,Segoe,Geneva,Tahoma,Arial,sans-serif;
+    text-align: center
+}
+
+.side .md table:nth-child(23) td:not(:first-child) {
+    width: 75%
+}
+
+.res-nightmode .side .md table:nth-child(23) td:first-child strong {
+    color: #ddd
+}
