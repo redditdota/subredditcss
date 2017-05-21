@@ -1086,22 +1086,12 @@ body .content {margin-right: 345px;margin-left:8px;}
 
 /* LINKS */
 .link.last-clicked {border:0!important;}
-/*.stickied.link {
-  background: #fff;
-  margin-bottom: 6px;
-  padding: 5px 5px 2px 0px;
-   border-left: 1px solid #282!important;
-  border-top: 1px solid #282!important;
-  border-bottom: 2px solid #282!important;
-  border-right: 1px solid #282!important;
-  border-radius: 2px;
-} */
 
 .stickied span.rank::before {
-  content:"S";
-  color: green;
-  font-weight:bold;
+  content:"0";
+  color: #c6c6c6;
 }
+
 
 .link, .link.last-clicked {background:#fff;margin-bottom:2px;padding: 5px 5px 2px 0px;position: relative;border-left:2px solid #fff!important;}
 .comments-page .link {margin-bottom:0px}
@@ -1111,8 +1101,24 @@ body .content {margin-right: 345px;margin-left:8px;}
 /* Nightmode Links */
 .res-nightmode .link {margin-bottom:2px!important}
 
-/* LINK TITLE */
-.stickied .title {color:#282;}
+/* STICKY TITLE */
+/*.stickied .title {color:#282;}*/
+
+.thing.linkflair-question.stickied a.title { color: #ce6f3b; } /* tan */
+
+.thing.linkflair-request.stickied a.title { color: #0e4889; } /* blue */
+f
+.thing.linkflair-match.stickied a.title { color: #7A1EA1; } /* purple */
+
+.thing.linkflair-discuss.stickied a.title { color: #58830b; } /* green */
+
+.thing.linkflair-announce.stickied a.title { color: #c80032; } /* red */
+
+.thing.linkflair-fluff.stickied a.title { /* normal */
+    color: #0000ff; 
+    font-weight: normal;
+}
+
 
 /* LINK DATE */
 .tagline {font-size: 11px;line-height: 16px;padding: 0;margin-top:4px;}
