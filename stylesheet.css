@@ -1102,22 +1102,22 @@ body .content {margin-right: 345px;margin-left:8px;}
 .res-nightmode .link {margin-bottom:2px!important}
 
 /* STICKY TITLE */
-/*.stickied .title {color:#282;}*/
+.stickied .title {color:#282;}
 
-.thing.linkflair-question.stickied a.title { color: #ce6f3b; } /* tan */
+/*.thing.linkflair-question.stickied a.title { color: #ce6f3b; } /* tan */
 
-.thing.linkflair-request.stickied a.title { color: #0e4889; } /* blue */
-f
-.thing.linkflair-match.stickied a.title { color: #7A1EA1; } /* purple */
+/*.thing.linkflair-request.stickied a.title { color: #0e4889; } /* blue */
 
-.thing.linkflair-discuss.stickied a.title { color: #58830b; } /* green */
+/*.thing.linkflair-match.stickied a.title { color: #7A1EA1; } /* purple */
 
-.thing.linkflair-announce.stickied a.title { color: #c80032; } /* red */
+/*.thing.linkflair-discuss.stickied a.title { color: #58830b; } /* green */
 
-.thing.linkflair-fluff.stickied a.title { /* normal */
-    color: #0000ff; 
+/*.thing.linkflair-announce.stickied a.title { color: #c80032; } /* red */
+
+/*.thing.linkflair-fluff.stickied a.title { /* normal */
+/*    color: #0000ff; 
     font-weight: normal;
-}
+}*/
 
 
 /* LINK DATE */
