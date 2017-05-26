@@ -1103,16 +1103,25 @@ body .content {margin-right: 345px;margin-left:8px;}
 
 /* STICKY TITLE */
 .stickied .title {color:#282;}
+.stickied .tagline .stickied-tagline { color: #282;}
+
 .thing.linkflair-match.stickied a.title { color: #DAA520; } /* gold */
 .thing[data-author-fullname='t2_giayc'] a.title { 
     color: #DAA520;
     font-weight: bold;
 }
+.thing.linkflair-match.stickied .tagline .stickied-tagline { color: #DAA520; }
+
 .thing.linkflair-announce.stickied a.title { color: #FF2400; } /* red */
+.thing.linkflair-announce.stickied .tagline .stickied-tagline { color: #FF2400; } 
+
 .thing.linkflair-discuss.stickied a.title { /* normal */
     color: #0000ff; 
     font-weight: normal;
 }
+.thing.linkflair-discuss.stickied .tagline .stickied-tagline { 
+    display: none;
+} 
 
 /* LINK DATE */
 .tagline {font-size: 11px;line-height: 16px;padding: 0;margin-top:4px;}
@@ -2139,6 +2148,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-arcanamonkeyking,a[href="/custom-arcanamonkeyking"]:after {background-position:0 -756px}
 .flair-arcanajuggernaut,a[href="/custom-arcanajuggernaut"]:after {background-position:0 -784px}
 .flair-arcanajuggernaut2,a[href="/custom-arcanajuggernaut2"]:after {background-position:0 -812px}
+.flair-arcanawisp,a[href="/custom-arcanawisp"]:after {background-position:0 -840px}
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
