@@ -1103,28 +1103,19 @@ body .content {margin-right: 345px;margin-left:8px;}
 
 /* STICKY TITLE */
 .stickied .title {color:#282;}
-
-/*.thing.linkflair-question.stickied a.title { color: #ce6f3b; } /* tan */
-
-/*.thing.linkflair-request.stickied a.title { color: #0e4889; } /* blue */
-
-/*.thing.linkflair-match.stickied a.title { color: #7A1EA1; } /* purple */
-
-/*.thing.linkflair-discuss.stickied a.title { color: #58830b; } /* green */
-
-/*.thing.linkflair-announce.stickied a.title { color: #c80032; } /* red */
-
-/*.thing.linkflair-fluff.stickied a.title { /* normal */
-/*    color: #0000ff; 
+.thing.linkflair-match.stickied a.title { color: #DAA520; } /* gold */
+.thing[data-author-fullname='t2_giayc'] a.title { 
+    color: #DAA520;
+    font-weight: bold;
+}
+.thing.linkflair-announce.stickied a.title { color: #FF2400; } /* red */
+.thing.linkflair-discuss.stickied a.title { /* normal */
+    color: #0000ff; 
     font-weight: normal;
-}*/
-
+}
 
 /* LINK DATE */
 .tagline {font-size: 11px;line-height: 16px;padding: 0;margin-top:4px;}
-
-/* LINK AUTHOR
-.tagline a {color:#1e1e1e;} */
 
 /* LINK DOMAIN */
 .domain {color:transparent;font-size: 9px;position:relative;bottom:3px;}
