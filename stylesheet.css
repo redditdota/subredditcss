@@ -1332,7 +1332,7 @@ span.gilded-icon {
 
 /* Hover to view */
 
-.comments-page .comment.thing:hover { background-color: #c6c6c6; }
+/*.comments-page .comment.thing:hover { background-color: #c6c6c6; }*/
 
 .comment .md h4+h5+h6+p,.comment .md h4+h5+h6+p+table,.comment .md h4+h5+h6+p+table+hr,.comment .md h4+h5+h6+p+table+hr+p,.comment .md h4+h5+h6+p+table+p,.comment .md h4+h5+h6+p+table+p+hr,.comment .md h4+h5+h6+p+table+p+hr+p,.comment .md h4+h5+h6+p+p,.comment .md h4+h5+h6+p+p+p,.comment .md h4+h5+h6+p+p+p+table,.comment .md h4+h5+h6+p+p+p+table+p,.comment .md h4+h5+h6+p+p+p+table+p+table,.comment .md h4+h5+h6+p+p+p+table+p+table+hr,.comment .md h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md h4+h5+h6+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md h4+h5+h6+p+p+table+p+table+p+p+p+p,.comment .md h4+h5+h6+p+table+p+table+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+table,.comment .md h4+h5+h6+p+p+p+p+table+p,.comment .md h4+h5+h6+p+p+p+p+table+p+table {
 display:none
