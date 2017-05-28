@@ -1352,6 +1352,7 @@ span.gilded-icon {
 
 .res-nightmode .comment .expand {
     background-color: #292929;
+    color: #ff8200;
 }
 
 .comment.noncollapsed .expand:after {
