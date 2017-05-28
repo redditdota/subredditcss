@@ -1655,6 +1655,7 @@ html[lang="ea"] .linkflair-esports { display: none} html[lang="ea"] .linkflair-e
 html[lang="na"] .linkflair-art { display: none}
 html:lang(oe) .link:not(.linkflair-esports) { display: none}
 html[lang="nh"] .linkflair-highlight { display: none}
+html[lang="sf"] .spoiler { display: none}
 
 
 html[lang="nk"] .linkflair-kappa { display: none}
