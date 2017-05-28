@@ -1350,6 +1350,10 @@ span.gilded-icon {
     text-align: center;
 }
 
+.res-nightmode .comment .expand {
+    background-color: #292929;
+}
+
 .comment.noncollapsed .expand:after {
     font-size: 8px;
     font-weight: bold;
