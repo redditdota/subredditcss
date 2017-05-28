@@ -900,7 +900,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
 .side .md>blockquote:hover {max-height: 100%!important;background-image: none!important;}
 
 /* LIVE STREAMS */
-
+.side .md > blockquote > blockquote > blockquote h1 pre {padding:0;display:inline;border:0;background:none;overflow:hidden;font-family:Verdana,Candara,Segoe,Geneva,Tahoma,Arial,sans-serif;}
 .side .md > blockquote > blockquote > blockquote h1 a:after {
     content: "";
     height: 40px;
@@ -1106,22 +1106,22 @@ body .content {margin-right: 345px;margin-left:8px;}
 .stickied .tagline .stickied-tagline { color: #282;}
 
 .thing.linkflair-match.stickied a.title { color: #DAA520; } /* gold */
-.thing[data-author-fullname='t2_giayc'] a.title { 
+.thing[data-author-fullname='t2_giayc'] a.title {
     color: #DAA520;
     font-weight: bold;
 }
 .thing.linkflair-match.stickied .tagline .stickied-tagline { color: #DAA520; }
 
 .thing.linkflair-announce.stickied a.title { color: #FF2400; } /* red */
-.thing.linkflair-announce.stickied .tagline .stickied-tagline { color: #FF2400; } 
+.thing.linkflair-announce.stickied .tagline .stickied-tagline { color: #FF2400; }
 
 .thing.linkflair-discuss.stickied a.title { /* normal */
-    color: #0000ff; 
+    color: #0000ff;
     font-weight: normal;
 }
-.thing.linkflair-discuss.stickied .tagline .stickied-tagline { 
+.thing.linkflair-discuss.stickied .tagline .stickied-tagline {
     display: none;
-} 
+}
 
 /* LINK DATE */
 .tagline {font-size: 11px;line-height: 16px;padding: 0;margin-top:4px;}
