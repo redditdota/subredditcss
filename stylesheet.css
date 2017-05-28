@@ -1330,9 +1330,54 @@ span.gilded-icon {
   margin: 0 0 -14px 6px;
 }
 
-/* Hover to view */
+/********************
+* COMMENT MINIMIZATION
+********************/
 
-/*.comments-page .comment.thing:hover { background-color: #c6c6c6; }*/
+.comment .expand {
+    background-color: transparent;
+    transition: all .20s ease;
+    color: #953224;
+    background-color: #e6d7d2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: -1px;
+    padding: 2px 1px;
+    border-radius: 3px 0 0 3px;
+    width: 13px;
+    font-size: 0px;
+    text-align: center;
+}
+
+.comment.noncollapsed .expand:after {
+    font-size: 8px;
+    font-weight: bold;
+    content: "[-]";
+}p
+
+.comment .expand:hover {
+    text-decoration: none;
+    background: #953224;
+    color: #FFF;
+}
+
+.commentarea .thing, .res .commentarea .thing, html.res-commentBoxes.res-commentBoxes-rounded .comment {
+    position: relative;
+}
+
+.comment .midcol {
+    margin-left: 20px;
+}
+
+.entry {
+    margin-left: 46px;
+}
+
+
+/********************
+* HOVER
+********************/
 
 .comment .md h4+h5+h6+p,.comment .md h4+h5+h6+p+table,.comment .md h4+h5+h6+p+table+hr,.comment .md h4+h5+h6+p+table+hr+p,.comment .md h4+h5+h6+p+table+p,.comment .md h4+h5+h6+p+table+p+hr,.comment .md h4+h5+h6+p+table+p+hr+p,.comment .md h4+h5+h6+p+p,.comment .md h4+h5+h6+p+p+p,.comment .md h4+h5+h6+p+p+p+table,.comment .md h4+h5+h6+p+p+p+table+p,.comment .md h4+h5+h6+p+p+p+table+p+table,.comment .md h4+h5+h6+p+p+p+table+p+table+hr,.comment .md h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md h4+h5+h6+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+table+p+table+hr+p,.comment .md h4+h5+h6+p+p+table+p+table+p+p+p+p,.comment .md h4+h5+h6+p+table+p+table+p+p+p+p+p,.comment .md h4+h5+h6+p+p+p+p+table,.comment .md h4+h5+h6+p+p+p+p+table+p,.comment .md h4+h5+h6+p+p+p+p+table+p+table {
 display:none
@@ -2336,45 +2381,6 @@ background-position:-2px -234px
 /* Live Thread */
 
 .thing.id-t3_3fmmrn,.thing.id-t3_3fmmrn:before{color:#4f4f4f;content:"The International 2015 - Live Updates"}.thing.id-t3_3fmmrn *{display:none}.thing.id-t3_3fmmrn{height:25px;background-color:#ffdcdb;border:1px solid #b1e0a9;display:block;margin:5px 0 7px}.thing.id-t3_3fmmrn:hover{background-color:#fcb8b6!important}.thing.id-t3_3fmmrn div.entry{display:block}.thing.id-t3_3fmmrn div p a.title{display:block;position:absolute;width:100%;height:32px;font-size:0;top:0;bottom:0;left:0;right:0}.thing.id-t3_3fmmrn:before{display:block;margin:1px 0 7px;font-size:15px;padding:0 0 1px 75px}.thing.id-t3_3fmmrn div p.title,.thing.id-t3_3fmmrn p.parent{display:block}.thing.id-t3_3fmmrn p.parent:before{display:block;content:"LIVE";margin:1px 0 7px;color:#4f4f4f;font-size:15px;padding:5px 0 1px 27px;position:absolute;top:0;font-weight:700}.thing.id-t3_3fmmrn span.rank{display:block}.thing.id-t3_3fmmrn span.rank:before{content:"";display:block;position:absolute;top:10px;left:10px;width:.7em;height:.7em;border-radius:.375em;background:#ff4500;margin-right:.375em}
-
-
-/* RES Easteregg */
-#baconBit {
-    position:fixed;
-    width:965px!important;
-    height:952px!important;
-    background-image:url(%%egg%%)!important;
-    top:-1%;
-    left:-1%;
-    z-index:999999;
-    -webkit-transform:scale(2,2),rotate(0deg);
-    -moz-transform:scale(2,2) rotate(0deg);
-    transform:scale(2,2),rotate(0deg)
-}
-
-#baconBit.makeitrain {
-    top:100%;
-    left:100%;
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg)
-}
-
-#baconBit {
-    -webkit-transition:all 10s linear!important;
-    -moz-transition:all 10s linear!important;
-    -o-transition:all 10s linear!important;
-    -ms-transition:all 10s linear!important
-}
-
-
-
-/* TRASH TALK CAPS CODE */
-.sitetable[id$="5fxnm2"] .comment .md { text-transform: uppercase; }
-
-
-/* Live Match Discussion Post Color*/
-
-.linklisting .thing[data-fullname$="3tpwdy"] a.title { color: #CC0000;  font-weight: bold; }
 
 .side .md h2 { color: #d2d0cf; padding: 4rem; }
 
