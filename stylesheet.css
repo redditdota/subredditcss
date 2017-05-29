@@ -1361,6 +1361,13 @@ span.gilded-icon {
     content: "[-]";
 }
 
+.comment.collapsed .expand:after {
+    font-size: 6px;
+    font-weight: bold;
+    content: "[+]";
+    color: #953224;
+}
+
 .comment .expand:hover {
     text-decoration: none;
     background: #953224;
