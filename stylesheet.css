@@ -1119,10 +1119,20 @@ body .content {margin-right: 345px;margin-left:8px;}
     color: #0000ff; 
     font-weight: normal;
 }
+.thing.linkflair-discuss.stickied a.title:visited { /* normal */
+    color: #551a8b; 
+    font-weight: normal;
+}
 .res-nightmode .thing.linkflair-discuss.stickied a.title { /* normal for night mode */
+    color: rgb(222, 222, 222); 
+    font-weight: normal;
+}
+.res-nightmode .thing.linkflair-discuss.stickied a.title:visited { /* normal for night mode */
     color: rgb(166, 166, 166); 
     font-weight: normal;
 }
+
+
 
 .thing.linkflair-discuss.stickied .tagline .stickied-tagline { 
     display: none;
