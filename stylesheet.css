@@ -1352,7 +1352,7 @@ span.gilded-icon {
 .comment .expand {
     background-color: transparent;
     transition: all .20s ease;
-    color: #183540;
+    color: #183540 !important;
     background-color: #e6e6e6;
     position: absolute;
     top: 0px;
@@ -1380,13 +1380,12 @@ span.gilded-icon {
     font-size: 6px;
     font-weight: bold;
     content: "[+]";
-    color: #183540;
 }
 
 .comment .expand:hover {
     text-decoration: none;
     background: #183540;
-    color: #FFF;
+    color: #FFF !important;
 }
 
 .commentarea .thing, .res .commentarea .thing, html.res-commentBoxes.res-commentBoxes-rounded .comment {
@@ -1717,7 +1716,7 @@ html[lang="ot"] .linklisting .odd {
 }
 
 html[lang="nf"] .linkflair-fluff { display: none}
-html[lang="st"] .linkflair-screen { display: none} html[lang="st"] .linkflair-shout { display: none} html[lang="st"] .linkflair-fluff { display: none} html[lang="st"] .linkflair-stream { display: none} html[lang="st"] .linkflair-suggest { display: none} html[lang="st"] .linkflair-interview { display: none} html[lang="st"] .linkflair-remind { display: none} html[lang="st"] .linkflair-match { display: none} html[lang="st"] .linkflair-art { display: none} html[lang="st"] .linkflair-video { display: none} html[lang="st"] .linkflair-news { display: none} html[lang="st"] .linkflair-request { display: none} html[lang="st"] .linkflair-complaint { display: none} html[lang="st"] .linkflair-workshop { display: none} html[lang="st"] .linkflair-personal { display: none} html[lang="st"] .linkflair-tip { display: none} html[lang="st"] .linkflair-bug { display: none} html[lang="st"] .linkflair-comedy { display: none} html[lang="st"] .linkflair-announce { display: none} html[lang="st"] .linkflair-offer { display: none} html[lang="st"] .linkflair-other { display: none} html[lang="st"] .linkflair-tool { display: none} html[lang="st"] .linkflair-preview { display: none}
+html[lang="st"] .linkflair-screen { display: none} html[lang="st"] .linkflair-shout { display: none} html[lang="st"] .linkflair-fluff { display: none} html[lang="st"] .linkflair-stream { display: none} html[lang="st"] .linkflair-highlight { display: none} html[lang="st"] .linkflair-suggest { display: none} html[lang="st"] .linkflair-interview { display: none} html[lang="st"] .linkflair-remind { display: none} html[lang="st"] .linkflair-match { display: none} html[lang="st"] .linkflair-art { display: none} html[lang="st"] .linkflair-video { display: none} html[lang="st"] .linkflair-news { display: none} html[lang="st"] .linkflair-request { display: none} html[lang="st"] .linkflair-complaint { display: none} html[lang="st"] .linkflair-workshop { display: none} html[lang="st"] .linkflair-personal { display: none} html[lang="st"] .linkflair-tip { display: none} html[lang="st"] .linkflair-bug { display: none} html[lang="st"] .linkflair-comedy { display: none} html[lang="st"] .linkflair-announce { display: none} html[lang="st"] .linkflair-offer { display: none} html[lang="st"] .linkflair-other { display: none} html[lang="st"] .linkflair-tool { display: none} html[lang="st"] .linkflair-preview { display: none}
 html[lang="fp"] .linkflair-fluff { display: none} html[lang="fp"] .linkflair-comedy { display: none} html[lang="fp"] .linkflair-art { display: none} html[lang="fp"] .linkflair-shoutout { display: none}
 html[lang="hp"] .linkflair-screen { display: none} html[lang="hp"] .linkflair-shout { display: none} html[lang="hp"] .linkflair-fluff { display: none} html[lang="hp"] .linkflair-stream { display: none} html[lang="hp"] .linkflair-suggest { display: none} html[lang="hp"] .linkflair-interview { display: none} html[lang="hp"] .linkflair-remind { display: none} html[lang="hp"] .linkflair-match { display: none} html[lang="hp"] .linkflair-discuss { display: none} html[lang="hp"] .linkflair-art { display: none} html[lang="hp"] .linkflair-video { display: none} html[lang="hp"] .linkflair-news { display: none} html[lang="hp"] .linkflair-guide { display: none} html[lang="hp"] .linkflair-complaint { display: none} html[lang="hp"] .linkflair-workshop { display: none} html[lang="hp"] .linkflair-personal { display: none} html[lang="hp"] .linkflair-tip { display: none} html[lang="hp"] .linkflair-bug { display: none} html[lang="hp"] .linkflair-comedy { display: none} html[lang="hp"] .linkflair-announce { display: none} html[lang="hp"] .linkflair-offer { display: none} html[lang="hp"] .linkflair-article { display: none} html[lang="hp"] .linkflair-other { display: none} html[lang="hp"] .linkflair-tool { display: none} html[lang="hp"] .linkflair-preview { display: none}
 html[lang="fl"] .linkflair-screen { display: none} html[lang="fl"] .linkflair-stream { display: none} html[lang="fl"] .linkflair-suggest { display: none} html[lang="fl"] .linkflair-interview { display: none} html[lang="fl"] .linkflair-remind { display: none} html[lang="fl"] .linkflair-match { display: none} html[lang="fl"] .linkflair-discuss { display: none} html[lang="fl"] .linkflair-video { display: none} html[lang="fl"] .linkflair-news { display: none} html[lang="fl"] .linkflair-request { display: none} html[lang="fl"] .linkflair-guide { display: none} html[lang="fl"] .linkflair-complaint { display: none} html[lang="fl"] .linkflair-workshop { display: none} html[lang="fl"] .linkflair-personal { display: none} html[lang="fl"] .linkflair-tip { display: none} html[lang="fl"] .linkflair-bug { display: none} html[lang="fl"] .linkflair-announce { display: none} html[lang="fl"] .linkflair-offer { display: none} html[lang="fl"] .linkflair-article { display: none} html[lang="fl"] .linkflair-other { display: none} html[lang="fl"] .linkflair-question { display: none} html[lang="fl"] .linkflair-tool { display: none} html[lang="fl"] .linkflair-preview { display: none}
