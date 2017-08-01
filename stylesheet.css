@@ -2459,3 +2459,9 @@ background-position:-2px -234px
 .res-nightmode .side .md table td:first-child strong {
     color: #ddd
 }
+
+/* Trash Talk Threads */
+
+.id-t1_dl0uzou.comment p {
+    text-transform: uppercase
+}
