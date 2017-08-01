@@ -2188,9 +2188,10 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-teamescape, a[href="/pennant-escape"]:after           {background-position: 0 -1652px}
 .flair-teamadfinem, a[href="/pennant-af"]:after           {background-position: 0 -1680px}
 .flair-teamfaceless, a[href="/pennant-faceless"]:after           {background-position: 0 -1708px}
-.flair-teamnp, a[href="/pennant-np"]:after           {background-position: 0 -1736px}
+.flair-teamnp, a[href="/pennant-np"]:after           {background-position: 0 -756px}
 .flair-teamonyx,a[href="/pennant-onyx"]:after{background-position:0 -1764px}
 .flair-teamsg,a[href="/pennant-sg"]:after{background-position:0 -1792px}
+.flair-teaminfamous,a[href="/pennant-infamous"]:after{background-position:0 -1820px}
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after       {background-position: 0 -0px}
 .flair-arcanalc, a[href="/custom-arcanalc"]:after         {background-position: 0 -28px}
