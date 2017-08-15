@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Qualifying Points";
+    content: " Roster Swap Rumours";
 }
 
 .users-online .number:after {
-    content: " Majors";
+    content: " Photos of SCCC";
     text-transform: none;
 }
 
@@ -1115,19 +1115,19 @@ body .content {margin-right: 345px;margin-left:8px;}
 .thing.linkflair-announce.stickied a.title { color: #FF2400; } /* red */
 .thing.linkflair-announce.stickied .tagline .stickied-tagline { color: #FF2400; } 
 
-.thing.linkflair-discuss.stickied a.title { /* normal */
+.thing.linkflair-discuss.stickied, .thing.linkflair-interview.stickied a.title { /* normal */
     color: #0000ff; 
     font-weight: normal;
 }
-.thing.linkflair-discuss.stickied a.title:visited { /* normal */
+.thing.linkflair-discuss.stickied, .thing.linkflair-interview.stickied a.title:visited { /* normal */
     color: #551a8b; 
     font-weight: normal;
 }
-.res-nightmode .thing.linkflair-discuss.stickied a.title { /* normal for night mode */
+.res-nightmode .thing.linkflair-discuss.stickied, .thing.linkflair-interview.stickied a.title { /* normal for night mode */
     color: rgb(222, 222, 222); 
     font-weight: normal;
 }
-.res-nightmode .thing.linkflair-discuss.stickied a.title:visited { /* normal for night mode */
+.res-nightmode .thing.linkflair-discuss.stickied, .thing.linkflair-interview.stickied a.title:visited { /* normal for night mode */
     color: rgb(166, 166, 166); 
     font-weight: normal;
 }
@@ -2126,6 +2126,9 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-secret, a[href="/org-secret"]:after           {background-position: 0 -1848px}
 .flair-empire, a[href="/org-empire"]:after           {background-position: 0 -1876px}
 .flair-hr, a[href="/org-hr"]:after           {background-position: 0 -1904px}
+.flair-hr, a[href="/org-immortal"]:after           {background-position: 0 -1932px}
+.flair-hr, a[href="/org-monster"]:after           {background-position: 0 -1960px}
+
 .flair-teamrs, a[href="/pennant-rs"]:after           {background-position: 0 -0px}
 .flair-teamfnatic, a[href="/pennant-fnatic"]:after       {background-position: 0 -28px}
 .flair-teamdk, a[href="/pennant-dk"]:after           {background-position: 0 -56px}
