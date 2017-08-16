@@ -2126,8 +2126,8 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-secret, a[href="/org-secret"]:after           {background-position: 0 -1848px}
 .flair-empire, a[href="/org-empire"]:after           {background-position: 0 -1876px}
 .flair-hr, a[href="/org-hr"]:after           {background-position: 0 -1904px}
-.flair-hr, a[href="/org-immortal"]:after           {background-position: 0 -1932px}
-.flair-hr, a[href="/org-monster"]:after           {background-position: 0 -1960px}
+.flair-immortal, a[href="/org-immortal"]:after           {background-position: 0 -1932px}
+.flair-monster, a[href="/org-monster"]:after           {background-position: 0 -1960px}
 
 .flair-teamrs, a[href="/pennant-rs"]:after           {background-position: 0 -0px}
 .flair-teamfnatic, a[href="/pennant-fnatic"]:after       {background-position: 0 -28px}
