@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #0e1a1e url(%%banner-liquid%%) left no-repeat; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: #0e1a1e url(%%fall2017%%) left no-repeat; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
