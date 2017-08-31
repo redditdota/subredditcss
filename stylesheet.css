@@ -376,7 +376,7 @@ h1.redditname {display: none;}
 }
 .subscribers .word, .users-online .word {display: none;}
 .leavemoderator {display:none;}
-.leavecontributor-button {display:none}
+.leavecontributor-button {display:none }
 
 /* Show SUbreddit Theme Color Fix */
 
@@ -1182,7 +1182,7 @@ body .content {margin-right: 345px;margin-left:8px;}
 
 #sr-header-area:hover {opacity: 1}
 #sr-header-area a {color: #C4C4C4}
-#sr-header-area a:hover {color: #a0b6cb;text-decoration: none}
+#sr-header-area a:hover {color: #a0b6cb;text-decoration: none }
 #sr-more-link {position: absolute;background-color: #0C1722;color: #C4C4C4}
 
 #sr-header-area .width-clip .dropdown.srdrop .selected.title:hover {color: #a0b6cb}
@@ -1705,31 +1705,38 @@ a[href="#s-250"]::after {
     margin: 0;
 }
 
-html[lang="ot"] .thing.link {
-    display: none
-}
-html[lang="ot"] .thing.self {
-    display: block
-}
-html[lang="ot"] .linklisting .odd {
-    background: none
-}
+html[lang="nf"] .linkflair-fluff { display: none }
 
-html[lang="nf"] .linkflair-fluff { display: none}
-html[lang="st"] .linkflair-screen { display: none} html[lang="st"] .linkflair-shout { display: none} html[lang="st"] .linkflair-fluff { display: none} html[lang="st"] .linkflair-stream { display: none} html[lang="st"] .linkflair-highlight { display: none} html[lang="st"] .linkflair-suggest { display: none} html[lang="st"] .linkflair-interview { display: none} html[lang="st"] .linkflair-remind { display: none} html[lang="st"] .linkflair-match { display: none} html[lang="st"] .linkflair-art { display: none} html[lang="st"] .linkflair-video { display: none} html[lang="st"] .linkflair-news { display: none} html[lang="st"] .linkflair-request { display: none} html[lang="st"] .linkflair-complaint { display: none} html[lang="st"] .linkflair-workshop { display: none} html[lang="st"] .linkflair-personal { display: none} html[lang="st"] .linkflair-tip { display: none} html[lang="st"] .linkflair-bug { display: none} html[lang="st"] .linkflair-comedy { display: none} html[lang="st"] .linkflair-announce { display: none} html[lang="st"] .linkflair-offer { display: none} html[lang="st"] .linkflair-other { display: none} html[lang="st"] .linkflair-tool { display: none} html[lang="st"] .linkflair-preview { display: none}
-html[lang="fp"] .linkflair-fluff { display: none} html[lang="fp"] .linkflair-comedy { display: none} html[lang="fp"] .linkflair-art { display: none} html[lang="fp"] .linkflair-shoutout { display: none}
-html[lang="hp"] .linkflair-screen { display: none} html[lang="hp"] .linkflair-shout { display: none} html[lang="hp"] .linkflair-fluff { display: none} html[lang="hp"] .linkflair-stream { display: none} html[lang="hp"] .linkflair-suggest { display: none} html[lang="hp"] .linkflair-interview { display: none} html[lang="hp"] .linkflair-remind { display: none} html[lang="hp"] .linkflair-match { display: none} html[lang="hp"] .linkflair-discuss { display: none} html[lang="hp"] .linkflair-art { display: none} html[lang="hp"] .linkflair-video { display: none} html[lang="hp"] .linkflair-news { display: none} html[lang="hp"] .linkflair-guide { display: none} html[lang="hp"] .linkflair-complaint { display: none} html[lang="hp"] .linkflair-workshop { display: none} html[lang="hp"] .linkflair-personal { display: none} html[lang="hp"] .linkflair-tip { display: none} html[lang="hp"] .linkflair-bug { display: none} html[lang="hp"] .linkflair-comedy { display: none} html[lang="hp"] .linkflair-announce { display: none} html[lang="hp"] .linkflair-offer { display: none} html[lang="hp"] .linkflair-article { display: none} html[lang="hp"] .linkflair-other { display: none} html[lang="hp"] .linkflair-tool { display: none} html[lang="hp"] .linkflair-preview { display: none}
-html[lang="fl"] .linkflair-screen { display: none} html[lang="fl"] .linkflair-stream { display: none} html[lang="fl"] .linkflair-suggest { display: none} html[lang="fl"] .linkflair-interview { display: none} html[lang="fl"] .linkflair-remind { display: none} html[lang="fl"] .linkflair-match { display: none} html[lang="fl"] .linkflair-discuss { display: none} html[lang="fl"] .linkflair-video { display: none} html[lang="fl"] .linkflair-news { display: none} html[lang="fl"] .linkflair-request { display: none} html[lang="fl"] .linkflair-guide { display: none} html[lang="fl"] .linkflair-complaint { display: none} html[lang="fl"] .linkflair-workshop { display: none} html[lang="fl"] .linkflair-personal { display: none} html[lang="fl"] .linkflair-tip { display: none} html[lang="fl"] .linkflair-bug { display: none} html[lang="fl"] .linkflair-announce { display: none} html[lang="fl"] .linkflair-offer { display: none} html[lang="fl"] .linkflair-article { display: none} html[lang="fl"] .linkflair-other { display: none} html[lang="fl"] .linkflair-question { display: none} html[lang="fl"] .linkflair-tool { display: none} html[lang="fl"] .linkflair-preview { display: none}
-html[lang="ni"] .linkflair-question { display: none} html[lang="ni"] .linkflair-request { display: none} html[lang="ni"] .linkflair-offer { display: none} html[lang="ni"] .linkflair-complaint { display: none} html[lang="ni"] .linkflair-shoutout { display: none} html[lang="ni"] .linkflair-personal { display: none}
-html[lang="ne"] .linkflair-esports { display: none}
-html[lang="ea"] .linkflair-esports { display: none} html[lang="ea"] .linkflair-esports.linkflair-announce { display: block} html[lang="ea"] .linkflair-esports.linkflair-news { display: block}
-html[lang="na"] .linkflair-art { display: none}
-html:lang(oe) .link:not(.linkflair-esports) { display: none}
-html[lang="nh"] .linkflair-highlight { display: none}
-html[lang="sf"] .spoiler { display: none}
+html[lang="fp"] .linkflair-fluff { display: none } 
+html[lang="fp"] .linkflair-comedy { display: none } 
+html[lang="fp"] .linkflair-art { display: none } 
+html[lang="fp"] .linkflair-shoutout { display: none }
 
+html[lang="ne"] .linkflair-esports { display: none }
+html[lang="oe"] .link:not(.linkflair-esports) { display: none }
 
-html[lang="nk"] .linkflair-kappa { display: none}
+html[lang="ea"] .linkflair-esports { display: none } 
+html[lang="ea"] .linkflair-esports.linkflair-announce { display: block } 
+html[lang="ea"] .linkflair-esports.linkflair-news { display: block }
+
+html[lang="st"] .link:not(.linkflair-discussion):not(.linkflair-question):not(.linkflair-article):not(.linkflair-guide) { display: none }
+html[lang="na"] .linkflair-art { display: none }
+html[lang="nh"] .linkflair-highlight { display: none }
+
+html[lang="ot"] .thing.link { display: none }
+html[lang="ot"] .thing.self { display: block }
+
+html[lang="fl"] .link:not(.linkflair-fluff):not(.linkflair-comedy):not(.linkflair-shoutout):not(.linkflair-artwork) { display: none }
+
+html[lang="ni"] .linkflair-question { display: none } 
+html[lang="ni"] .linkflair-request { display: none } 
+html[lang="ni"] .linkflair-offer { display: none } 
+html[lang="ni"] .linkflair-complaint { display: none } 
+html[lang="ni"] .linkflair-shoutout { display: none } 
+html[lang="ni"] .linkflair-personal { display: none }
+
+html[lang="sf"] .spoiler { display: none }
+
 /*****************
 * FLAIR
 *****************/
@@ -2408,7 +2415,7 @@ background-position:-2px -234px
 
 /* Live Thread */
 
-.thing.id-t3_3fmmrn,.thing.id-t3_3fmmrn:before{color:#4f4f4f;content:"The International 2015 - Live Updates"}.thing.id-t3_3fmmrn *{display:none}.thing.id-t3_3fmmrn{height:25px;background-color:#ffdcdb;border:1px solid #b1e0a9;display:block;margin:5px 0 7px}.thing.id-t3_3fmmrn:hover{background-color:#fcb8b6!important}.thing.id-t3_3fmmrn div.entry{display:block}.thing.id-t3_3fmmrn div p a.title{display:block;position:absolute;width:100%;height:32px;font-size:0;top:0;bottom:0;left:0;right:0}.thing.id-t3_3fmmrn:before{display:block;margin:1px 0 7px;font-size:15px;padding:0 0 1px 75px}.thing.id-t3_3fmmrn div p.title,.thing.id-t3_3fmmrn p.parent{display:block}.thing.id-t3_3fmmrn p.parent:before{display:block;content:"LIVE";margin:1px 0 7px;color:#4f4f4f;font-size:15px;padding:5px 0 1px 27px;position:absolute;top:0;font-weight:700}.thing.id-t3_3fmmrn span.rank{display:block}.thing.id-t3_3fmmrn span.rank:before{content:"";display:block;position:absolute;top:10px;left:10px;width:.7em;height:.7em;border-radius:.375em;background:#ff4500;margin-right:.375em}
+.thing.id-t3_3fmmrn,.thing.id-t3_3fmmrn:before{color:#4f4f4f;content:"The International 2015 - Live Updates"}.thing.id-t3_3fmmrn *{display:none }.thing.id-t3_3fmmrn{height:25px;background-color:#ffdcdb;border:1px solid #b1e0a9;display:block;margin:5px 0 7px}.thing.id-t3_3fmmrn:hover{background-color:#fcb8b6!important}.thing.id-t3_3fmmrn div.entry{display:block}.thing.id-t3_3fmmrn div p a.title{display:block;position:absolute;width:100%;height:32px;font-size:0;top:0;bottom:0;left:0;right:0}.thing.id-t3_3fmmrn:before{display:block;margin:1px 0 7px;font-size:15px;padding:0 0 1px 75px}.thing.id-t3_3fmmrn div p.title,.thing.id-t3_3fmmrn p.parent{display:block}.thing.id-t3_3fmmrn p.parent:before{display:block;content:"LIVE";margin:1px 0 7px;color:#4f4f4f;font-size:15px;padding:5px 0 1px 27px;position:absolute;top:0;font-weight:700}.thing.id-t3_3fmmrn span.rank{display:block}.thing.id-t3_3fmmrn span.rank:before{content:"";display:block;position:absolute;top:10px;left:10px;width:.7em;height:.7em;border-radius:.375em;background:#ff4500;margin-right:.375em}
 
 .side .md h2 { color: #d2d0cf; padding: 4rem; }
 
