@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Roster Swap Rumours";
+    content: " lgdamefan fans";
 }
 
 .users-online .number:after {
-    content: " Lucent Beams";
+    content: " inhouse leagues";
     text-transform: none;
 }
 
@@ -2097,7 +2097,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-starladder, a[href="/org-starladder"]:after   { background-position: 0 -868px }
 .flair-pgl, a[href="/org-pgl"]:after                 { background-position: 0 -896px }
 .flair-alliance, a[href="/org-alliance"]:after       { background-position: 0 -924px }
-.flair-yasp , a[href="/org-yasp"]:after              { background-position: 0 -952px }
+.flair-opendota , a[href="/org-opendota"]:after      { background-position: 0 -952px }
 .flair-flipside, a[href="/org-flipside"]:after       { background-position: 0 -980px }
 .flair-razer, a[href="/org-razer"]:after             { background-position: 0 -1008px }
 .flair-scd, a[href="/org-scd"]:after                 { background-position: 0 -1036px }
