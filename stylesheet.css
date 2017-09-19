@@ -1809,7 +1809,7 @@ a[href="/ir"], a[href="/is"], a[href="/it"], a[href="/jm"], a[href="/jp"], a[hre
 a[href="/lb"], a[href="/lk"], a[href="/lt"], a[href="/lu"], a[href="/lv"], a[href="/mk"], a[href="/mm"], a[href="/mn"], a[href="/mx"], a[href="/my"],
 a[href="/ng"], a[href="/nl"], a[href="/no"], a[href="/np"], a[href="/nz"], a[href="/pe"], a[href="/ph"], a[href="/pk"], a[href="/pl"], a[href="/pt"],
 a[href="/ro"], a[href="/rs"], a[href="/ru"], a[href="/se"], a[href="/sg"], a[href="/si"], a[href="/sk"], a[href="/th"], a[href="/tr"], a[href="/tw"],
-a[href="/ua"], a[href="/us"], a[href="/uz"], a[href="/vn"], a[href="/za"], a[href="/xx"], a[href="/wo"] {
+a[href="/ua"], a[href="/us"], a[href="/uz"], a[href="/vn"], a[href="/za"], a[href="/xx"], a[href="/wo"], a[href="/xa"], a[href="/xb"], a[href="/xc"] {
 width: 16px;
   height: 11px;
   display: inline-block;
@@ -1820,36 +1820,97 @@ width: 16px;
     z-index: 10!important;
 }
 
-a[href="/ae"]{background-position:-32px 0px}        a[href="/af"]{background-position:-48px 0px}        a[href="/al"]{background-position:-96px 0px}
-a[href="/ao"]{background-position:-144px 0px}       a[href="/ar"]{background-position:-160px 0px}   a[href="/at"]{background-position:-192px 0px}
-a[href="/au"]{background-position:-208px 0px}       a[href="/bd"]{background-position:-32px -11px}  a[href="/be"]{background-position:-48px -11px}
-a[href="/bg"]{background-position:-80px -11px}      a[href="/bo"]{background-position:-176px -11px}     a[href="/br"]{background-position:-192px -11px}
-a[href="/by"]{background-position:-16px -22px}      a[href="/ca"]{background-position:-48px -22px}      a[href="/ch"]{background-position:-128px -22px}
-a[href="/cl"]{background-position:-176px -22px}     a[href="/cn"]{background-position:-208px -22px}     a[href="/co"]{background-position:-224px -22px}
-a[href="/cr"]{background-position:-240px -22px}     a[href="/cu"]{background-position:0px -33px}    a[href="/cz"]{background-position:-48px -33px}
-a[href="/de"]{background-position:-64px -33px}      a[href="/dk"]{background-position:-96px -33px}      a[href="/ee"]{background-position:-176px -33px}
-a[href="/eg"]{background-position:-192px -33px}     a[href="/en"]{background-position:-224px -33px}     a[href="/es"]{background-position:0px -44px}
-a[href="/eu"]{background-position:-32px -44px}      a[href="/fi"]{background-position:-48px -44px}      a[href="/fr"]{background-position:-128px -44px}
-a[href="/gb"]{background-position:-160px -44px}     a[href="/ge"]{background-position:-192px -44px}     a[href="/gr"]{background-position:-96px -55px}
-a[href="/hk"]{background-position:-192px -55px}     a[href="/hr"]{background-position:-240px -55px}     a[href="/hu"]{background-position:-16px -66px}
-a[href="/id"]{background-position:-32px -66px}      a[href="/ie"]{background-position:-48px -66px}      a[href="/il"]{background-position:-64px -66px}
-a[href="/in"]{background-position:-96px -66px}      a[href="/iq"]{background-position:-128px -66px}     a[href="/ir"]{background-position:-144px -66px}
-a[href="/is"]{background-position:-160px -66px}     a[href="/it"]{background-position:-176px -66px}     a[href="/jm"]{background-position:-208px -66px}
-a[href="/jp"]{background-position:-240px -66px}     a[href="/kh"]{background-position:-32px -77px}      a[href="/kp"]{background-position:-96px -77px}
-a[href="/kr"]{background-position:-112px -77px}     a[href="/kz"]{background-position:-160px -77px}     a[href="/la"]{background-position:-176px -77px}
-a[href="/lb"]{background-position:-192px -77px}     a[href="/lk"]{background-position:-240px -77px}     a[href="/lt"]{background-position:-32px -88px}
-a[href="/lu"]{background-position:-48px -88px}      a[href="/lv"]{background-position:-64px -88px}      a[href="/mk"]{background-position:-192px -88px}
-a[href="/mm"]{background-position:-224px -88px}     a[href="/mn"]{background-position:-240px -88px}     a[href="/mx"]{background-position:-144px -99px}
-a[href="/my"]{background-position:-160px -99px}     a[href="/ng"]{background-position:0px -110px}       a[href="/nl"]{background-position:-32px -110px}
-a[href="/no"]{background-position:-48px -110px}     a[href="/np"]{background-position:-64px -110px}     a[href="/nz"]{background-position:-112px -110px}
-a[href="/pe"]{background-position:-160px -110px}        a[href="/ph"]{background-position:-208px -110px}        a[href="/pk"]{background-position:-224px -110px}
-a[href="/pl"]{background-position:-240px -110px}        a[href="/pt"]{background-position:-64px -121px}     a[href="/ro"]{background-position:-144px -121px}
-a[href="/rs"]{background-position:-160px -121px}        a[href="/ru"]{background-position:-176px -121px}        a[href="/se"]{background-position:-32px -132px}
-a[href="/sg"]{background-position:-48px -132px}     a[href="/si"]{background-position:-80px -132px}     a[href="/sk"]{background-position:-96px -132px}
-a[href="/th"]{background-position:-80px -143px}     a[href="/tr"]{background-position:-192px -143px}    a[href="/tw"]{background-position:-240px -143px}
-a[href="/ua"]{background-position:-16px -154px}     a[href="/us"]{background-position:-64px -154px}     a[href="/uz"]{background-position:-96px -154px}
-a[href="/vn"]{background-position:-192px -154px}        a[href="/za"]{background-position:-48px -165px}     a[href="/xx"]{background-position:-96px -165px}
+a[href="/ae"]{background-position:-32px 0px}
+a[href="/af"]{background-position:-48px 0px}
+a[href="/al"]{background-position:-96px 0px}
+a[href="/ao"]{background-position:-144px 0px}
+a[href="/ar"]{background-position:-160px 0px}
+a[href="/at"]{background-position:-192px 0px}
+a[href="/au"]{background-position:-208px 0px}
+a[href="/bd"]{background-position:-32px -11px}
+a[href="/be"]{background-position:-48px -11px}
+a[href="/bg"]{background-position:-80px -11px}
+a[href="/bo"]{background-position:-176px -11px}
+a[href="/br"]{background-position:-192px -11px}
+a[href="/by"]{background-position:-16px -22px}
+a[href="/ca"]{background-position:-48px -22px}
+a[href="/ch"]{background-position:-128px -22px}
+a[href="/cl"]{background-position:-176px -22px}
+a[href="/cn"]{background-position:-208px -22px}
+a[href="/co"]{background-position:-224px -22px}
+a[href="/cr"]{background-position:-240px -22px}
+a[href="/cu"]{background-position:0px -33px}
+a[href="/cz"]{background-position:-48px -33px}
+a[href="/de"]{background-position:-64px -33px}
+a[href="/dk"]{background-position:-96px -33px}
+a[href="/ee"]{background-position:-176px -33px}
+a[href="/eg"]{background-position:-192px -33px}
+a[href="/en"]{background-position:-224px -33px}
+a[href="/es"]{background-position:0px -44px}
+a[href="/eu"]{background-position:-32px -44px}
+a[href="/fi"]{background-position:-48px -44px}
+a[href="/fr"]{background-position:-128px -44px}
+a[href="/gb"]{background-position:-160px -44px}
+a[href="/ge"]{background-position:-192px -44px}
+a[href="/gr"]{background-position:-96px -55px}
+a[href="/hk"]{background-position:-192px -55px}
+a[href="/hr"]{background-position:-240px -55px}
+a[href="/hu"]{background-position:-16px -66px}
+a[href="/id"]{background-position:-32px -66px}
+a[href="/ie"]{background-position:-48px -66px}
+a[href="/il"]{background-position:-64px -66px}
+a[href="/in"]{background-position:-96px -66px}
+a[href="/iq"]{background-position:-128px -66px}
+a[href="/ir"]{background-position:-144px -66px}
+a[href="/is"]{background-position:-160px -66px}
+a[href="/it"]{background-position:-176px -66px}
+a[href="/jm"]{background-position:-208px -66px}
+a[href="/jp"]{background-position:-240px -66px}
+a[href="/kh"]{background-position:-32px -77px}
+a[href="/kp"]{background-position:-96px -77px}
+a[href="/kr"]{background-position:-112px -77px}
+a[href="/kz"]{background-position:-160px -77px}
+a[href="/la"]{background-position:-176px -77px}
+a[href="/lb"]{background-position:-192px -77px}
+a[href="/lk"]{background-position:-240px -77px}
+a[href="/lt"]{background-position:-32px -88px}
+a[href="/lu"]{background-position:-48px -88px}
+a[href="/lv"]{background-position:-64px -88px}
+a[href="/mk"]{background-position:-192px -88px}
+a[href="/mm"]{background-position:-224px -88px}
+a[href="/mn"]{background-position:-240px -88px}
+a[href="/mx"]{background-position:-144px -99px}
+a[href="/my"]{background-position:-160px -99px}
+a[href="/ng"]{background-position:0px -110px}
+a[href="/nl"]{background-position:-32px -110px}
+a[href="/no"]{background-position:-48px -110px}
+a[href="/np"]{background-position:-64px -110px}
+a[href="/nz"]{background-position:-112px -110px}
+a[href="/pe"]{background-position:-160px -110px}
+a[href="/ph"]{background-position:-208px -110px}
+a[href="/pk"]{background-position:-224px -110px}
+a[href="/pl"]{background-position:-240px -110px}
+a[href="/pt"]{background-position:-64px -121px}
+a[href="/ro"]{background-position:-144px -121px}
+a[href="/rs"]{background-position:-160px -121px}
+a[href="/ru"]{background-position:-176px -121px}
+a[href="/se"]{background-position:-32px -132px}
+a[href="/sg"]{background-position:-48px -132px}
+a[href="/si"]{background-position:-80px -132px}
+a[href="/sk"]{background-position:-96px -132px}
+a[href="/th"]{background-position:-80px -143px}
+a[href="/tr"]{background-position:-192px -143px}
+a[href="/tw"]{background-position:-240px -143px}
+a[href="/ua"]{background-position:-16px -154px}
+a[href="/us"]{background-position:-64px -154px}
+a[href="/uz"]{background-position:-96px -154px}
+a[href="/vn"]{background-position:-192px -154px}
+a[href="/za"]{background-position:-48px -165px}
+a[href="/xx"]{background-position:-96px -165px}
 a[href="/wo"]{background-position:-112px -165px}
+a[href="/xb"] {background-position: -128px -165px}
+a[href="/xa"] {background-position: -144px -165px}
+a[href="/xc"] {background-position: -160px -165px}
 
 /* Flair Code Begins */
 
