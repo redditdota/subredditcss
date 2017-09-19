@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " lgdamefan fans";
+    content: " days since last patch";
 }
 
 .users-online .number:after {
-    content: " inhouse leagues";
+    content: " seconds to find match";
     text-transform: none;
 }
 
