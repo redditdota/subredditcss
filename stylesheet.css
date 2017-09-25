@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " days since last patch";
+    content: " promo codes used";
 }
 
 .users-online .number:after {
-    content: " seconds to find match";
+    content: " difference in avg MMR";
     text-transform: none;
 }
 
@@ -2180,7 +2180,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-canadacup, a[href="/org-canadacup"]:after     { background-position: 0 -1428px }
 .flair-youporn, a[href="/org-youporn"]:after         { background-position: 0 -1456px }
 .flair-nadota, a[href="/org-nadota"]:after           { background-position: 0 -1484px }
-.flair-hitbox, a[href="/org-hitbox"]:after           { background-position: 0 -1512px }
+.flair-pw, a[href="/org-pw"]:after                   { background-position: 0 -1512px }
 .flair-esex, a[href="/org-esex"]:after               { background-position: 0 -1540px }
 .flair-datdota, a[href="/org-datdota"]:after         { background-position: 0 -1568px }
 .flair-dotapit, a[href="/org-dotapit"]:after         { background-position: 0 -1596px }
