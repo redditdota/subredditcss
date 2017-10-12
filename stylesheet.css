@@ -1797,6 +1797,7 @@ span.flair[title*='sheever' i] {
   padding: 0px;
   box-shadow: 1px 1px #AAA;
   opacity: 0.8;
+  max-width: none;
 }
 
 /* FLAG ICONS */
