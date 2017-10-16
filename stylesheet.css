@@ -3,7 +3,7 @@
 }
 
 .subscribers span.number:after {
-    content: " Team Liquid Victories";
+    content: " Redditors refreshing /new";
 }
 
 .users-online .number:after {
@@ -1785,6 +1785,55 @@ a[href$='#salt-icon'] { background:rgba(89,110,144,0.8) url(%%flair-icons2%%) no
     color: #fff;
     max-width: none;
     padding:2px 5px;
+}
+
+.flairselector .linkflair.linkflair-stream, 
+.flairselector .linkflair.linkflair-interview,
+.flairselector .linkflair.linkflair-misleading,
+.flairselector .linkflair.linkflair-unconfirmed,
+.flairselector .linkflair.linkflair-art.linkflair-esports,
+.flairselector .linkflair.linkflair-bug.linkflair-esports,
+.flairselector .linkflair.linkflair-guide.linkflair-esports,
+.flairselector .linkflair.linkflair-other.linkflair-esports,
+.flairselector .linkflair.linkflair-personal.linkflair-esports,
+.flairselector .linkflair.linkflair-question.linkflair-esports,
+.flairselector .linkflair.linkflair-reminder.linkflair-esports,
+.flairselector .linkflair.linkflair-tool.linkflair-esports,
+.flairselector .linkflair.linkflair-workshop.linkflair-esports,
+.flairselector .linkflair.linkflair-misleading.linkflair-esports,
+.flairselector .linkflair.linkflair-unconfirmed.linkflair-esports
+{
+    display: none;
+}
+
+.moderator .flairselector .linkflair.linkflair-stream, 
+.moderator .flairselector .linkflair.linkflair-interview,
+.moderator .flairselector .linkflair.linkflair-misleading,
+.moderator .flairselector .linkflair.linkflair-unconfirmed,
+.moderator .flairselector .linkflair.linkflair-art.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-bug.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-guide.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-other.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-personal.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-question.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-reminder.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-tool.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-workshop.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-misleading.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-unconfirmed.linkflair-esports
+{
+    display: inline;
+    font-weight: bold;
+}
+
+.flairselector .linkflair.linkflair-interview.linkflair-esports,
+.moderator .flairselector .linkflair.linkflair-interview.linkflair-esports {
+    display: inline;
+    font-weight: normal;
+}
+
+.flairoptionpane {
+    overflow: inherit;
 }
 
 span.flair[title*='sheever' i] {
