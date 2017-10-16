@@ -1088,7 +1088,7 @@ body .content {margin-right: 345px;margin-left:8px;}
 .link.last-clicked {border:0!important;}
 
 .stickied span.rank::before {
-  content:"👻";
+  content:"0";
   color: #c6c6c6;
 }
 
