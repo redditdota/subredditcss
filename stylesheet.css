@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " promo codes used";
+    content: " Team Liquid Victories";
 }
 
 .users-online .number:after {
-    content: " difference in avg MMR";
+    content: " Redditors banned for fake 7.07 posts";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #0e1a1e url(%%fall2017%%) left no-repeat; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: #25191e url(%%direcreep-banner%%) left no-repeat; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -1088,7 +1088,7 @@ body .content {margin-right: 345px;margin-left:8px;}
 .link.last-clicked {border:0!important;}
 
 .stickied span.rank::before {
-  content:"0";
+  content:"👻";
   color: #c6c6c6;
 }
 
