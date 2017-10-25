@@ -1277,10 +1277,10 @@ a.thumbnail img {
 }
 
 .res-nightmode .comments-page .usertext-edit div textarea {
-	background: #121212 !important;
-	color: #CCC !important;
-	width: 490px;
-	margin: 0 !important;
+    background: #121212 !important;
+    color: #CCC !important;
+    width: 490px;
+    margin: 0 !important;
 }
 
 /* Live Preview background fixes & padding */
@@ -1291,21 +1291,21 @@ a.thumbnail img {
 }
 
 .RESDialogSmall.livePreview {
-	background: #FFF !important;
-	max-width: 800px !important;
+    background: #FFF !important;
+    max-width: 800px !important;
 }
 .res-nightmode .usertext-edit .RESDialogSmall .md.RESDialogContents, .res-nightmode .RESDialogSmall.livePreview {
-	background: none !important;
+    background: none !important;
 }
 
 /* RES Nightmode Live Preview links */
 .res-nightmode .livePreview .md a{
-	color: #0079d3;
+    color: #0079d3;
 }
 
 /* RES Nightmode comment box text */
 .res-nightmode .usertext-edit .md textarea{
-	color: #DDD;
+    color: #DDD;
 }
 
 
@@ -2038,6 +2038,12 @@ a[href="/xc"] {background-position: -160px -165px}
     color: #CCC;
 }
 
+.linkflair-automod .flat-list.buttons a.flairselectbtn:before {
+    content: "Flair set by automod, please confirm.";
+    background-color: #228822;
+    color: #FFF;
+}
+
 .flair-org          {background-image: url(%%orgs%%)}
 .flair-pennant          {background-image: url(%%pennants%%)}
 .flair-custom           {background-image: url(%%custom%%)}
@@ -2384,26 +2390,26 @@ background:#953224;
 
 a[href|="/logo-alliance"]:after       { background-position:-2px -2px }
 a[href|="/logo-dc"]:after             { background-position:-66px -2px }
-a[href|="/logo-flip"]:after           { background-position:-130px -2px }
+a[href|="/logo-immortals"]:after      { background-position:-130px -2px }
 a[href|="/logo-c9"]:after             { background-position:-194px -2px }
-a[href|="/logo-rox"]:after            { background-position:-258px -2px }
-a[href|="/logo-invasion"]:after       { background-position:-2px -31px }
+a[href|="/logo-optic"]:after          { background-position:-258px -2px }
+a[href|="/logo-clutch"]:after         { background-position:-2px -31px }
 a[href|="/logo-ep"]:after             { background-position:-66px -31px }
 a[href|="/logo-vgp"]:after            { background-position:-130px -31px }
 a[href|="/logo-dk"]:after             { background-position:-194px -31px }
 a[href|="/logo-lev"]:after            { background-position:-258px -31px }
 a[href|="/logo-og"]:after             { background-position:-2px -60px }
-a[href|="/logo-root"]:after           { background-position:-66px -60px }
+a[href|="/logo-kinguin"]:after        { background-position:-66px -60px }
 a[href|="/logo-eg"]:after             { background-position:-130px -60px }
 a[href|="/logo-sg"]:after             { background-position:-194px -60px }
 a[href|="/logo-infamous"]:after       { background-position:-258px -60px }
 a[href|="/logo-empire"]:after         { background-position:-2px -89px }
 a[href|="/logo-execration"]:after     { background-position:-66px -89px }
-a[href|="/logo-firstdeparture"]:after { background-position:-130px -89px }
+a[href|="/logo-keen"]:after           { background-position:-130px -89px }
 a[href|="/logo-fnatic"]:after         { background-position:-194px -89px }
 a[href|="/logo-speed"]:after          { background-position:-258px -89px }
 a[href|="/logo-hehe"]:after           { background-position:-2px -118px }
-a[href|="/logo-hgt"]:after            { background-position:-66px -118px }
+a[href|="/logo-happyfeet"]:after      { background-position:-66px -118px }
 a[href|="/logo-ig"]:after             { background-position:-130px -118px }
 a[href|="/logo-isurus"]:after         { background-position:-194px -118px }
 a[href|="/logo-lgd"]:after            { background-position:-2px -147px }
