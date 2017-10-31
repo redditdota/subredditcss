@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Redditors refreshing /new";
+    content: " Redditors reading patch notes"
 }
 
 .users-online .number:after {
-    content: " Redditors banned for fake 7.07 posts";
+    content: " grown ups buying Mercedes Benz";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: #25191e url(%%direcreep-banner%%) left no-repeat; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%banner-df%%) no-repeat #0a0218 left no-repeat; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -553,7 +553,7 @@ h1.redditname {display: none;}
 /* HEADINGS */
 
 .side .usertext a[href*='#heading'], .sidecontentbox .title, .side .usertext a[href*='#tiheading'] {
-    background: transparent url('%%sidebar-headings%%') no-repeat;
+    background: url(%%sidebar-heading-p%%) no-repeat
 }
 
 .side .usertext a[href*='#heading'] {
@@ -2180,6 +2180,8 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-dragonus, a[href="/hero-skywrathmage"]:after       { background-position: 0 -3108px }
 .flair-xin, a[href="/hero-emberspirit"]:after             { background-position: 0 -3136px }
 .flair-monkeyking,a[href="/hero-monkeyking"]:after        { background-position:0 -3164px }
+.flair-darkwillow,a[href="/hero-darkwillow"]:after        { background-position: 0 -3192px }
+.flair-pangolier,a[href="/hero-pangolier"]:after          { background-position: 0 -3220px }
 /* Remove (In Order): adl, Zephyr, */
 
 .flair-navi, a[href="/org-navi"]:after               { background-position: 0 -0px }
