@@ -115,7 +115,7 @@ height: 20px;
     background-color: #202125 !important;
     color: #abc1bd!important;
     border-top-left-radius: 0;
-    padding: 6px 8px 9px;
+    padding: 4px;
 }
 
 #header-bottom-right a {color: #fcfcfc!important;opacity:0.9;}
@@ -2480,9 +2480,6 @@ a[href|="/logo-xx"]:after             { background-position:-258px -408px }
 .res-nightmode .side .titlebox,
 .res-nightmode .side .titlebox .flairtoggle,
 .res-nightmode .side .usertext-body .md > ul:not(:first-of-type):not(:last-of-type),
-.res-nightmode .side .usertext-body .md ol,
-.res-nightmode .side .usertext-body .md ol li,
-.res-nightmode .side .usertext-body .md blockquote ul,
 .res-nightmode .side blockquote,
 .res-nightmode .modactionlisting table *,
 .res-nightmode .sidecontentbox .content,
@@ -2492,6 +2489,12 @@ a[href|="/logo-xx"]:after             { background-position:-258px -408px }
 .res-nightmode ul.tabmenu li.selected a,
 .res-nightmode .tabmenu li a {
     background-color: transparent;
+}
+
+.res-nightmode .side .usertext-body .md ol,
+.res-nightmode .side .usertext-body .md ol li,
+.res-nightmode .side .usertext-body .md blockquote ul {
+    background-color: transparent!important;
 }
 
 body.res-nightmode .md table * { color: #ddd; }
