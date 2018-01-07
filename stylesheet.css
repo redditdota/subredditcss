@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%holiday-banner%%) no-repeat #0a0218 left no-repeat; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%banner-jan2018%%) no-repeat #053258 left no-repeat; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -661,6 +661,17 @@ h1.redditname {display: none;}
     cursor: pointer;
     position: absolute;
     top: -3px;
+}
+
+/* SUBREDDIT TWO COL */
+.side .usertext a[href*="#2col"] {
+	display: table-cell;
+	width: 140px;
+}
+
+.side .usertext a[href*="#2col"]:first-child {
+	border-right: 10px solid;
+    border-color: black;
 }
 
 /* BUTTONS */
@@ -1836,11 +1847,6 @@ a[href$='#salt-icon'] { background:rgba(89,110,144,0.8) url(%%flair-icons2%%) no
     overflow: inherit;
 }
 
-span.flair[title*='sheever' i] {
-    border-color: #EA80B0 !important;
-    box-shadow: 0 0 7px 3px #EA80B0 inset !important;
-}
-
 .linkflairlabel {
   color: #101828;
   padding: 0px;
@@ -2505,10 +2511,6 @@ body.res-nightmode .md ul {color:#ddd;}
 
 
 
-/* Fade Flair
-.post-linkflair-esports .flair-teamwings {opacity: .2;}   */
-
-
 /** OSfrog -mark */
 #siteTable_t3_41vyiq .md p:after {
     background:transparent url(%%logos%%) no-repeat;
@@ -2537,20 +2539,30 @@ background-position:-2px -234px
 }
 
 
-/* Live Thread */
-
-.thing.id-t3_3fmmrn,.thing.id-t3_3fmmrn:before{color:#4f4f4f;content:"The International 2015 - Live Updates"}.thing.id-t3_3fmmrn *{display:none }.thing.id-t3_3fmmrn{height:25px;background-color:#ffdcdb;border:1px solid #b1e0a9;display:block;margin:5px 0 7px}.thing.id-t3_3fmmrn:hover{background-color:#fcb8b6!important}.thing.id-t3_3fmmrn div.entry{display:block}.thing.id-t3_3fmmrn div p a.title{display:block;position:absolute;width:100%;height:32px;font-size:0;top:0;bottom:0;left:0;right:0}.thing.id-t3_3fmmrn:before{display:block;margin:1px 0 7px;font-size:15px;padding:0 0 1px 75px}.thing.id-t3_3fmmrn div p.title,.thing.id-t3_3fmmrn p.parent{display:block}.thing.id-t3_3fmmrn p.parent:before{display:block;content:"LIVE";margin:1px 0 7px;color:#4f4f4f;font-size:15px;padding:5px 0 1px 27px;position:absolute;top:0;font-weight:700}.thing.id-t3_3fmmrn span.rank{display:block}.thing.id-t3_3fmmrn span.rank:before{content:"";display:block;position:absolute;top:10px;left:10px;width:.7em;height:.7em;border-radius:.375em;background:#ff4500;margin-right:.375em}
-
-.side .md h2 { color: #d2d0cf; padding: 4rem; }
+/* Common Table Styles for both Upcoming Events and DPC Ranks */ 
 
 .side .md table {
     width: 100%
 }
 
+.side .md table thead {
+    display: none
+}
+
+.side .md table td:nth-child(odd) {
+    color: #ddd;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Verdana,Candara,Segoe,Geneva,Tahoma,Arial,sans-serif;
+}
+
+.res-nightmode .side .md table td:nth-child(odd) strong {
+    color: #ddd
+}
+
 .side .md table td {
-    display: table-cell;
+    display: table:first-of-type-cell;
     color: #DDD;
-    text-align: center;
     border: 0px solid #111214;
     border-bottom: 1px solid #111214;
     background-color: #202125;
@@ -2570,24 +2582,55 @@ background-position:-2px -234px
     color: #91b9b7
 }
 
-.side .md table thead {
-    display: none
-}
+/* Upcoming Events */
 
-.side .md table td:first-child {
-    color: #ddd;
+.side .md table:first-of-type td:nth-child(odd) {
     background: #2a2e31;
-    line-height: 30px;
-    font-size: 10px;
-    font-weight: 400;
-    font-family: Verdana,Candara,Segoe,Geneva,Tahoma,Arial,sans-serif;
-    text-align: center
+	line-height: 30px;
 }
 
-.side .md table td:not(:first-child) {
+.side .md table:first-of-type td:not(:first-child) {
     width: 66%
 }
 
-.res-nightmode .side .md table td:first-child strong {
-    color: #ddd
+.side .md table:first-of-type td {
+	text-align: center;
 }
+
+
+/* DPC Rankings */
+
+.side .md table:nth-of-type(2) td:first-child {
+    width: 10%
+}
+
+.side .md table:nth-of-type(2) td:nth-child(2) {
+    width: 70%
+}
+
+.side .md table:nth-of-type(2) td:nth-child(3) {
+	width: 20%;
+}
+
+.side .md table:nth-of-type(2) td {
+    line-height: 12px;
+    font-size: 11px;
+}
+
+.side .md table:nth-of-type(2) td:nth-child(1) {
+	text-align: center;
+}
+
+.side .md table:nth-of-type(2) td:nth-child(2) {
+	text-align: left;
+}
+
+.side .md table:nth-of-type(2) td:nth-child(3) {
+	text-align: right;
+}
+
+
+
+/* Fade Flair
+.post-linkflair-esports .flair-teamwings {opacity: .2;}   */
+
