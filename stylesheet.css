@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%banner-jan2018%%) no-repeat #053258 left no-repeat; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%banner-jan2018%%) no-repeat no-repeat #053258; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -127,9 +127,6 @@ height: 20px;
     background-color: rgb(21, 32, 43) !important;
     border-right: 1px solid #000 !important;
 }
-
-.res-nightmode .userkarma { color: #953224 !important; }
-
 
 /* HEADER NAVIGATION */
 .tabmenu {margin-top: 10px !important;}
@@ -552,11 +549,54 @@ h1.redditname {display: none;}
 
 /* HEADINGS */
 
-.side .usertext a[href*='#heading'], .sidecontentbox .title, .side .usertext a[href*='#tiheading'] {
-    background: url(%%sidebar-headings%%) no-repeat
+.side .usertext a[href*='#heading'] {
+    background: url(%%sidebar-headings%%) no-repeat;
 }
 
-.side .usertext a[href*='#heading'] {
+.side .usertext a[href*='#newtoheading'] {
+    background: url(%%header-newto%%) no-repeat;
+    line-height: 47px;
+}
+
+.side .usertext a[href*='#livestreamheading'] {
+    background: url(%%header-livestream%%) no-repeat;
+    line-height: 47px;
+}
+
+.side .usertext a[href*='#upcomingheading'] {
+    background: url(%%header-upcoming%%) no-repeat;
+    line-height: 47px;
+}
+
+.side .usertext a[href*='#upcomingeventsheading'] {
+    background: url(%%header-upcoming-events%%) no-repeat;
+    line-height: 47px;
+}
+
+.side .usertext a[href*='#leaderboardsheading'] {
+    background: url(%%header-leaderboards%%) no-repeat;
+    line-height: 47px;
+}
+
+.side .usertext a[href*='#resourcesheading'] {
+    background: url(%%header-resources%%) no-repeat;
+    line-height: 47px;
+}
+
+.side .usertext a[href*='#subsheading'], .sidecontentbox .title, .side .usertext a[href*='#tiheading'] {
+    background: url(%%header-subreddits%%) no-repeat;
+    line-height: 47px;
+}
+
+.side .usertext a[href*='#heading'],
+.side .usertext a[href*='#upcomingheading'],
+.side .usertext a[href*='#livestreamheading'],
+.side .usertext a[href*='#newtoheading'],
+.side .usertext a[href*='#upcomingeventsheading'],
+.side .usertext a[href*='#leaderboardsheading'],
+.side .usertext a[href*='#resourcesheading'],
+.side .usertext a[href*='#subsheading'],
+.side .usertext a[href*='#tiheading']  {
     display: block;
     margin-left: -22px;
     width: 347px;
@@ -565,16 +605,8 @@ h1.redditname {display: none;}
     cursor: default;
     width:342px;
 }
-
 
 .side .usertext a[href*='#tiheading'] {
-    display: block;
-    margin-left: -22px;
-    width: 347px;
-    height: 47px;
-    color: #ECEDED!important;
-    cursor: default;
-    width:342px;
     font-size:0px;
 }
 
@@ -589,6 +621,30 @@ h1.redditname {display: none;}
     background-position: center center;
     content: "";
 }
+
+.res-nightmode .side .usertext .usertext-body .md a[href*='#heading'],
+.res-nightmode .side .usertext .usertext-body .md a[href*='#heading'] > em {
+    color: #ECEDED!important;
+}
+
+.side .usertext a[href*='#heading'] > em,
+.side .usertext a[href*='#newtoheading'] > em,
+.side .usertext a[href*='#livestreamheading'] > em,
+.side .usertext a[href*='#upcomingheading'] > em,
+.side .usertext a[href*='#upcomingeventsheading'] > em,
+.side .usertext a[href*='#leaderboardsheading'] > em,
+.side .usertext a[href*='#resourcesheading'] > em,
+.side .usertext a[href*='#subsheading'] > em,
+.side .usertext a[href*='#heading'] > em {
+    font-size: 12px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #ECEDED!important;
+}
+
+.side p:nth-child(1) a[href*='#heading'] > em { font-size: 14px; }
 
 /********************/
 /*PRIZE POOL TRACKER*/
@@ -640,21 +696,6 @@ h1.redditname {display: none;}
     border-left:6px solid #3D3424;
     position:relative
 }
-
-.res-nightmode .side .usertext .usertext-body .md a[href*='#heading'],
-.res-nightmode .side .usertext .usertext-body .md a[href*='#heading'] > em {
-    color: #ECEDED!important;
-}
-
-.side .usertext a[href*='#heading'] > em {
-    font-size: 12px;
-    line-height: 42px;
-    letter-spacing: 0px;
-    margin-left: 20px;
-    font-weight: bold;
-    color:#ECEDED!important;
-}
-.side p:nth-child(1) a[href*='#heading'] > em { font-size: 14px; }
 
 /* TOP WIKI HEADING */
 .side .usertext a[href*='#intro'] {
@@ -777,10 +818,17 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     color: #ECEDED!important;
     border: 0!important;
     font-weight: bold!important;
+    background: url(%%header-general%%) no-repeat;
     font-size:0px;
 }
-.sidecontentbox .title h1:after {content: "Recently Viewed";font-size: 12px;}
-.collapsible .title h1:after {content: "Mod Tools";}
+.sidecontentbox .title h1:after {
+    content: "Recently Viewed";
+    font-size: 12px;
+}
+.collapsible .title h1:after {
+    content: "Mod Tools";
+    background: url(%%header-moderators%%) no-repeat;
+}
 .sidecontentbox .title { margin-top:-8px; }
 .sidecontentbox .helplink+.title,.collapsible .title { margin-top:0; }
 
@@ -790,6 +838,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     font-weight: bold!important;
     letter-spacing: 0px;
     font-size: 12px;
+    background: url(%%header-moderators%%) no-repeat;
     text-transform: none!important;
 }
 
@@ -2486,6 +2535,9 @@ a[href|="/logo-xx"]:after             { background-position:-258px -408px }
 .res-nightmode .side .titlebox,
 .res-nightmode .side .titlebox .flairtoggle,
 .res-nightmode .side .usertext-body .md > ul:not(:first-of-type):not(:last-of-type),
+.res-nightmode .side .usertext-body .md ol,
+.res-nightmode .side .usertext-body .md ol li,
+.res-nightmode .side .usertext-body .md blockquote ul,
 .res-nightmode .side blockquote,
 .res-nightmode .modactionlisting table *,
 .res-nightmode .sidecontentbox .content,
@@ -2495,12 +2547,6 @@ a[href|="/logo-xx"]:after             { background-position:-258px -408px }
 .res-nightmode ul.tabmenu li.selected a,
 .res-nightmode .tabmenu li a {
     background-color: transparent;
-}
-
-.res-nightmode .side .usertext-body .md ol,
-.res-nightmode .side .usertext-body .md ol li,
-.res-nightmode .side .usertext-body .md blockquote ul {
-    background-color: transparent!important;
 }
 
 body.res-nightmode .md table * { color: #ddd; }
