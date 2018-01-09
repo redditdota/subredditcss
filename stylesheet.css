@@ -706,11 +706,11 @@ h1.redditname {display: none;}
 /* SUBREDDIT TWO COL */
 .side .usertext a[href*="#2col"][href*="button"] {
 	display: table-cell;
-	width: 140px;
+	width: 145px;
 }
 
 .side .usertext a[href*="#2col"][href*="button"]:first-child {
-	border-right: 10px solid;
+	border-right: 5px solid;
     border-color: black;
 }
 
@@ -2658,8 +2658,8 @@ background-position:-2px -234px
 }
 
 .side .md table:nth-of-type(2) td {
-    line-height: 12px;
-    font-size: 11px;
+    line-height: 13px;
+    font-size: 12px;
 }
 
 .side .md table:nth-of-type(2) td:nth-child(1) {
