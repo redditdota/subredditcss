@@ -2408,6 +2408,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-arcanajuggernaut,a[href="/custom-arcanajuggernaut"]:after   { background-position:0 -784px }
 .flair-arcanajuggernaut2,a[href="/custom-arcanajuggernaut2"]:after { background-position:0 -812px }
 .flair-arcanawisp,a[href="/custom-arcanawisp"]:after               { background-position:0 -840px }
+.flair-nullifier,a[href="/custom-nullifier"]:after                 { background-position:0 -868px } 
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
