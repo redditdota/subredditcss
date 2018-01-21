@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Uncalibrated Players"
+    content: " Custom Games Ruined"
 }
 
 .users-online .number:after {
-    content: " Heralds";
+    content: " Pizza Parties";
     text-transform: none;
 }
 
@@ -2546,7 +2546,7 @@ a[href|="/logo-xx"]:after             { background-position:-258px -408px }
 .res-nightmode .morelink:hover,
 .res-nightmode ul.tabmenu li.selected a,
 .res-nightmode .tabmenu li a {
-    background-color: transparent;
+    background-color: transparent!important;
 }
 
 body.res-nightmode .md table * { color: #ddd; }
