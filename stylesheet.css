@@ -3,7 +3,7 @@
 }
 
 .subscribers span.number:after {
-    content: " Custom Games Ruined"
+    content: " Waiting Rooms"
 }
 
 .users-online .number:after {
@@ -2273,7 +2273,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-pgl, a[href="/org-pgl"]:after                   { background-position: 0 -896px }
 .flair-alliance, a[href="/org-alliance"]:after         { background-position: 0 -924px }
 .flair-opendota , a[href="/org-opendota"]:after        { background-position: 0 -952px }
-.flair-flipside, a[href="/org-flipside"]:after         { background-position: 0 -980px }
+.flair-iceberg, a[href="/org-iceberg"]:after         { background-position: 0 -980px }
 .flair-razer, a[href="/org-razer"]:after               { background-position: 0 -1008px }
 .flair-scd, a[href="/org-scd"]:after                   { background-position: 0 -1036px }
 .flair-csl, a[href="/org-csl"]:after                   { background-position: 0 -1064px }
