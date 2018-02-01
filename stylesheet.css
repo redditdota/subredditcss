@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Waiting Rooms"
+    content: " Pizzas Parties"
 }
 
 .users-online .number:after {
-    content: " Pizza Parties";
+    content: " Thursday Patches";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%banner-jan2018%%) no-repeat no-repeat #053258; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%banner-vday2018%%) no-repeat no-repeat #580516; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -333,7 +333,7 @@ h1.redditname {display: none;}
   color: #91b9b7;
   outline: 0;
 }
-.side .fancy-toggle-button .add {background: #053258;color: #ffffff;}
+.side .fancy-toggle-button .add {background: #580516;color: #ffffff;}
 .side .fancy-toggle-button .add:active,
 .side .fancy-toggle-button .remove:active {outline: none;}
 .side .fancy-toggle-button.toggle .option.active {display: block;  width: 95%;  margin: 0 auto;}
@@ -431,12 +431,12 @@ h1.redditname {display: none;}
 }
 
 .side .flairselector.drop-choices.active h2 {
-    background-color: #053258;
+    background-color: #580516;
     color: #131313;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.side .flairselector.drop-choices.active form {background-color: #053258;}
+.side .flairselector.drop-choices.active form {background-color: #580516;}
 .side .flairselector.drop-choices.active button {margin-bottom: 6px;}
 .side .flairselector.drop-choices.active .flairselection,
 .side .flairselector.drop-choices.active .flairselection a,
@@ -1297,7 +1297,7 @@ a.thumbnail img {
     padding: 5px;
     font-weight: normal;
     border: 0px solid #020202;
-    background: #053258;
+    background: #580516;
     content: " Downvote only if you think this post has no value, not if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -1329,10 +1329,10 @@ a.thumbnail img {
     background: #FFF;
     opacity: 1;
     outline: none !important;
-    border:1px solid #053258;
-    -webkit-box-shadow:0 0 5px #053258;
-    -moz-box-shadow: 0 0 5px #053258;
-    box-shadow: 0 0 5px #053258;
+    border:1px solid #580516;
+    -webkit-box-shadow:0 0 5px #580516;
+    -moz-box-shadow: 0 0 5px #580516;
+    box-shadow: 0 0 5px #580516;
 }
 
 .res-nightmode .comments-page .usertext-edit div textarea {
@@ -1380,7 +1380,7 @@ a.thumbnail img {
 }
 
 .sidetable nestedlisting{
-    background-color:#053258!important;
+    background-color:#580516!important;
 }
 
 
@@ -1411,7 +1411,7 @@ span.gilded-icon {
 .comment .expand {
     background-color: transparent;
     transition: all .20s ease;
-    color: #053258 !important;
+    color: #580516 !important;
     background-color: #e6e6e6;
     position: absolute;
     top: 0px;
@@ -1443,7 +1443,7 @@ span.gilded-icon {
 
 .comment .expand:hover {
     text-decoration: none;
-    background: #053258;
+    background: #580516;
     color: #FFF !important;
 }
 
@@ -1559,7 +1559,7 @@ content:""
 
 .self .md th {
     font-weight:700;
-    background-color:#053258;
+    background-color:#580516;
     color:#fff;
     text-align:center
 }
@@ -1596,18 +1596,18 @@ ul.tabmenu.formtab {display: inline-block;}
 ********************/
 
 a[href$="/spoiler"] {
-    background:#053258!important;
-    color:#053258!important
+    background:#580516!important;
+    color:#580516!important
 }
 
 a[href$="/spoiler"]:hover {
-    color:#053258!important;
+    color:#580516!important;
     background:transparent!important
 }
 
 a[href|="#s"] {
     display:inline-block;
-    background:#053258!important;
+    background:#580516!important;
     color:#fff!important;
     cursor:default;
     padding:1px 2px
@@ -1616,8 +1616,8 @@ a[href|="#s"] {
 a[href|="#s"]::after {
     content:attr(title);
     display:inline-block;
-    background:#053258!important;
-    color:#053258!important;
+    background:#580516!important;
+    color:#580516!important;
     visibility:visible;
     padding:0 8px
 }
@@ -1661,7 +1661,7 @@ a[href="#s-250"]::after {
 #noresults {
     padding: 10px;
     color: #fff;
-    background-color: #053258;
+    background-color: #580516;
     margin-left: 5px;
 }
 #noresults.tb-kitteh {background-color: transparent}
@@ -1698,7 +1698,7 @@ a[href="#s-250"]::after {
     width: 210px;
     padding: 5px;
     border: 0px solid #010713;
-    background: #053258;
+    background: #580516;
     content: " Downvote only if off-topic or factually wrong, NOT if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -2442,7 +2442,7 @@ a[href|="/logo"] {
 }
 
 a[href$="spoiler"]:not(:hover):after {
-background:#053258;
+background:#580516;
 }
 
 a[href|="/logo-alliance"]:after       { background-position:-2px -2px }
