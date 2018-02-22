@@ -3,7 +3,7 @@
 }
 
 .subscribers span.number:after {
-    content: " Pizzas Parties"
+    content: " Camps Stacked"
 }
 
 .users-online .number:after {
@@ -2376,6 +2376,8 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-teamdc, a[href="/pennant-dc"]:after               { background-position:0 -1764px }
 .flair-teamsg, a[href="/pennant-sg"]:after               { background-position:0 -1792px }
 .flair-teaminfamous, a[href="/pennant-infamous"]:after   { background-position:0 -1820px }
+.flair-teamkinguin, a[href="/pennant-kinguin"]:after     { background-position:0 -1848px }
+.flair-teamoptic, a[href="/pennant-optic"]:after         { background-position:0 -1876px }
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after              { background-position: 0 -0px }
 .flair-arcanalc, a[href="/custom-arcanalc"]:after                  { background-position: 0 -28px }
