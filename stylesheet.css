@@ -7,7 +7,7 @@
 }
 
 .users-online .number:after {
-    content: " Thursday Patches";
+    content: " Underlord Ubers";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%banner-vday2018%%) no-repeat no-repeat #580516; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%jugg-banner%%) no-repeat no-repeat #220501; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
