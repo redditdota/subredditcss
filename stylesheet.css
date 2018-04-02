@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Camps Stacked"
+    content: " Way Tiebreakers"
 }
 
 .users-online .number:after {
-    content: " Underlord Ubers";
+    content: " Arteezys";
     text-transform: none;
 }
 
@@ -2411,6 +2411,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-arcanajuggernaut2,a[href="/custom-arcanajuggernaut2"]:after { background-position:0 -812px }
 .flair-arcanawisp,a[href="/custom-arcanawisp"]:after               { background-position:0 -840px }
 .flair-nullifier,a[href="/custom-nullifier"]:after                 { background-position:0 -868px } 
+.flair-nullifier,a[href="/custom-slacks"]:after                 { background-position:0 -924px } 
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
