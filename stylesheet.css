@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Way Tiebreakers"
+    content: " Missed Hooks"
 }
 
 .users-online .number:after {
-    content: " Arteezys";
+    content: " Fiends";
     text-transform: none;
 }
 
@@ -2412,6 +2412,8 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-arcanawisp,a[href="/custom-arcanawisp"]:after               { background-position:0 -840px }
 .flair-nullifier,a[href="/custom-nullifier"]:after                 { background-position:0 -868px } 
 .flair-slacks,a[href="/custom-slacks"]:after                 { background-position:0 -924px } 
+.flair-arcanapudgefeast,a[href="/custom-arcanapudgefeast"]:after   { background-position:0 -952px }
+.flair-arcanapudgegrand,a[href="/custom-arcanapudgegrand"]:after   { background-position:0 -980px }
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
