@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%jugg-banner%%) no-repeat no-repeat #220501; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%pudge-banner%%) no-repeat no-repeat #220501; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
