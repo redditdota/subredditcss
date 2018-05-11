@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%pudge-banner%%) no-repeat no-repeat #220501; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%ti8-banner%%) no-repeat no-repeat #220501; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -256,7 +256,7 @@ ul.tabmenu li.selected:hover {font-weight: 700!important;}
     height: 47px!important;
     word-spacing: 1px!important;
     letter-spacing: 0px!important;
-    background: url(%%submit-buttons%%) no-repeat!important;
+    background: url(%%ti8-submit-buttons%%) no-repeat!important;
     border: 0!important;
     border-radius: 0!important;
 }
@@ -553,39 +553,46 @@ h1.redditname {display: none;}
 }
 
 .side .usertext a[href*='#newtoheading'] {
-    background: url(%%header-newto%%) no-repeat;
+    background: url(%%ti8-header-newtodota2%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#livestreamheading'] {
-    background: url(%%header-livestream%%) no-repeat;
+    background: url(%%ti8-header-livestreams%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingheading'] {
-    background: url(%%header-upcoming%%) no-repeat;
+    background: url(%%ti8-header-upcomingmatches%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingeventsheading'] {
-    background: url(%%header-upcoming-events%%) no-repeat;
+    background: url(%%ti8-header-upcomingevents%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#leaderboardsheading'] {
-    background: url(%%header-leaderboards%%) no-repeat;
+    background: url(%%ti8-header-procircuit%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#resourcesheading'] {
-    background: url(%%header-resources%%) no-repeat;
+    background: url(%%ti8-header-resources%%) no-repeat;
     line-height: 47px;
 }
 
-.side .usertext a[href*='#subsheading'], .sidecontentbox .title, .side .usertext a[href*='#tiheading'] {
-    background: url(%%header-subreddits%%) no-repeat;
+.side .usertext a[href*='#subsheading'], .sidecontentbox .title {
+    background: url(%%ti8-header-subreddits%%) no-repeat;
     line-height: 47px;
 }
+
+.side .usertext a[href*='#tiheading'] {
+    background: url(%%ti8-header-prizetracker%%) no-repeat;
+    line-height: 47px;
+}
+
+
 
 .side .usertext a[href*='#heading'],
 .side .usertext a[href*='#upcomingheading'],
@@ -666,7 +673,7 @@ h1.redditname {display: none;}
 }
 
 .side .titlebox a[href="http://www.dota2.com/international/battlepass/"]:after {
-    background: url(%%battlepass-ti7%%) top;
+    background: url(%%battlepass-ti8%%) top;
     height: 285px;
     width: 330px;
     position: relative;
@@ -817,7 +824,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     color: #ECEDED!important;
     border: 0!important;
     font-weight: bold!important;
-    background: url(%%header-general%%) no-repeat;
+    background: url(%%ti8-header-general%%) no-repeat;
     font-size:0px;
 }
 .sidecontentbox .title h1:after {
@@ -826,7 +833,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
 }
 .collapsible .title h1:after {
     content: "Mod Tools";
-    background: url(%%header-moderators%%) no-repeat;
+    background: url(%%ti8-header-general%%) no-repeat;
 }
 .sidecontentbox .title { margin-top:-8px; }
 .sidecontentbox .helplink+.title,.collapsible .title { margin-top:0; }
@@ -837,7 +844,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     font-weight: bold!important;
     letter-spacing: 0px;
     font-size: 12px;
-    background: url(%%header-moderators%%) no-repeat;
+    background: url(%%ti8-header-general%%) no-repeat;
     text-transform: none!important;
 }
 
