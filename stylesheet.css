@@ -2385,6 +2385,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-teaminfamous, a[href="/pennant-infamous"]:after   { background-position:0 -1820px }
 .flair-teamkinguin, a[href="/pennant-kinguin"]:after     { background-position:0 -1848px }
 .flair-teamoptic, a[href="/pennant-optic"]:after         { background-position:0 -1876px }
+.flair-teamvgj, a[href="/pennant-vgj"]:after             { background-position:0 -1904px }
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after              { background-position: 0 -0px }
 .flair-arcanalc, a[href="/custom-arcanalc"]:after                  { background-position: 0 -28px }
@@ -2692,3 +2693,16 @@ background-position:-2px -234px
 /* Fade Flair
 .post-linkflair-esports .flair-teamwings {opacity: .2;}   */
 
+a.author.id-t2_5fd0e:after,
+a.author.id-t2_17ezvp:after {
+    background-image: url(%%bc%%);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: right;
+    display: inline-block;
+    width: 17px; 
+    height: 13px;
+    content:"";
+    position: relative;
+    bottom: -2px;
+} 
