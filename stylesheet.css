@@ -2386,6 +2386,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-teamkinguin, a[href="/pennant-kinguin"]:after     { background-position:0 -1848px }
 .flair-teamoptic, a[href="/pennant-optic"]:after         { background-position:0 -1876px }
 .flair-teamvgj, a[href="/pennant-vgj"]:after             { background-position:0 -1904px }
+.flair-teampain, a[href="/pennant-pain"]:after           { background-position:0 -1932px }
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after              { background-position: 0 -0px }
 .flair-arcanalc, a[href="/custom-arcanalc"]:after                  { background-position: 0 -28px }
@@ -2531,7 +2532,7 @@ a[href|="/logo-spirit"]:after         { background-position:-258px -379px }
 a[href|="/logo-nip"]:after            { background-position:-2px -408px }
 a[href|="/logo-col"]:after            { background-position:-66px -408px }
 a[href|="/logo-archon"]:after         { background-position:-130px -408px }
-a[href|="/logo-xx"]:after             { background-position:-194px -408px }
+a[href|="/logo-pain"]:after             { background-position:-194px -408px }
 a[href|="/logo-xx"]:after             { background-position:-258px -408px }
 
 /*  NIGHTMODE - I don't know what I'm doing */
