@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Missed Hooks"
+    content: " Litres of green paint"
 }
 
 .users-online .number:after {
-    content: " Fiends";
+    content: " Robot Overlords";
     text-transform: none;
 }
 
@@ -1172,37 +1172,37 @@ body .content {margin-right: 345px;margin-left:8px;}
 .stickied .tagline .stickied-tagline { color: #282;}
 
 .thing.linkflair-match.stickied a.title { color: #DAA520; } /* gold */
-.thing[data-author-fullname='t2_giayc'] a.title { 
+.thing[data-author-fullname='t2_giayc'] a.title {
     color: #DAA520;
     font-weight: bold;
 }
 .thing.linkflair-match.stickied .tagline .stickied-tagline { color: #DAA520; }
 
 .thing.linkflair-news.stickied a.title { color: #FF2400; } /* red */
-.thing.linkflair-news.stickied .tagline .stickied-tagline { color: #FF2400; } 
+.thing.linkflair-news.stickied .tagline .stickied-tagline { color: #FF2400; }
 
 .thing.linkflair-discussion.stickied a.title, .thing.linkflair-interview.stickied a.title { /* normal */
-    color: #0000ff; 
+    color: #0000ff;
     font-weight: normal;
 }
 .thing.linkflair-discussion.stickied a.title:visited, .thing.linkflair-interview.stickied a.title:visited { /* normal */
-    color: #551a8b; 
+    color: #551a8b;
     font-weight: normal;
 }
 .res-nightmode .thing.linkflair-discussion.stickied a.title, .res-nightmode .thing.linkflair-interview.stickied a.title { /* normal for night mode */
-    color: rgb(222, 222, 222); 
+    color: rgb(222, 222, 222);
     font-weight: normal;
 }
 .res-nightmode .thing.linkflair-discussion.stickied a.title:visited, .res-nightmode .thing.linkflair-interview.stickied a.title:visited { /* normal for night mode */
-    color: rgb(166, 166, 166); 
+    color: rgb(166, 166, 166);
     font-weight: normal;
 }
 
 
 
-.thing.linkflair-discussion.stickied .tagline .stickied-tagline { 
+.thing.linkflair-discussion.stickied .tagline .stickied-tagline {
     display: none;
-} 
+}
 
 /* LINK DATE */
 .tagline {font-size: 11px;line-height: 16px;padding: 0;margin-top:4px;}
@@ -1773,16 +1773,16 @@ a[href="#s-250"]::after {
 
 html[lang="nf"] .linkflair-fluff { display: none }
 
-html[lang="fp"] .linkflair-fluff { display: none } 
-html[lang="fp"] .linkflair-comedy { display: none } 
-html[lang="fp"] .linkflair-art { display: none } 
+html[lang="fp"] .linkflair-fluff { display: none }
+html[lang="fp"] .linkflair-comedy { display: none }
+html[lang="fp"] .linkflair-art { display: none }
 html[lang="fp"] .linkflair-shoutout { display: none }
 
 html[lang="ne"] .linkflair-esports { display: none }
 html[lang="oe"] .link:not(.linkflair-esports) { display: none }
 
-html[lang="ea"] .linkflair-esports { display: none } 
-html[lang="ea"] .linkflair-esports.linkflair-announce { display: block } 
+html[lang="ea"] .linkflair-esports { display: none }
+html[lang="ea"] .linkflair-esports.linkflair-announce { display: block }
 html[lang="ea"] .linkflair-esports.linkflair-news { display: block }
 
 html[lang="st"] .link:not(.linkflair-discussion):not(.linkflair-question):not(.linkflair-article):not(.linkflair-guide) { display: none }
@@ -1794,11 +1794,11 @@ html[lang="ot"] .thing.self { display: block }
 
 html[lang="fl"] .link:not(.linkflair-fluff):not(.linkflair-comedy):not(.linkflair-shoutout):not(.linkflair-artwork) { display: none }
 
-html[lang="ni"] .linkflair-question { display: none } 
-html[lang="ni"] .linkflair-request { display: none } 
-html[lang="ni"] .linkflair-offer { display: none } 
-html[lang="ni"] .linkflair-complaint { display: none } 
-html[lang="ni"] .linkflair-shoutout { display: none } 
+html[lang="ni"] .linkflair-question { display: none }
+html[lang="ni"] .linkflair-request { display: none }
+html[lang="ni"] .linkflair-offer { display: none }
+html[lang="ni"] .linkflair-complaint { display: none }
+html[lang="ni"] .linkflair-shoutout { display: none }
 html[lang="ni"] .linkflair-personal { display: none }
 
 html[lang="sf"] .spoiler { display: none }
@@ -1853,7 +1853,7 @@ a[href$='#salt-icon'] { background:rgba(89,110,144,0.8) url(%%flair-icons2%%) no
     padding:2px 5px;
 }
 
-.flairselector .linkflair.linkflair-stream, 
+.flairselector .linkflair.linkflair-stream,
 .flairselector .linkflair.linkflair-interview,
 .flairselector .linkflair.linkflair-misleading,
 .flairselector .linkflair.linkflair-unconfirmed,
@@ -1872,7 +1872,7 @@ a[href$='#salt-icon'] { background:rgba(89,110,144,0.8) url(%%flair-icons2%%) no
     display: none;
 }
 
-.moderator .flairselector .linkflair.linkflair-stream, 
+.moderator .flairselector .linkflair.linkflair-stream,
 .moderator .flairselector .linkflair.linkflair-interview,
 .moderator .flairselector .linkflair.linkflair-misleading,
 .moderator .flairselector .linkflair.linkflair-unconfirmed,
@@ -1920,7 +1920,7 @@ a[href="/ir"], a[href="/is"], a[href="/it"], a[href="/jm"], a[href="/jp"], a[hre
 a[href="/lb"], a[href="/lk"], a[href="/lt"], a[href="/lu"], a[href="/lv"], a[href="/mk"], a[href="/mm"], a[href="/mn"], a[href="/mx"], a[href="/my"],
 a[href="/ng"], a[href="/nl"], a[href="/no"], a[href="/np"], a[href="/nz"], a[href="/pe"], a[href="/ph"], a[href="/pk"], a[href="/pl"], a[href="/pt"],
 a[href="/ro"], a[href="/rs"], a[href="/ru"], a[href="/se"], a[href="/sg"], a[href="/si"], a[href="/sk"], a[href="/th"], a[href="/tr"], a[href="/tw"],
-a[href="/ua"], a[href="/us"], a[href="/un"], a[href="/uz"], a[href="/vn"], a[href="/za"], a[href="/xx"], a[href="/wo"], a[href="/xa"], a[href="/xb"], 
+a[href="/ua"], a[href="/us"], a[href="/un"], a[href="/uz"], a[href="/vn"], a[href="/za"], a[href="/xx"], a[href="/wo"], a[href="/xa"], a[href="/xb"],
 a[href="/xc"] {
 width: 16px;
   height: 11px;
@@ -2268,7 +2268,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-purge, a[href="/org-purge"]:after               { background-position: 0 -560px }
 .flair-newbee, a[href="/org-newbee"]:after             { background-position: 0 -588px }
 .flair-fnatic, a[href="/org-fnatic"]:after             { background-position: 0 -616px }
-.flair-epicenter, a[href="/org-epicenter"]:after                 { background-position: 0 -644px }
+.flair-epicenter, a[href="/org-epicenter"]:after       { background-position: 0 -644px }
 .flair-d2l, a[href="/org-d2l"]:after                   { background-position: 0 -672px }
 .flair-esl, a[href="/org-esl"]:after                   { background-position: 0 -700px }
 .flair-ss, a[href="/org-ss"]:after                     { background-position: 0 -728px }
@@ -2280,7 +2280,7 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-pgl, a[href="/org-pgl"]:after                   { background-position: 0 -896px }
 .flair-alliance, a[href="/org-alliance"]:after         { background-position: 0 -924px }
 .flair-opendota , a[href="/org-opendota"]:after        { background-position: 0 -952px }
-.flair-iceberg, a[href="/org-iceberg"]:after         { background-position: 0 -980px }
+.flair-iceberg, a[href="/org-iceberg"]:after           { background-position: 0 -980px }
 .flair-razer, a[href="/org-razer"]:after               { background-position: 0 -1008px }
 .flair-scd, a[href="/org-scd"]:after                   { background-position: 0 -1036px }
 .flair-csl, a[href="/org-csl"]:after                   { background-position: 0 -1064px }
@@ -2419,8 +2419,8 @@ a[href|="/custom"]:after           {background-image: url(%%custom%%)}
 .flair-arcanajuggernaut,a[href="/custom-arcanajuggernaut"]:after   { background-position:0 -784px }
 .flair-arcanajuggernaut2,a[href="/custom-arcanajuggernaut2"]:after { background-position:0 -812px }
 .flair-arcanawisp,a[href="/custom-arcanawisp"]:after               { background-position:0 -840px }
-.flair-nullifier,a[href="/custom-nullifier"]:after                 { background-position:0 -868px } 
-.flair-slacks,a[href="/custom-slacks"]:after                 { background-position:0 -924px } 
+.flair-nullifier,a[href="/custom-nullifier"]:after                 { background-position:0 -868px }
+.flair-slacks,a[href="/custom-slacks"]:after                       { background-position:0 -924px }
 .flair-arcanapudgefeast,a[href="/custom-arcanapudgefeast"]:after   { background-position:0 -952px }
 .flair-arcanapudgegrand,a[href="/custom-arcanapudgegrand"]:after   { background-position:0 -980px }
 
@@ -2599,7 +2599,7 @@ background-position:-2px -234px
 }
 
 
-/* Common Table Styles for both Upcoming Events and DPC Ranks */ 
+/* Common Table Styles for both Upcoming Events and DPC Ranks */
 
 .side .md table {
     width: 100%
@@ -2705,9 +2705,9 @@ a.author.id-t2_fh2kg:after
     background-size: auto 100%;
     background-position-x: right;
     display: inline-block;
-    width: 17px; 
+    width: 17px;
     height: 13px;
     content:"";
     position: relative;
     bottom: -2px;
-} 
+}
