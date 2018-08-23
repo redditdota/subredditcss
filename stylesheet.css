@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Litres of green paint"
+    content: " Lakag Matataaag"
 }
 
 .users-online .number:after {
-    content: " Robot Overlords";
+    content: " Normalin Normalin";
     text-transform: none;
 }
 
@@ -1908,6 +1908,11 @@ a[href$='#salt-icon'] { background:rgba(89,110,144,0.8) url(%%flair-icons2%%) no
   box-shadow: 1px 1px #AAA;
   opacity: 0.8;
   max-width: none;
+}
+
+span.linkflairlabel[title~=Unconfirmed],
+span.linkflairlabel[title~=Misleading] {
+    font-weight: bold;
 }
 
 /* FLAG ICONS */
