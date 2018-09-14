@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Lakag Matataaag"
+    content: " Shards"
 }
 
 .users-online .number:after {
-    content: " Normalin Normalin";
+    content: " >Kiss";
     text-transform: none;
 }
 
@@ -2335,6 +2335,7 @@ a[href|="/openai"]:after      {background-image: url(%%openai%%)}
 .flair-hr, a[href="/org-hr"]:after                     { background-position: 0 -1904px }
 .flair-immortals, a[href="/org-immortals"]:after       { background-position: 0 -1932px }
 .flair-monster, a[href="/org-monster"]:after           { background-position: 0 -1960px }
+.flair-sts, a[href="/org-sts"]:after                   { background-position: 0 -1988px }
 
 .flair-teamrs, a[href="/pennant-rs"]:after               { background-position: 0 -0px }
 .flair-teamfnatic, a[href="/pennant-fnatic"]:after       { background-position: 0 -28px }
