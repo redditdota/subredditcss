@@ -47,20 +47,34 @@
 /* HEADER SUBREDDITS */
 #sr-header-area {
     height: 20px;
-    background-color: rgba(17, 18, 20, 0.3);
+    background-color: #111214;
     border-bottom: 0;
-    color: #DFDFDF!important;
-    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.54) 0%,rgba(0,0,0,0) 100%);
+    color: #DFDFDF;
     overflow: visible;
+    transition: opacity 0.2s;
+    opacity: 0.4;
+    height: 20px;
+    position: relative;
+    z-index: 9;
 }
+
+#sr-header-area:hover {opacity: 1}
 
 #sr-header-area a {
-    color: #DFDFDF!important;
+    color: #DFDFDF;
+    font-family: Verdana, Arial, sans-serif;
 }
 
-#sr-header-area a {color: #C4C4C4;font-family: Verdana, Arial, sans-serif;}
-#sr-header-area a:hover {color: #a0b6cb;text-decoration: none;}
-#sr-more-link {position: absolute;background-color: #0C1722;color: #C4C4C4;}
+#sr-header-area a:hover {
+    color: #a0b6cb;
+    text-decoration: none;
+}
+
+#sr-more-link {
+    position: absolute;
+    background-color: #0C1722;
+    color: #C4C4C4;
+}
 
 #sr-header-area .width-clip .dropdown.srdrop .selected.title {
     color: #C4C4C4;
@@ -68,10 +82,16 @@
     font-weight: normal;
     font-family: Verdana, Arial, sans-serif;
 }
-.sr-bar .separator {color: #333;}
-#sr-header-area .width-clip .dropdown.srdrop .selected.title:hover {color: #a0b6cb;}
-#sr-header-area .drop-choices a.choice {color: #333 !important;}
-#sr-header-area .drop-choices a.choice:hover {background-color: #a0b6cb;color: #fff !important;}
+.sr-bar .separator, .srSep, #sr-header-area .drop-choices a.choice {
+    color: #333;
+}
+#sr-header-area .width-clip .dropdown.srdrop .selected.title:hover {
+    color: #a0b6cb;
+}
+#sr-header-area .drop-choices a.choice:hover {
+    background-color: #a0b6cb;
+    color: #fff
+}
 
 #RESShortcutsEditContainer, #RESShortcutsSort, #RESShortcutsRight, #RESShortcutsAdd, #RESShortcutsTrash, #RESShortcutsLeft, #userbarToggle, .userbarHide {
     background-color: transparent !important;
@@ -829,7 +849,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     color: #ECEDED!important;
     border: 0!important;
     font-weight: bold!important;
-    background: url(%%ti8-header-general%%) no-repeat;
+    background: url(%%header-general%%) no-repeat;
     font-size:0px;
 }
 .sidecontentbox .title h1:after {
@@ -1239,28 +1259,6 @@ body .content {margin-right: 345px;margin-left:8px;}
 
 .res.res-nightmode .thing .RES-keyNav-activeElement .md,.res.res-nightmode .thing .RES-keyNav-activeElement .md p,.res.res-nightmode .thing .RES-keyNav-activeElement .usertext-body
 {background: transparent!important;} */
-
-/* RES Top Bar Hover? */
-#sr-header-area {
-    transition: opacity 0.2s;
-    opacity: 0.4;
-    height: 20px;
-    background-color: #111214;
-    border-bottom: 0;
-    position: relative;
-    z-index: 9;
-}
-
-#sr-header-area:hover {opacity: 1}
-#sr-header-area a {color: #C4C4C4}
-#sr-header-area a:hover {color: #a0b6cb;text-decoration: none }
-#sr-more-link {position: absolute;background-color: #0C1722;color: #C4C4C4}
-
-#sr-header-area .width-clip .dropdown.srdrop .selected.title:hover {color: #a0b6cb}
-#sr-header-area .width-clip .dropdown.srdrop .selected.title {color: #C4C4C4}
-
-.sr-bar .separator, .srSep, #sr-header-area .drop-choices a.choice {color: #333}
-#sr-header-area .drop-choices a.choice:hover {background-color: #a0b6cb;color: #fff}
 
 /* RES IMAGES ABOVE SIDEBAR */
 .madeVisible img {z-index: 9999!important;}
@@ -2574,6 +2572,9 @@ a[href|="/logo-winstrike"]:after      { background-position:-258px -408px }
 .res-nightmode #sr-header-area,
 .res-nightmode #header-bottom-right {
     background-color: #010713;
+}
+.res-nightmode #sr-header-area .drop-choices a.choice {
+    color: #DFDFDF;
 }
 .res-nightmode .side .titlebox,
 .res-nightmode .side .titlebox .flairtoggle,
