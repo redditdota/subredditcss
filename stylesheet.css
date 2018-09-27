@@ -1396,12 +1396,12 @@ a.thumbnail img {
 
 /* Custom gold gilding */
 
-.gilded-icon:before {
+.gilded-gid2-icon:before {
     background: url(%%gildedbounty%%);
     margin-right: 6px;
 }
 
-span.gilded-icon {
+span.gilded-gid2-icon {
     background-image: url(%%gildedbounty%%);
     background-position: 0;
     background-repeat: no-repeat;
