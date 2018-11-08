@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Shards"
+    content: " days until 7.20"
 }
 
 .users-online .number:after {
-    content: " >Kiss";
+    content: " riki nerfs";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%ursa-minor%%) no-repeat no-repeat #8ba49e; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%KL-banner%%) no-repeat no-repeat #000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -574,22 +574,22 @@ h1.redditname {display: none;}
 }
 
 .side .usertext a[href*='#newtoheading'] {
-    background: url(%%header-newto%%) no-repeat;
+    background: url(%%KL-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#livestreamheading'] {
-    background: url(%%header-livestream%%) no-repeat;
+    background: url(%%KL-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingheading'] {
-    background: url(%%header-upcoming%%) no-repeat;
+    background: url(%%KL-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingeventsheading'] {
-    background: url(%%header-upcoming-events%%) no-repeat;
+    background: url(%%KL-header%%) no-repeat;
     line-height: 47px;
 }
 
@@ -601,12 +601,12 @@ h1.redditname {display: none;}
 */
 
 .side .usertext a[href*='#resourcesheading'] {
-    background: url(%%header-resources%%) no-repeat;
+    background: url(%%KL-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#subsheading'], .sidecontentbox .title {
-    background: url(%%header-subreddits%%) no-repeat;
+    background: url(%%KL-header%%) no-repeat;
     line-height: 47px;
 }
 
@@ -849,7 +849,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     color: #ECEDED!important;
     border: 0!important;
     font-weight: bold!important;
-    background: url(%%header-general%%) no-repeat;
+    background: url(%%KL-header%%) no-repeat;
     font-size:0px;
 }
 .sidecontentbox .title h1:after {
@@ -858,7 +858,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
 }
 .collapsible .title h1:after {
     content: "Mod Tools";
-    background: url(%%header-general%%) no-repeat;
+    background: url(%%KL-header%%) no-repeat;
 }
 .sidecontentbox .title { margin-top:-8px; }
 .sidecontentbox .helplink+.title,.collapsible .title { margin-top:0; }
@@ -869,7 +869,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     font-weight: bold!important;
     letter-spacing: 0px;
     font-size: 12px;
-    background: url(%%header-general%%) no-repeat;
+    background: url(%%KL-header%%) no-repeat;
     text-transform: none!important;
 }
 
