@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " days until 7.20"
+    content: " seconds until 7.20"
 }
 
 .users-online .number:after {
-    content: " riki nerfs";
+    content: " redditors smashing F5";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%KL-banner%%) no-repeat no-repeat #000; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%rodjervsyapzor%%) no-repeat no-repeat #000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
