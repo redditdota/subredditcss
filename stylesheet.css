@@ -2259,7 +2259,7 @@ a[href|="/openai"]:after      {background-image: url(%%openai%%)}
 .flair-monkeyking,a[href="/hero-monkeyking"]:after        { background-position:0 -3164px }
 .flair-darkwillow,a[href="/hero-darkwillow"]:after        { background-position: 0 -3192px }
 .flair-pangolier,a[href="/hero-pangolier"]:after          { background-position: 0 -3220px }
-.flair-grimstroke,a[href="/hero-grimstoke"]:after         { background-position: 0 -3248px }
+.flair-grimstroke,a[href="/hero-grimstroke"]:after        { background-position: 0 -3248px }
 
 /* Remove (In Order): adl, Zephyr, */
 
