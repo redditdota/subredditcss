@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " seconds until 7.20"
+    content: " redditors pressing F for Ring of Aquila"
 }
 
 .users-online .number:after {
-    content: " redditors smashing F5";
+    content: " heroes reworked";
     text-transform: none;
 }
 
@@ -2444,6 +2444,8 @@ a[href|="/openai"]:after      {background-image: url(%%openai%%)}
 .flair-slacks,a[href="/custom-slacks"]:after                       { background-position:0 -924px }
 .flair-arcanapudgefeast,a[href="/custom-arcanapudgefeast"]:after   { background-position:0 -952px }
 .flair-arcanapudgegrand,a[href="/custom-arcanapudgegrand"]:after   { background-position:0 -980px }
+.flair-euls,a[href="/custom-euls"]:after               	           { background-position:0 -1008px }
+.flair-meteorhammer,a[href="/custom-meteorhammer"]:after           { background-position:0 -1036px }
 
 .flair-cw1, a[href="/openai-cw1"]:after { background-position: 0 -140px }
 .flair-cw2, a[href="/openai-cw2"]:after { background-position: 0 -168px }
