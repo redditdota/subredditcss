@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " redditors pressing F for Ring of Aquila"
+    content: " Padoru heroes"
 }
 
 .users-online .number:after {
-    content: " heroes reworked";
+    content: " green skills";
     text-transform: none;
 }
 
@@ -41,7 +41,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%supports%%) no-repeat no-repeat #342738; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%Winter-Banner%%) no-repeat no-repeat #000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -354,7 +354,7 @@ h1.redditname {display: none;}
   color: #91b9b7;
   outline: 0;
 }
-.side .fancy-toggle-button .add {background: #580516;color: #ffffff;}
+.side .fancy-toggle-button .add {background: #0B6623;color: #ffffff;}
 .side .fancy-toggle-button .add:active,
 .side .fancy-toggle-button .remove:active {outline: none;}
 .side .fancy-toggle-button.toggle .option.active {display: block;  width: 95%;  margin: 0 auto;}
@@ -452,12 +452,12 @@ h1.redditname {display: none;}
 }
 
 .side .flairselector.drop-choices.active h2 {
-    background-color: #580516;
+    background-color: #0B6623;
     color: #131313;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.side .flairselector.drop-choices.active form {background-color: #580516;}
+.side .flairselector.drop-choices.active form {background-color: #0B6623;}
 .side .flairselector.drop-choices.active button {margin-bottom: 6px;}
 .side .flairselector.drop-choices.active .flairselection,
 .side .flairselector.drop-choices.active .flairselection a,
@@ -574,22 +574,22 @@ h1.redditname {display: none;}
 }
 
 .side .usertext a[href*='#newtoheading'] {
-    background: url(%%KL-header%%) no-repeat;
+    background: url(%%Winter-Headers%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#livestreamheading'] {
-    background: url(%%KL-header%%) no-repeat;
+    background: url(%%Winter-Headers%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingheading'] {
-    background: url(%%KL-header%%) no-repeat;
+    background: url(%%Winter-Headers%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingeventsheading'] {
-    background: url(%%KL-header%%) no-repeat;
+    background: url(%%Winter-Headers%%) no-repeat;
     line-height: 47px;
 }
 
@@ -601,12 +601,12 @@ h1.redditname {display: none;}
 */
 
 .side .usertext a[href*='#resourcesheading'] {
-    background: url(%%KL-header%%) no-repeat;
+    background: url(%%Winter-Headers%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#subsheading'], .sidecontentbox .title {
-    background: url(%%KL-header%%) no-repeat;
+    background: url(%%Winter-Headers%%) no-repeat;
     line-height: 47px;
 }
 
@@ -849,7 +849,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     color: #ECEDED!important;
     border: 0!important;
     font-weight: bold!important;
-    background: url(%%KL-header%%) no-repeat;
+    background: url(%%Winter-Headers%%) no-repeat;
     font-size:0px;
 }
 .sidecontentbox .title h1:after {
@@ -858,7 +858,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
 }
 .collapsible .title h1:after {
     content: "Mod Tools";
-    background: url(%%KL-header%%) no-repeat;
+    background: url(%%Winter-Headers%%) no-repeat;
 }
 .sidecontentbox .title { margin-top:-8px; }
 .sidecontentbox .helplink+.title,.collapsible .title { margin-top:0; }
@@ -869,7 +869,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     font-weight: bold!important;
     letter-spacing: 0px;
     font-size: 12px;
-    background: url(%%KL-header%%) no-repeat;
+    background: url(%%Winter-Headers%%) no-repeat;
     text-transform: none!important;
 }
 
@@ -1307,7 +1307,7 @@ a.thumbnail img {
     padding: 5px;
     font-weight: normal;
     border: 0px solid #020202;
-    background: #580516;
+    background: #0B6623;
     content: " Downvote only if you think this post has no value, not if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -1339,10 +1339,10 @@ a.thumbnail img {
     background: #FFF;
     opacity: 1;
     outline: none !important;
-    border:1px solid #580516;
-    -webkit-box-shadow:0 0 5px #580516;
-    -moz-box-shadow: 0 0 5px #580516;
-    box-shadow: 0 0 5px #580516;
+    border:1px solid #0B6623;
+    -webkit-box-shadow:0 0 5px #0B6623;
+    -moz-box-shadow: 0 0 5px #0B6623;
+    box-shadow: 0 0 5px #0B6623;
 }
 
 .res-nightmode .comments-page .usertext-edit div textarea {
@@ -1390,7 +1390,7 @@ a.thumbnail img {
 }
 
 .sidetable nestedlisting{
-    background-color:#580516!important;
+    background-color:#0B6623!important;
 }
 
 
@@ -1421,7 +1421,7 @@ span.gilded-gid2-icon {
 .comment .expand {
     background-color: transparent;
     transition: all .20s ease;
-    color: #580516 !important;
+    color: #0B6623 !important;
     background-color: #e6e6e6;
     position: absolute;
     top: 0px;
@@ -1453,7 +1453,7 @@ span.gilded-gid2-icon {
 
 .comment .expand:hover {
     text-decoration: none;
-    background: #580516;
+    background: #0B6623;
     color: #FFF !important;
 }
 
@@ -1569,7 +1569,7 @@ content:""
 
 .self .md th {
     font-weight:700;
-    background-color:#580516;
+    background-color:#0B6623;
     color:#fff;
     text-align:center
 }
@@ -1606,18 +1606,18 @@ ul.tabmenu.formtab {display: inline-block;}
 ********************/
 
 a[href$="/spoiler"] {
-    background:#580516!important;
-    color:#580516!important
+    background:#0B6623!important;
+    color:#0B6623!important
 }
 
 a[href$="/spoiler"]:hover {
-    color:#580516!important;
+    color:#0B6623!important;
     background:transparent!important
 }
 
 a[href|="#s"] {
     display:inline-block;
-    background:#580516!important;
+    background:#0B6623!important;
     color:#fff!important;
     cursor:default;
     padding:1px 2px
@@ -1626,8 +1626,8 @@ a[href|="#s"] {
 a[href|="#s"]::after {
     content:attr(title);
     display:inline-block;
-    background:#580516!important;
-    color:#580516!important;
+    background:#0B6623!important;
+    color:#0B6623!important;
     visibility:visible;
     padding:0 8px
 }
@@ -1671,7 +1671,7 @@ a[href="#s-250"]::after {
 #noresults {
     padding: 10px;
     color: #fff;
-    background-color: #580516;
+    background-color: #0B6623;
     margin-left: 5px;
 }
 #noresults.tb-kitteh {background-color: transparent}
@@ -1708,7 +1708,7 @@ a[href="#s-250"]::after {
     width: 210px;
     padding: 5px;
     border: 0px solid #010713;
-    background: #580516;
+    background: #0B6623;
     content: " Downvote only if off-topic or factually wrong, NOT if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -2118,7 +2118,6 @@ a[href="/xc"] {background-position: -160px -165px}
 .flair-org          {background-image: url(%%orgs%%)}
 .flair-pennant      {background-image: url(%%pennants%%)}
 .flair-custom       {background-image: url(%%custom%%)}
-.flair-openai       {background-image: url(%%openai%%)}
 
 /* Print Out Flair to comments */
 
@@ -2126,21 +2125,11 @@ a[href|="/hero"]:after,
 a[href|="/org"]:after,
 a[href|="/pennant"]:after,
 a[href|="/custom"]:after,
-a[href|="/openai"]:after {
-
-    width:50px;
-    height:28px;
-    display: inline-block;
-    background-position: -9999px -9999px;
-    vertical-align: middle;
-    content: "";
-}
 
 a[href|="/hero"]:after        {background-image: url(%%heroes%%)}
 a[href|="/org"]:after         {background-image: url(%%orgs%%)}
 a[href|="/pennant"]:after     {background-image: url(%%pennants%%)}
 a[href|="/custom"]:after      {background-image: url(%%custom%%)}
-a[href|="/openai"]:after      {background-image: url(%%openai%%)}
 
 .flair-akasha, a[href="/hero-queenofpain"]:after          { background-position: 0 0px }
 .flair-abaddon, a[href="/hero-abaddon"]:after             { background-position: 0 -28px }
@@ -2447,12 +2436,6 @@ a[href|="/openai"]:after      {background-image: url(%%openai%%)}
 .flair-euls,a[href="/custom-euls"]:after               	           { background-position:0 -1008px }
 .flair-meteorhammer,a[href="/custom-meteorhammer"]:after           { background-position:0 -1036px }
 
-.flair-cw1, a[href="/openai-cw1"]:after { background-position: 0 -140px }
-.flair-cw2, a[href="/openai-cw2"]:after { background-position: 0 -168px }
-.flair-cw3, a[href="/openai-cw3"]:after { background-position: 0 -196px }
-.flair-cw4, a[href="/openai-cw4"]:after { background-position: 0 -224px }
-.flair-cw5, a[href="/openai-cw5"]:after { background-position: 0 -252px }
-
 /* Joey fixing techiesface creepymaiden MEMES */
 
 a[href="/techiesface"]:after,a[href="/creepymaiden"]:after {
@@ -2485,7 +2468,7 @@ a[href|="/logo"] {
 }
 
 a[href$="spoiler"]:not(:hover):after {
-background:#580516;
+background:#0B6623;
 }
 
 a[href|="/logo-alliance"]:after       { background-position:-2px -2px }
