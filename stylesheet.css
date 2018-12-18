@@ -3,7 +3,7 @@
 }
 
 .subscribers span.number:after {
-    content: " Padoru heroes"
+    content: " Padoru redditors"
 }
 
 .users-online .number:after {
@@ -2117,7 +2117,7 @@ a[href="/xc"] {background-position: -160px -165px}
 
 .flair-org          {background-image: url(%%orgs%%)}
 .flair-pennant      {background-image: url(%%pennants%%)}
-.flair-custom       {background-image: url(%%custom%%)}
+.flair-custom       {background-image: url(%%holiday-custom%%)}
 
 /* Print Out Flair to comments */
 
