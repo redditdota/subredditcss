@@ -7,7 +7,7 @@
 }
 
 .users-online .number:after {
-    content: " green skills";
+    content: " skills stolen";
     text-transform: none;
 }
 
@@ -2435,6 +2435,8 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-arcanapudgegrand,a[href="/custom-arcanapudgegrand"]:after   { background-position:0 -980px }
 .flair-euls,a[href="/custom-euls"]:after               	           { background-position:0 -1008px }
 .flair-meteorhammer,a[href="/custom-meteorhammer"]:after           { background-position:0 -1036px }
+.flair-santata,a[href="/custom-santata"]:after                     { background-position:0 -1064px }
+.flair-reindeerogre,a[href="/custom-reindeerogre"]:after           { background-position:0 -1092px }
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
