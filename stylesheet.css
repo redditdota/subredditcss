@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Padoru redditors"
+    content: " Dota Auto Chess Players"
 }
 
 .users-online .number:after {
-    content: " skills stolen";
+    content: " days until Mars";
     text-transform: none;
 }
 
