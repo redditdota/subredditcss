@@ -2124,7 +2124,15 @@ a[href="/xc"] {background-position: -160px -165px}
 a[href|="/hero"]:after,
 a[href|="/org"]:after,
 a[href|="/pennant"]:after,
-a[href|="/custom"]:after,
+a[href|="/custom"]:after {
+
+    width:50px;
+    height:28px;
+    display: inline-block;
+    background-position: -9999px -9999px;
+    vertical-align: middle;
+    content: "";
+}
 
 a[href|="/hero"]:after        {background-image: url(%%heroes%%)}
 a[href|="/org"]:after         {background-image: url(%%orgs%%)}
