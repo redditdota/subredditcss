@@ -11,22 +11,6 @@
     text-transform: none;
 }
 
-.res-nightmode .subscribers span.number:after {
-    content: "";
-}
-
-.res-nightmode .subscribers span.number:after {
-    content: " night mode users";
-}
-
-.res-nightmode .users-online .number:before {
-    content: "Reddit's MMR: ";
-}
-
-.res-nightmode .users-online .number:after {
-    content: " (solo rating)";
-}
-
 #stylesheet_contents,#default_stylesheet {
     font-family:Inconsolata,Courier,"Courier New",monospace;
     background-color:#0e1a1e;
@@ -395,7 +379,7 @@ h1.redditname {display: none;}
 .leavemoderator {display:none;}
 .leavecontributor-button {display:none }
 
-/* Show SUbreddit Theme Color Fix */
+/* Show Subreddit Theme Color Fix */
 
 .side .titlebox form.toggle {
     padding: 5px 5px 5px 37px;
@@ -908,7 +892,8 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     text-align: left;
 
 }
-    /* span.score {color:#ffffff !important;  } */
+
+/* span.score {color:#ffffff !important;  } */
 .gadget .reddit-link:hover {background:#2a2e31;}
 .gadget .reddit-link .reddit-entry {padding:0;}
 .gadget  .reddit-comment-link {color: #DFEAF3;}
@@ -991,7 +976,6 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
 .side .md>blockquote:hover {max-height: 100%!important;background-image: none!important;}
 
 /* LIVE STREAMS */
-
 .side .md > blockquote > blockquote > blockquote h1 a:after {
     content: "";
     height: 40px;
@@ -1777,15 +1761,18 @@ a[href="#s-250"]::after {
 html[lang="nf"] .linkflair-fluff { display: none }
 
 html[lang="fp"] .linkflair-fluff { display: none }
-html[lang="fp"] .linkflair-comedy { display: none }
 html[lang="fp"] .linkflair-art { display: none }
 html[lang="fp"] .linkflair-shoutout { display: none }
 
 html[lang="ne"] .linkflair-esports { display: none }
 html[lang="oe"] .link:not(.linkflair-esports) { display: none }
 
+html[lang="ep"] .linkflair-esports { display: none }
+html[lang="ep"] .linkflair-highlight { display: none }
+html[lang="ep"] .linkflair-video { display: none }
+html[lang="ep"] .linkflair-stream { display: none }
+
 html[lang="ea"] .linkflair-esports { display: none }
-html[lang="ea"] .linkflair-esports.linkflair-announce { display: block }
 html[lang="ea"] .linkflair-esports.linkflair-news { display: block }
 
 html[lang="st"] .link:not(.linkflair-discussion):not(.linkflair-question):not(.linkflair-article):not(.linkflair-guide) { display: none }
@@ -1795,11 +1782,9 @@ html[lang="nh"] .linkflair-highlight { display: none }
 html[lang="ot"] .thing.link { display: none }
 html[lang="ot"] .thing.self { display: block }
 
-html[lang="fl"] .link:not(.linkflair-fluff):not(.linkflair-comedy):not(.linkflair-shoutout):not(.linkflair-artwork) { display: none }
+html[lang="fl"] .link:not(.linkflair-fluff):not(.linkflair-shoutout):not(.linkflair-artwork) { display: none }
 
 html[lang="ni"] .linkflair-question { display: none }
-html[lang="ni"] .linkflair-request { display: none }
-html[lang="ni"] .linkflair-offer { display: none }
 html[lang="ni"] .linkflair-complaint { display: none }
 html[lang="ni"] .linkflair-shoutout { display: none }
 html[lang="ni"] .linkflair-personal { display: none }
@@ -2719,6 +2704,8 @@ background-position:-2px -234px
 /* Fade Flair
 .post-linkflair-esports .flair-teamwings {opacity: .2;}   */
 
+
+/* Inhouse Winner trophy icon
 a.author.id-t2_14zusd:after,
 a.author.id-t2_8lsjf:after,
 a.author.id-t2_m5k8m:after,
@@ -2735,4 +2722,4 @@ a.author.id-t2_fh2kg:after
     content:"";
     position: relative;
     bottom: -2px;
-}
+} */
