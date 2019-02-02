@@ -1599,8 +1599,8 @@ a[href$="/spoiler"]:hover {
     background:transparent!important
 }
 
-.md-spoiler-text {
-    padding: 0px 8px;
+.spanmd-spoiler-text {
+    padding: 1px 8px;
 }
 
 .md .md-spoiler-text:not(.revealed){
