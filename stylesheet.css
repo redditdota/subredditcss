@@ -1599,7 +1599,7 @@ a[href$="/spoiler"]:hover {
     background:transparent!important
 }
 
-.spanmd-spoiler-text {
+.md-spoiler-text {
     padding: 1px 8px;
 }
 
