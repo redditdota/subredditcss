@@ -1599,6 +1599,14 @@ a[href$="/spoiler"]:hover {
     background:transparent!important
 }
 
+.md-spoiler-text {
+    padding: 0px 8px;
+}
+
+.md .md-spoiler-text:not(.revealed){
+    background: #0066FF;
+}
+
 a[href|="#s"] {
     display:inline-block;
     background:#0066FF!important;
