@@ -7,7 +7,7 @@
 }
 
 .users-online .number:after {
-    content: " days until Mars";
+    content: " clay sculptures";
     text-transform: none;
 }
 
@@ -25,7 +25,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%Winter-Banner%%) no-repeat no-repeat #000; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%drow-mars%%) no-repeat no-repeat #000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -338,7 +338,7 @@ h1.redditname {display: none;}
   color: #91b9b7;
   outline: 0;
 }
-.side .fancy-toggle-button .add {background: #0066FF;color: #ffffff;}
+.side .fancy-toggle-button .add {background: #AB912B;color: #ffffff;}
 .side .fancy-toggle-button .add:active,
 .side .fancy-toggle-button .remove:active {outline: none;}
 .side .fancy-toggle-button.toggle .option.active {display: block;  width: 95%;  margin: 0 auto;}
@@ -436,12 +436,12 @@ h1.redditname {display: none;}
 }
 
 .side .flairselector.drop-choices.active h2 {
-    background-color: #0066FF;
+    background-color: #AB912B;
     color: #131313;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.side .flairselector.drop-choices.active form {background-color: #0066FF;}
+.side .flairselector.drop-choices.active form {background-color: #AB912B;}
 .side .flairselector.drop-choices.active button {margin-bottom: 6px;}
 .side .flairselector.drop-choices.active .flairselection,
 .side .flairselector.drop-choices.active .flairselection a,
@@ -558,22 +558,22 @@ h1.redditname {display: none;}
 }
 
 .side .usertext a[href*='#newtoheading'] {
-    background: url(%%Winter-Headers%%) no-repeat;
+    background: url(%%header-newto%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#livestreamheading'] {
-    background: url(%%Winter-Headers%%) no-repeat;
+    background: url(%%header-livestream%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingheading'] {
-    background: url(%%Winter-Headers%%) no-repeat;
+    background: url(%%header-upcoming%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingeventsheading'] {
-    background: url(%%Winter-Headers%%) no-repeat;
+    background: url(%%header-upcoming-events%%) no-repeat;
     line-height: 47px;
 }
 
@@ -585,12 +585,12 @@ h1.redditname {display: none;}
 */
 
 .side .usertext a[href*='#resourcesheading'] {
-    background: url(%%Winter-Headers%%) no-repeat;
+    background: url(%%header-resources%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#subsheading'], .sidecontentbox .title {
-    background: url(%%Winter-Headers%%) no-repeat;
+    background: url(%%header-subreddits%%) no-repeat;
     line-height: 47px;
 }
 
@@ -833,7 +833,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     color: #ECEDED!important;
     border: 0!important;
     font-weight: bold!important;
-    background: url(%%Winter-Headers%%) no-repeat;
+    background: url(%%header-general%%) no-repeat;
     font-size:0px;
 }
 .sidecontentbox .title h1:after {
@@ -842,7 +842,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
 }
 .collapsible .title h1:after {
     content: "Mod Tools";
-    background: url(%%Winter-Headers%%) no-repeat;
+    background: url(%%header-general%%) no-repeat;
 }
 .sidecontentbox .title { margin-top:-8px; }
 .sidecontentbox .helplink+.title,.collapsible .title { margin-top:0; }
@@ -853,7 +853,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     font-weight: bold!important;
     letter-spacing: 0px;
     font-size: 12px;
-    background: url(%%Winter-Headers%%) no-repeat;
+    background: url(%%header-general%%) no-repeat;
     text-transform: none!important;
 }
 
@@ -1291,7 +1291,7 @@ a.thumbnail img {
     padding: 5px;
     font-weight: normal;
     border: 0px solid #020202;
-    background: #0066FF;
+    background: #AB912B;
     content: " Downvote only if you think this post has no value, not if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -1323,10 +1323,10 @@ a.thumbnail img {
     background: #FFF;
     opacity: 1;
     outline: none !important;
-    border:1px solid #0066FF;
-    -webkit-box-shadow:0 0 5px #0066FF;
-    -moz-box-shadow: 0 0 5px #0066FF;
-    box-shadow: 0 0 5px #0066FF;
+    border:1px solid #AB912B;
+    -webkit-box-shadow:0 0 5px #AB912B;
+    -moz-box-shadow: 0 0 5px #AB912B;
+    box-shadow: 0 0 5px #AB912B;
 }
 
 .res-nightmode .comments-page .usertext-edit div textarea {
@@ -1374,7 +1374,7 @@ a.thumbnail img {
 }
 
 .sidetable nestedlisting{
-    background-color:#0066FF!important;
+    background-color:#AB912B!important;
 }
 
 
@@ -1405,7 +1405,7 @@ span.gilded-gid2-icon {
 .comment .expand {
     background-color: transparent;
     transition: all .20s ease;
-    color: #0066FF !important;
+    color: #AB912B !important;
     background-color: #e6e6e6;
     position: absolute;
     top: 0px;
@@ -1437,7 +1437,7 @@ span.gilded-gid2-icon {
 
 .comment .expand:hover {
     text-decoration: none;
-    background: #0066FF;
+    background: #AB912B;
     color: #FFF !important;
 }
 
@@ -1553,7 +1553,7 @@ content:""
 
 .self .md th {
     font-weight:700;
-    background-color:#0066FF;
+    background-color:#AB912B;
     color:#fff;
     text-align:center
 }
@@ -1590,12 +1590,12 @@ ul.tabmenu.formtab {display: inline-block;}
 ********************/
 
 a[href$="/spoiler"] {
-    background:#0066FF!important;
-    color:#0066FF!important
+    background:#AB912B!important;
+    color:#AB912B!important
 }
 
 a[href$="/spoiler"]:hover {
-    color:#0066FF!important;
+    color:#AB912B!important;
     background:transparent!important
 }
 
@@ -1604,12 +1604,12 @@ a[href$="/spoiler"]:hover {
 }
 
 .md .md-spoiler-text:not(.revealed){
-    background: #0066FF;
+    background: #AB912B;
 }
 
 a[href|="#s"] {
     display:inline-block;
-    background:#0066FF!important;
+    background:#AB912B!important;
     color:#fff!important;
     cursor:default;
     padding:1px 2px
@@ -1618,8 +1618,8 @@ a[href|="#s"] {
 a[href|="#s"]::after {
     content:attr(title);
     display:inline-block;
-    background:#0066FF!important;
-    color:#0066FF!important;
+    background:#AB912B!important;
+    color:#AB912B!important;
     visibility:visible;
     padding:0 8px
 }
@@ -1663,7 +1663,7 @@ a[href="#s-250"]::after {
 #noresults {
     padding: 10px;
     color: #fff;
-    background-color: #0066FF;
+    background-color: #AB912B;
     margin-left: 5px;
 }
 #noresults.tb-kitteh {background-color: transparent}
@@ -1700,7 +1700,7 @@ a[href="#s-250"]::after {
     width: 210px;
     padding: 5px;
     border: 0px solid #010713;
-    background: #0066FF;
+    background: #AB912B;
     content: " Downvote only if off-topic or factually wrong, NOT if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -2246,10 +2246,11 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-rizzrak, a[href="/hero-timbersaw"]:after           { background-position: 0 -3080px }
 .flair-dragonus, a[href="/hero-skywrathmage"]:after       { background-position: 0 -3108px }
 .flair-xin, a[href="/hero-emberspirit"]:after             { background-position: 0 -3136px }
-.flair-monkeyking,a[href="/hero-monkeyking"]:after        { background-position:0 -3164px }
+.flair-monkeyking,a[href="/hero-monkeyking"]:after        { background-position: 0 -3164px }
 .flair-darkwillow,a[href="/hero-darkwillow"]:after        { background-position: 0 -3192px }
 .flair-pangolier,a[href="/hero-pangolier"]:after          { background-position: 0 -3220px }
 .flair-grimstroke,a[href="/hero-grimstroke"]:after        { background-position: 0 -3248px }
+.flair-mars,a[href="/hero-mars"]:after                    { background-position: 0 -3276px }
 
 /* Remove (In Order): adl, Zephyr, */
 
@@ -2315,7 +2316,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-nip, a[href="/org-nip"]:after                   { background-position: 0 -1652px }
 .flair-marstv, a[href="/org-marstv"]:after             { background-position: 0 -1680px }
 .flair-faceit, a[href="/org-faceit"]:after             { background-position: 0 -1708px }
-.flair-jstorm, a[href="/org-jstorm"]:after                   { background-position: 0 -1736px }
+.flair-jstorm, a[href="/org-jstorm"]:after             { background-position: 0 -1736px }
 .flair-met, a[href="/org-met"]:after                   { background-position: 0 -1764px }
 .flair-levi, a[href="/org-levi"]:after                 { background-position: 0 -1792px }
 .flair-gosuai, a[href="/org-gosuai"]:after             { background-position: 0 -1820px }
@@ -2471,7 +2472,7 @@ a[href|="/logo"] {
 }
 
 a[href$="spoiler"]:not(:hover):after {
-background:#0066FF;
+background:#AB912B;
 }
 
 a[href|="/logo-alliance"]:after       { background-position:-2px -2px }
@@ -2541,7 +2542,7 @@ a[href|="/logo-nottoday"]:after       { background-position:-194px -350px }
 a[href|="/logo-serenity"]:after       { background-position:-258px -350px }
 a[href|="/logo-ehome"]:after          { background-position:-2px -379px }
 a[href|="/logo-cdec"]:after           { background-position:-66px -379px }
-a[href|="/logo-painx"]:after          { background-position:-130px -379px }
+a[href|="/logo-chaos"]:after          { background-position:-130px -379px }
 a[href|="/logo-hr"]:after             { background-position:-194px -379px }
 a[href|="/logo-spirit"]:after         { background-position:-258px -379px }
 a[href|="/logo-nip"]:after            { background-position:-2px -408px }
