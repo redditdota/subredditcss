@@ -7,7 +7,7 @@
 }
 
 .users-online .number:after {
-    content: " clay sculptures";
+    content: " humans defeated by OpenAI";
     text-transform: none;
 }
 
@@ -2326,6 +2326,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-immortals, a[href="/org-immortals"]:after       { background-position: 0 -1932px }
 .flair-monster, a[href="/org-monster"]:after           { background-position: 0 -1960px }
 .flair-sts, a[href="/org-sts"]:after                   { background-position: 0 -1988px }
+.flair-openai, a[href="/org-openai"]:after             { background-position: 0 -2016px }
 
 .flair-teamrs, a[href="/pennant-rs"]:after               { background-position: 0 -0px }
 .flair-teamfnatic, a[href="/pennant-fnatic"]:after       { background-position: 0 -28px }
