@@ -1388,6 +1388,11 @@ span.awarding-icon-container {
     background-size: 12px 12px;
 }
 
+/* Platinum */
+[data-award-id="gid_3"] span.awarding-icon-container {
+    background-image: url(%%dd%%);
+}
+
 /* Gold */
 [data-award-id="gid_2"] span.awarding-icon-container {
     background-image: url(%%bounty%%);
