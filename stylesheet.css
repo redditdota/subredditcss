@@ -1380,22 +1380,26 @@ a.thumbnail img {
 
 /* Custom gold gilding */
 
-.gilded-gid2-icon:before {
-    background: url(%%gildedbounty%%);
-    margin-right: 6px;
-}
-
-span.gilded-gid2-icon {
-    background-image: url(%%gildedbounty%%);
+span.awarding-icon-container {
     background-position: 0;
     background-repeat: no-repeat;
-    background-size: 16px;
-               height: 16px;
-               width: 40px;
+    height: 12px;
+    width: 12px;
+    background-size: 12px 12px;
 }
 
-.gilded-icon {
-  margin: 0 0 -14px 6px;
+/* Gold */
+[data-award-id="gid_2"] span.awarding-icon-container {
+    background-image: url(%%bounty%%);
+}
+
+/* Silver */
+[data-award-id="gid_1"] span.awarding-icon-container {
+    background-image: url(%%illusion%%);
+}
+
+img.awarding-icon {
+    display: none
 }
 
 /********************
