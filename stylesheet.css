@@ -682,7 +682,7 @@ h1.redditname {display: none;}
 }
 
 .side .titlebox a[href="http://www.dota2.com/international/battlepass/"]:after {
-    background: url(%%battlepass-ti8%%) top;
+    background: url(%%ti9-reddit-tracker%%) top;
     height: 285px;
     width: 330px;
     position: relative;
@@ -1383,14 +1383,15 @@ a.thumbnail img {
 span.awarding-icon-container {
     background-position: 0;
     background-repeat: no-repeat;
-    height: 12px;
-    width: 12px;
-    background-size: 12px 12px;
+    height: 16px;
+    width: 16px;
+    background-size: 16px 16px;
+    margin: 0px 1px -4px 2px;
 }
 
 /* Platinum */
 [data-award-id="gid_3"] span.awarding-icon-container {
-    background-image: url(%%dd%%);
+    background-image: url(%%platinumbounty%%);
 }
 
 /* Gold */
@@ -1400,7 +1401,7 @@ span.awarding-icon-container {
 
 /* Silver */
 [data-award-id="gid_1"] span.awarding-icon-container {
-    background-image: url(%%illusion%%);
+    background-image: url(%%silverbounty%%);
 }
 
 img.awarding-icon {
