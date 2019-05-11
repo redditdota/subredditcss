@@ -338,7 +338,7 @@ h1.redditname {display: none;}
   color: #91b9b7;
   outline: 0;
 }
-.side .fancy-toggle-button .add {background: #74573E;color: #ffffff;}
+.side .fancy-toggle-button .add {background: #56309B;color: #ffffff;}
 .side .fancy-toggle-button .add:active,
 .side .fancy-toggle-button .remove:active {outline: none;}
 .side .fancy-toggle-button.toggle .option.active {display: block;  width: 95%;  margin: 0 auto;}
@@ -436,12 +436,12 @@ h1.redditname {display: none;}
 }
 
 .side .flairselector.drop-choices.active h2 {
-    background-color: #74573E;
+    background-color: #56309B;
     color: #131313;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.side .flairselector.drop-choices.active form {background-color: #74573E;}
+.side .flairselector.drop-choices.active form {background-color: #56309B;}
 .side .flairselector.drop-choices.active button {margin-bottom: 6px;}
 .side .flairselector.drop-choices.active .flairselection,
 .side .flairselector.drop-choices.active .flairselection a,
@@ -1276,7 +1276,7 @@ a.thumbnail img {
     padding: 5px;
     font-weight: normal;
     border: 0px solid #020202;
-    background: #74573E;
+    background: #56309B;
     content: " Downvote only if you think this post has no value, not if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -1308,10 +1308,10 @@ a.thumbnail img {
     background: #FFF;
     opacity: 1;
     outline: none !important;
-    border:1px solid #74573E;
-    -webkit-box-shadow:0 0 5px #74573E;
-    -moz-box-shadow: 0 0 5px #74573E;
-    box-shadow: 0 0 5px #74573E;
+    border:1px solid #56309B;
+    -webkit-box-shadow:0 0 5px #56309B;
+    -moz-box-shadow: 0 0 5px #56309B;
+    box-shadow: 0 0 5px #56309B;
 }
 
 .res-nightmode .comments-page .usertext-edit div textarea {
@@ -1359,7 +1359,7 @@ a.thumbnail img {
 }
 
 .sidetable nestedlisting{
-    background-color:#74573E!important;
+    background-color:#56309B!important;
 }
 
 
@@ -1400,7 +1400,7 @@ img.awarding-icon {
 .comment .expand {
     background-color: transparent;
     transition: all .20s ease;
-    color: #74573E !important;
+    color: #56309B !important;
     background-color: #e6e6e6;
     position: absolute;
     top: 0px;
@@ -1432,7 +1432,7 @@ img.awarding-icon {
 
 .comment .expand:hover {
     text-decoration: none;
-    background: #74573E;
+    background: #56309B;
     color: #FFF !important;
 }
 
@@ -1548,7 +1548,7 @@ content:""
 
 .self .md th {
     font-weight:700;
-    background-color:#74573E;
+    background-color:#56309B;
     color:#fff;
     text-align:center
 }
@@ -1585,12 +1585,12 @@ ul.tabmenu.formtab {display: inline-block;}
 ********************/
 
 a[href$="/spoiler"] {
-    background:#74573E!important;
-    color:#74573E!important
+    background:#56309B!important;
+    color:#56309B!important
 }
 
 a[href$="/spoiler"]:hover {
-    color:#74573E!important;
+    color:#56309B!important;
     background:transparent!important
 }
 
@@ -1599,12 +1599,12 @@ a[href$="/spoiler"]:hover {
 }
 
 .md .md-spoiler-text:not(.revealed){
-    background: #74573E;
+    background: #56309B;
 }
 
 a[href|="#s"] {
     display:inline-block;
-    background:#74573E!important;
+    background:#56309B!important;
     color:#fff!important;
     cursor:default;
     padding:1px 2px
@@ -1613,8 +1613,8 @@ a[href|="#s"] {
 a[href|="#s"]::after {
     content:attr(title);
     display:inline-block;
-    background:#74573E!important;
-    color:#74573E!important;
+    background:#56309B!important;
+    color:#56309B!important;
     visibility:visible;
     padding:0 8px
 }
@@ -1658,7 +1658,7 @@ a[href="#s-250"]::after {
 #noresults {
     padding: 10px;
     color: #fff;
-    background-color: #74573E;
+    background-color: #56309B;
     margin-left: 5px;
 }
 #noresults.tb-kitteh {background-color: transparent}
@@ -1695,7 +1695,7 @@ a[href="#s-250"]::after {
     width: 210px;
     padding: 5px;
     border: 0px solid #010713;
-    background: #74573E;
+    background: #56309B;
     content: " Downvote only if off-topic or factually wrong, NOT if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -2468,7 +2468,7 @@ a[href|="/logo"] {
 }
 
 a[href$="spoiler"]:not(:hover):after {
-background:#74573E;
+background:#56309B;
 }
 
 a[href|="/logo-alliance"]:after       { background-position:-2px -2px }
