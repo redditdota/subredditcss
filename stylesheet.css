@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Dota Auto Chess Players"
+    content: " DAMAGE"
 }
 
 .users-online .number:after {
-    content: " humans defeated by OpenAI";
+    content: "x COMBO";
     text-transform: none;
 }
 
@@ -31,7 +31,7 @@
 /* HEADER SUBREDDITS */
 #sr-header-area {
     height: 20px;
-    background-color: #111214;
+    background-color: #111214!important;
     border-bottom: 0;
     color: #DFDFDF;
     overflow: visible;
