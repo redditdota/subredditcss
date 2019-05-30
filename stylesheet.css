@@ -2322,6 +2322,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-monster, a[href="/org-monster"]:after           { background-position: 0 -1960px }
 .flair-sts, a[href="/org-sts"]:after                   { background-position: 0 -1988px }
 .flair-openai, a[href="/org-openai"]:after             { background-position: 0 -2016px }
+.flair-beastcoast, a[href="/org-beastcoast"]:after     { background-position: 0 -2044px }
 
 .flair-teamrs, a[href="/pennant-rs"]:after               { background-position: 0 -0px }
 .flair-teamfnatic, a[href="/pennant-fnatic"]:after       { background-position: 0 -28px }
