@@ -2711,14 +2711,21 @@ background-position:-2px -234px
 .post-linkflair-esports .flair-teamwings {opacity: .2;}   */
 
 
-/* Inhouse Winner trophy icon
-a.author.id-t2_14zusd:after,
-a.author.id-t2_8lsjf:after,
-a.author.id-t2_m5k8m:after,
-a.author.id-t2_6v8fd:after,
-a.author.id-t2_fh2kg:after
+/* Inhouse Winner trophy icon*/
+a.author.id-t2_ameqf:after,
+a.author.id-t2_vmt5vbv:after,
+a.author.id-t2_ljhce:after,
+a.author.id-t2_uxt5s:after,
+a.author.id-t2_qkyxu:after,
+a.author.id-t2_djpwn5:after,
+a.author.id-t2_9651z:after,
+a.author.id-t2_h2iy8:after,
+a.author.id-t2_ypb8w:after,
+a.author.id-t2_jne0w:after,
+a.author.id-t2_tmq21:after,
+a.author.id-t2_3xmlrx5a:after
 {
-    background-image: url(%%bc%%);
+    background-image: url(%%trophy%%);
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position-x: right;
@@ -2728,4 +2735,4 @@ a.author.id-t2_fh2kg:after
     content:"";
     position: relative;
     bottom: -2px;
-} */
+}
