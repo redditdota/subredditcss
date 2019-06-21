@@ -145,7 +145,10 @@
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0, 0, 0, 0.75) 100%);
     height: 20px;
     width: 100%;
-    display: block!important;
+}
+
+#header-bottom-left .tabmenu{
+    display:block!important;
 }
 
 .tabmenu.formtab {
@@ -153,7 +156,6 @@
     margin-bottom: 30px;
     padding-top: 3px;
     padding-left: 0;
-    display: inline-block!important;
 }
 
 .tabmenu li {
