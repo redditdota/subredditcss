@@ -1798,6 +1798,17 @@ html[lang="ni"] .linkflair-personal { display: none }
 
 html[lang="sf"] .spoiler { display: none }
 
+/*summer scrub*/
+
+html[lang="ns"] .linkflair-summerscrub { display: none }
+html[lang="ss"] .link:not(.linkflair-summerscrub) { display: none }
+
+.flairselector .linkflair.linkflair-summerscrub
+{
+    display: inline;
+    font-weight: bold;
+}
+
 /*****************
 * FLAIR
 *****************/
@@ -2717,18 +2728,9 @@ background-position:-2px -234px
 
 
 /* Inhouse Winner trophy icon*/
-a.author.id-t2_ameqf:after,
-a.author.id-t2_vmt5vbv:after,
-a.author.id-t2_ljhce:after,
-a.author.id-t2_uxt5s:after,
-a.author.id-t2_qkyxu:after,
-a.author.id-t2_djpwn5:after,
-a.author.id-t2_9651z:after,
-a.author.id-t2_h2iy8:after,
-a.author.id-t2_ypb8w:after,
-a.author.id-t2_jne0w:after,
-a.author.id-t2_tmq21:after,
-a.author.id-t2_3xmlrx5a:after
+a.author.id-t2_2pskbzam:after,
+a.author.id-t2_17bxxn8r:after,
+a.author.id-t2_3njxqctt:after
 {
     background-image: url(%%trophy%%);
     background-repeat: no-repeat;
