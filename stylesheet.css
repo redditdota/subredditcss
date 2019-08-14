@@ -2413,7 +2413,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-teamwinstrike, a[href="/pennant-winstrike"]:after { background-position:0 -1960px }
 .flair-teamserenity, a[href="/pennant-serenity"]:after   { background-position:0 -1988px }
 .flair-teamkeen, a[href="/pennant-keen"]:after           { background-position:0 -2016px }
-.flair-teamrng, a[href="/pennant-rng"]:after             { background-position:0 -2016px }
+.flair-teamrng, a[href="/pennant-rng"]:after             { background-position:0 -2044px }
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after              { background-position: 0 -0px }
 .flair-arcanalc, a[href="/custom-arcanalc"]:after                  { background-position: 0 -28px }
@@ -2771,18 +2771,18 @@ background-position:-2px -234px
 .post-linkflair-esports .flair-teamfaceless {opacity: .2;}
 .post-linkflair-esports .flair-teamnp {opacity: .2;}
 .post-linkflair-esports .flair-teamsg {opacity: .2;}
-.post-linkflair-esports .flair-teamig {opacity: .2;} 
+.post-linkflair-esports .flair-teamig {opacity: .2;}
 .post-linkflair-esports .flair-teamhr {opacity: .2;} 
 .post-linkflair-esports .flair-teamempire {opacity: .2;} 
-.post-linkflair-esports .flair-teamxtcn {opacity: .2;} 
+.post-linkflair-esports .flair-teamxtcn {opacity: .2;}
 .post-linkflair-esports .flair-teamc9 {opacity: .2;} 
 .post-linkflair-esports .flair-teamonyx {opacity: .2;} 
 .post-linkflair-esports .flair-teamkinguin {opacity: .2;} 
 .post-linkflair-esports .flair-teamoptic {opacity: .2;} 
-.post-linkflair-esports .flair-teamvgj {opacity: .2;} 
+.post-linkflair-esports .flair-teamvgj {opacity: .2;}
 .post-linkflair-esports .flair-teampain {opacity: .2;} 
 .post-linkflair-esports .flair-teamserenity {opacity: .2;} 
-.post-linkflair-esports .flair-teamwinstrike {opacity: .2;} 
+.post-linkflair-esports .flair-teamwinstrike {opacity: .2;}
 
 /*.post-linkflair-esports .flair-teamsecret {opacity: .2;} */
 /*.post-linkflair-esports .flair-teamvp {opacity: .2;} */
