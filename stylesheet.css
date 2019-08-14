@@ -2412,7 +2412,8 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-teampain, a[href="/pennant-pain"]:after           { background-position:0 -1932px }
 .flair-teamwinstrike, a[href="/pennant-winstrike"]:after { background-position:0 -1960px }
 .flair-teamserenity, a[href="/pennant-serenity"]:after   { background-position:0 -1988px }
-.flair-teamkeen, a[href="/pennant-keen"]:after   { background-position:0 -2016px }
+.flair-teamkeen, a[href="/pennant-keen"]:after           { background-position:0 -2016px }
+.flair-teamrng, a[href="/pennant-rng"]:after             { background-position:0 -2016px }
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after              { background-position: 0 -0px }
 .flair-arcanalc, a[href="/custom-arcanalc"]:after                  { background-position: 0 -28px }
@@ -2799,7 +2800,7 @@ background-position:-2px -234px
 /*.post-linkflair-esports .flair-teaminfamous {opacity: .2;} */
 /*.post-linkflair-esports .flair-teamdc {opacity: .2;} */
 /*.post-linkflair-esports .flair-teamnavi {opacity: .2;} */
-/*.post-linkflair-esports .flair-teamroyal {opacity: .2;} */
+/*.post-linkflair-esports .flair-teamrng {opacity: .2;} */
 /*.post-linkflair-esports .flair-teammineski {opacity: .2;} */
 
 /* Inhouse Winner trophy icon*/
