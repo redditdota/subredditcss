@@ -1943,6 +1943,7 @@ width: 16px;
   position: relative;
     background-image: url(%%flags%%);
     z-index: 10!important;
+  font-size: 0pt;
 }
 
 a[href="/ae"]{background-position: -32px 0px}
@@ -2489,6 +2490,10 @@ a[href|="/logo"]:after {
 a[href|="/logo"] {
     border-bottom: none !important;
     font-size: 0pt;
+}
+
+a[href|="/logo"] .md-spoiler-text {
+    padding: 0px;
 }
 
 a[href$="spoiler"]:not(:hover):after {
