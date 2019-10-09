@@ -2488,6 +2488,7 @@ a[href|="/logo"]:after {
 
 a[href|="/logo"] {
     border-bottom: none !important;
+    font-size: 0pt;
 }
 
 a[href$="spoiler"]:not(:hover):after {
