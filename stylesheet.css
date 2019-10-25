@@ -2483,7 +2483,7 @@ a[href|="/logo"]:after {
     height:25px;
     display:inline-block;
     background-position:-9999px -9999px;
-    vertical-align:middle;
+    vertical-align:-8px;
     content:"";
 }
 
