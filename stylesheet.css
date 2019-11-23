@@ -2130,13 +2130,22 @@ a[href|="/hero"]:after,
 a[href|="/org"]:after,
 a[href|="/pennant"]:after,
 a[href|="/custom"]:after {
-
     width:50px;
     height:28px;
     display: inline-block;
     background-position: -9999px -9999px;
-    vertical-align: middle;
+    vertical-align: -8px;
     content: "";
+}
+
+/* New reddit text*/
+
+a[href|="/hero"],
+a[href|="/org"],
+a[href|="/pennant"],
+a[href|="/custom"],
+a[href|="/logo"] {
+    font-size: 0pt;
 }
 
 a[href|="/hero"]:after        {background-image: url(%%heroes%%)}
@@ -2485,11 +2494,6 @@ a[href|="/logo"]:after {
     background-position:-9999px -9999px;
     vertical-align:-8px;
     content:"";
-}
-
-a[href|="/logo"] {
-    border-bottom: none !important;
-    font-size: 0pt;
 }
 
 a[href|="/logo"] .md-spoiler-text {
