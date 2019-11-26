@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " posts about the T2 scene"
+    content: " mangoes"
 }
 
 .users-online .number:after {
-    content: " viewers of the T2 scene";
+    content: " mangoes";
     text-transform: none;
 }
 
@@ -25,7 +25,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%banner-outlanders%%) no-repeat no-repeat #000; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%banner-mango%%) repeat no-repeat #000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
