@@ -2122,7 +2122,7 @@ a[href="/xc"]{background-position: -160px -165px}
 
 .flair-org          {background-image: url(%%orgs%%)}
 .flair-pennant      {background-image: url(%%pennants%%)}
-.flair-custom       {background-image: url(%%custom%%)}
+.flair-custom       {background-image: url(%%holiday-custom%%)}
 
 /* Print Out Flair to comments */
 
@@ -2151,7 +2151,7 @@ a[href|="/logo"] {
 a[href|="/hero"]:after        {background-image: url(%%heroes%%)}
 a[href|="/org"]:after         {background-image: url(%%orgs%%)}
 a[href|="/pennant"]:after     {background-image: url(%%pennants%%)}
-a[href|="/custom"]:after      {background-image: url(%%custom%%)}
+a[href|="/custom"]:after      {background-image: url(%%holiday-custom%%)}
 
 .flair-akasha, a[href="/hero-queenofpain"]:after          { background-position: 0 0px }
 .flair-abaddon, a[href="/hero-abaddon"]:after             { background-position: 0 -28px }
@@ -2349,6 +2349,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-sts, a[href="/org-sts"]:after                   { background-position: 0 -1988px }
 .flair-openai, a[href="/org-openai"]:after             { background-position: 0 -2016px }
 .flair-beastcoast, a[href="/org-beastcoast"]:after     { background-position: 0 -2044px }
+.flair-epulze, a[href="/org-epulze"]:after             { background-position: 0 -2072px }
 
 .flair-teamrs, a[href="/pennant-rs"]:after               { background-position: 0 -0px }
 .flair-teamfnatic, a[href="/pennant-fnatic"]:after       { background-position: 0 -28px }
@@ -2462,17 +2463,19 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-arcanapudgegrand,a[href="/custom-arcanapudgegrand"]:after   { background-position: 0 -980px }
 .flair-euls,a[href="/custom-euls"]:after                           { background-position: 0 -1008px }
 .flair-meteorhammer,a[href="/custom-meteorhammer"]:after           { background-position: 0 -1036px }
-.flair-sadim, a[href="/custom-sadim"]:after                        { background-position: 0 -1064px }
+/*.flair-sadim, a[href="/custom-sadim"]:after                        { background-position: 0 -1064px }*/
 .flair-arcanarubick,a[href="/custom-arcanarubick"]:after           { background-position: 0 -1092px }
 .flair-arcanaescelestial,a[href="/custom-arcanaescelestial"]:after { background-position: 0 -1120px }
 .flair-arcanaesburning,a[href="/custom-arcanaesburning"]:after     { background-position: 0 -1148px }
 .flair-kidvoker,a[href="/custom-kidvoker"]:after                   { background-position: 0 -1176px }
 .flair-axeunleashed,a[href="/custom-axeunleashed"]:after           { background-position: 0 -1204px }
+.flair-holidaylanaya,a[href="/custom-holidaylanaya"]:after                       { background-position: 0 -1232px }
+.flair-holidayogremagi,a[href="/custom-holidayogremagi"]:after                   { background-position: 0 -1260px }
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
 a[href="/techiesface"]:after,a[href="/creepymaiden"]:after {
-     background:transparent url(%%custom%%) no-repeat;
+     background:transparent url(%%holiday-custom%%) no-repeat;
      width:50px;
      height:28px;
      display:inline-block;
