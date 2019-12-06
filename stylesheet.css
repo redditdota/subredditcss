@@ -2272,6 +2272,8 @@ a[href|="/custom"]:after      {background-image: url(%%holiday-custom%%)}
 .flair-pangolier,a[href="/hero-pangolier"]:after          { background-position: 0 -3220px }
 .flair-grimstroke,a[href="/hero-grimstroke"]:after        { background-position: 0 -3248px }
 .flair-mars,a[href="/hero-mars"]:after                    { background-position: 0 -3276px }
+.flair-inai,a[href="/hero-voidspirit"]:after              { background-position: 0 -3304px }
+.flair-snapfire,a[href="/hero-snapfire"]:after            { background-position: 0 -3332px }
 
 /* Remove (In Order): adl, Zephyr, */
 
