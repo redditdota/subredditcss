@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " mangoes"
+    content: " shrines lost"
 }
 
 .users-online .number:after {
-    content: " mangoes";
+    content: " OG players retired";
     text-transform: none;
 }
 
