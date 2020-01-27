@@ -25,7 +25,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%banner-mango%%) repeat no-repeat #000; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%winter-banner%%) no-repeat no-repeat #000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -265,7 +265,7 @@ ul.tabmenu li.selected:hover {font-weight: 700!important;}
     height: 47px!important;
     word-spacing: 1px!important;
     letter-spacing: 0px!important;
-    background: url(%%submit-outlanders%%) no-repeat!important;
+    background: url(%%winter-submit%%) no-repeat!important;
     border: 0!important;
     border-radius: 0!important;
 }
@@ -342,7 +342,7 @@ h1.redditname {display: none;}
   color: #91b9b7;
   outline: 0;
 }
-.side .fancy-toggle-button .add {background: #56309B;color: #ffffff;}
+.side .fancy-toggle-button .add {background: #580516;color: #ffffff;}
 .side .fancy-toggle-button .add:active,
 .side .fancy-toggle-button .remove:active {outline: none;}
 .side .fancy-toggle-button.toggle .option.active {display: block;  width: 95%;  margin: 0 auto;}
@@ -440,12 +440,12 @@ h1.redditname {display: none;}
 }
 
 .side .flairselector.drop-choices.active h2 {
-    background-color: #56309B;
+    background-color: #580516;
     color: #131313;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.side .flairselector.drop-choices.active form {background-color: #56309B;}
+.side .flairselector.drop-choices.active form {background-color: #580516;}
 .side .flairselector.drop-choices.active button {margin-bottom: 6px;}
 .side .flairselector.drop-choices.active .flairselection,
 .side .flairselector.drop-choices.active .flairselection a,
@@ -558,37 +558,37 @@ h1.redditname {display: none;}
 /* HEADINGS */
 
 .side .usertext a[href*='#heading'] {
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
 }
 
 .side .usertext a[href*='#newtoheading'] {
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#livestreamheading'] {
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingheading'] {
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingeventsheading'] {
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
     line-height: 47px;
 }
 
 
 .side .usertext a[href*='#resourcesheading'] {
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#subsheading'], .sidecontentbox .title {
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
     line-height: 47px;
 }
 
@@ -653,6 +653,7 @@ h1.redditname {display: none;}
 /********************/
 /*PRIZE POOL TRACKER*/
 /********************/
+/*
 .side .titlebox h6 {
     font-size: 24px;
     font-weight: bold;
@@ -665,6 +666,7 @@ h1.redditname {display: none;}
     text-align: center;
     margin: 0px 0px 0px 0px;
 }
+
 
 .side .titlebox a[href="http://www.dota2.com/international/battlepass/"] {
     margin-left: -10px
@@ -700,6 +702,7 @@ h1.redditname {display: none;}
     border-left:6px solid #3D3424;
     position:relative
 }
+*/
 
 /* TOP WIKI HEADING */
 .side .usertext a[href*='#intro'] {
@@ -822,7 +825,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     color: #ECEDED!important;
     border: 0!important;
     font-weight: bold!important;
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
     font-size:0px;
 }
 .sidecontentbox .title h1:after {
@@ -831,7 +834,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
 }
 .collapsible .title h1:after {
     content: "Mod Tools";
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
 }
 .sidecontentbox .title { margin-top:-8px; }
 .sidecontentbox .helplink+.title,.collapsible .title { margin-top:0; }
@@ -842,7 +845,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     font-weight: bold!important;
     letter-spacing: 0px;
     font-size: 12px;
-    background: url(%%header-outlanders%%) no-repeat;
+    background: url(%%winter-header%%) no-repeat;
     text-transform: none!important;
 }
 
@@ -1280,7 +1283,7 @@ a.thumbnail img {
     padding: 5px;
     font-weight: normal;
     border: 0px solid #020202;
-    background: #56309B;
+    background: #580516;
     content: " Downvote only if you think this post has no value, not if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -1312,10 +1315,10 @@ a.thumbnail img {
     background: #FFF;
     opacity: 1;
     outline: none !important;
-    border:1px solid #56309B;
-    -webkit-box-shadow:0 0 5px #56309B;
-    -moz-box-shadow: 0 0 5px #56309B;
-    box-shadow: 0 0 5px #56309B;
+    border:1px solid #580516;
+    -webkit-box-shadow:0 0 5px #580516;
+    -moz-box-shadow: 0 0 5px #580516;
+    box-shadow: 0 0 5px #580516;
 }
 
 .res-nightmode .comments-page .usertext-edit div textarea {
@@ -1363,7 +1366,7 @@ a.thumbnail img {
 }
 
 .sidetable nestedlisting{
-    background-color:#56309B!important;
+    background-color:#580516!important;
 }
 
 
@@ -1404,7 +1407,7 @@ img.awarding-icon {
 .comment .expand {
     background-color: transparent;
     transition: all .20s ease;
-    color: #56309B !important;
+    color: #580516 !important;
     background-color: #e6e6e6;
     position: absolute;
     top: 0px;
@@ -1436,7 +1439,7 @@ img.awarding-icon {
 
 .comment .expand:hover {
     text-decoration: none;
-    background: #56309B;
+    background: #580516;
     color: #FFF !important;
 }
 
@@ -1552,7 +1555,7 @@ content:""
 
 .self .md th {
     font-weight:700;
-    background-color:#56309B;
+    background-color:#580516;
     color:#fff;
     text-align:center
 }
@@ -1589,12 +1592,12 @@ ul.tabmenu.formtab {display: inline-block;}
 ********************/
 
 a[href$="/spoiler"] {
-    background:#56309B!important;
-    color:#56309B!important
+    background:#580516!important;
+    color:#580516!important
 }
 
 a[href$="/spoiler"]:hover {
-    color:#56309B!important;
+    color:#580516!important;
     background:transparent!important
 }
 
@@ -1603,12 +1606,12 @@ a[href$="/spoiler"]:hover {
 }
 
 .md .md-spoiler-text:not(.revealed){
-    background: #56309B;
+    background: #580516;
 }
 
 a[href|="#s"] {
     display:inline-block;
-    background:#56309B!important;
+    background:#580516!important;
     color:#fff!important;
     cursor:default;
     padding:1px 2px
@@ -1617,8 +1620,8 @@ a[href|="#s"] {
 a[href|="#s"]::after {
     content:attr(title);
     display:inline-block;
-    background:#56309B!important;
-    color:#56309B!important;
+    background:#580516!important;
+    color:#580516!important;
     visibility:visible;
     padding:0 8px
 }
@@ -1662,7 +1665,7 @@ a[href="#s-250"]::after {
 #noresults {
     padding: 10px;
     color: #fff;
-    background-color: #56309B;
+    background-color: #580516;
     margin-left: 5px;
 }
 #noresults.tb-kitteh {background-color: transparent}
@@ -1699,7 +1702,7 @@ a[href="#s-250"]::after {
     width: 210px;
     padding: 5px;
     border: 0px solid #010713;
-    background: #56309B;
+    background: #580516;
     content: " Downvote only if off-topic or factually wrong, NOT if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -2509,7 +2512,7 @@ a[href|="/logo"] .md-spoiler-text {
 }
 
 a[href$="spoiler"]:not(:hover):after {
-background:#56309B;
+background:#580516;
 }
 
 a[href|="/logo-alliance"]:after       { background-position:-2px -2px }
