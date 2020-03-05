@@ -1862,6 +1862,10 @@ a[href$='#salt-icon'] { background:rgba(89,110,144,0.8) url(%%flair-icons2%%) no
     padding:2px 5px;
 }
 
+.flairselector li {
+    border: 0px;
+}
+
 .flairselector .linkflair.linkflair-stream,
 .flairselector .linkflair.linkflair-interview,
 .flairselector .linkflair.linkflair-misleading,
