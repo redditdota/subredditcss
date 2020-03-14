@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " shrines lost"
+    content: " self isolating gamers"
 }
 
 .users-online .number:after {
-    content: " OG players retired";
+    content: " hoarded TP scrolls";
     text-transform: none;
 }
 
