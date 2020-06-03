@@ -25,7 +25,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%winter-banner%%) no-repeat no-repeat #000; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%bp-banner%%) no-repeat no-repeat #000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -265,7 +265,7 @@ ul.tabmenu li.selected:hover {font-weight: 700!important;}
     height: 47px!important;
     word-spacing: 1px!important;
     letter-spacing: 0px!important;
-    background: url(%%winter-submit%%) no-repeat!important;
+    background: url(%%bp-submit%%) no-repeat!important;
     border: 0!important;
     border-radius: 0!important;
 }
@@ -558,37 +558,37 @@ h1.redditname {display: none;}
 /* HEADINGS */
 
 .side .usertext a[href*='#heading'] {
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
 }
 
 .side .usertext a[href*='#newtoheading'] {
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#livestreamheading'] {
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingheading'] {
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#upcomingeventsheading'] {
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
     line-height: 47px;
 }
 
 
 .side .usertext a[href*='#resourcesheading'] {
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
     line-height: 47px;
 }
 
 .side .usertext a[href*='#subsheading'], .sidecontentbox .title {
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
     line-height: 47px;
 }
 
@@ -825,7 +825,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     color: #ECEDED!important;
     border: 0!important;
     font-weight: bold!important;
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
     font-size:0px;
 }
 .sidecontentbox .title h1:after {
@@ -834,7 +834,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
 }
 .collapsible .title h1:after {
     content: "Mod Tools";
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
 }
 .sidecontentbox .title { margin-top:-8px; }
 .sidecontentbox .helplink+.title,.collapsible .title { margin-top:0; }
@@ -845,7 +845,7 @@ a+div+ul li .RESUserTag, a+div+ul li .voteWeight { display: none !important; }
     font-weight: bold!important;
     letter-spacing: 0px;
     font-size: 12px;
-    background: url(%%winter-header%%) no-repeat;
+    background: url(%%bp-header%%) no-repeat;
     text-transform: none!important;
 }
 
