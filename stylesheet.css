@@ -2594,6 +2594,19 @@ a[href|="/logo-col"]:after            { background-position:-66px -408px }
 a[href|="/logo-archon"]:after         { background-position:-130px -408px }
 a[href|="/logo-pain"]:after           { background-position:-194px -408px }
 a[href|="/logo-winstrike"]:after      { background-position:-258px -408px }
+a[href|="/logo-beastcoast"]:after     { background-position:-2px -437px }
+a[href|="/logo-cr4zy"]:after          { background-position:-66px -437px }
+a[href|="/logo-adroit"]:after         { background-position:-130px -437px }
+a[href|="/logo-b8"]:after             { background-position:-194px -437px }
+a[href|="/logo-flytomoon"]:after      { background-position:-258px -437px }
+a[href|="/logo-geekfam"]:after        { background-position:-2px -466px }
+a[href|="/logo-midasclub"]:after      { background-position:-66px -466px }
+a[href|="/logo-neon"]:after           { background-position:-130px -466px }
+a[href|="/logo-nigma"]:after          { background-position:-194px -466px }
+a[href|="/logo-t1"]:after             { background-position:-258px -466px }
+a[href|="/logo-unique"]:after         { background-position:-2px -495px }
+a[href|="/logo-vikingg"]:after        { background-position:-66px -495px }
+
 
 /*  NIGHTMODE - I don't know what I'm doing */
 .res-nightmode .link,
