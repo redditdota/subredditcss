@@ -653,7 +653,6 @@ h1.redditname {display: none;}
 /********************/
 /*PRIZE POOL TRACKER*/
 /********************/
-/*
 .side .titlebox h6 {
     font-size: 24px;
     font-weight: bold;
@@ -702,7 +701,6 @@ h1.redditname {display: none;}
     border-left:6px solid #3D3424;
     position:relative
 }
-*/
 
 /* TOP WIKI HEADING */
 .side .usertext a[href*='#intro'] {
