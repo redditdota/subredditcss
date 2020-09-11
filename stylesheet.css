@@ -2483,11 +2483,11 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-arcanaesburning,a[href="/custom-arcanaesburning"]:after     { background-position: 0 -1148px }
 .flair-kidvoker,a[href="/custom-kidvoker"]:after                   { background-position: 0 -1176px }
 .flair-axeunleashed,a[href="/custom-axeunleashed"]:after           { background-position: 0 -1204px }
-.flair-axeunleashed,a[href="/custom-arcanaogre"]:after             { background-position: 0 -1232px }
-.flair-axeunleashed,a[href="/custom-arcanawk"]:after               { background-position: 0 -1260px }
-.flair-axeunleashed,a[href="/custom-arcanaqop"]:after              { background-position: 0 -1288px }
-.flair-axeunleashed,a[href="/custom-arcanawr"]:after               { background-position: 0 -1316px }
-.flair-axeunleashed,a[href="/custom-personaam"]:after              { background-position: 0 -1344px }
+.flair-arcanaogre,a[href="/custom-arcanaogre"]:after               { background-position: 0 -1232px }
+.flair-arcanawk,a[href="/custom-arcanawk"]:after                   { background-position: 0 -1260px }
+.flair-arcanaqop,a[href="/custom-arcanaqop"]:after                 { background-position: 0 -1288px }
+.flair-arcanawr,a[href="/custom-arcanawr"]:after                   { background-position: 0 -1316px }
+.flair-personaam,a[href="/custom-personaam"]:after                 { background-position: 0 -1344px }
 /*.flair-holidaylanaya,a[href="/custom-holidaylanaya"]:after         { background-position: 0 -1232px }
 .flair-holidayogremagi,a[href="/custom-holidayogremagi"]:after     { background-position: 0 -1260px }*/
 
