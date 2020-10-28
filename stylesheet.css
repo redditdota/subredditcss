@@ -2440,6 +2440,8 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-teamnigma, a[href="/pennant-nigma"]:after         { background-position: 0 -2072px }
 .flair-teambeastcoast, a[href="/pennant-beastcoast"]:after { background-position: 0 -2100px }
 .flair-teamaster, a[href="/pennant-aster"]:after         { background-position: 0 -2128px }
+.flair-teamarkosh, a[href="/pennant-arkosh"]:after       { background-position: 0 -2156px }
+
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after              { background-position: 0 -0px }
 .flair-arcanalc, a[href="/custom-arcanalc"]:after                  { background-position: 0 -28px }
