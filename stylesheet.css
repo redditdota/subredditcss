@@ -25,7 +25,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%bp-banner%%) no-repeat no-repeat #000; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%diretide-banner%%) no-repeat no-repeat #000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
