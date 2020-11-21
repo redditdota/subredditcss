@@ -2616,7 +2616,10 @@ a[href|="/logo-nigma"]:after          { background-position:-194px -466px }
 a[href|="/logo-t1"]:after             { background-position:-258px -466px }
 a[href|="/logo-unique"]:after         { background-position:-2px -495px }
 a[href|="/logo-vikingg"]:after        { background-position:-66px -495px }
-
+a[href|="/logo-quincycrew"]:after     { background-position:-130px -495px }
+a[href|="/logo-4zoomers"]:after       { background-position:-194px -495px }
+a[href|="/logo-5men"]:after           { background-position:-258px -495px }
+a[href|="/logo-sag"]:after            { background-position:-2px -524px }
 
 /*  NIGHTMODE - I don't know what I'm doing */
 .res-nightmode .link,
