@@ -2127,7 +2127,7 @@ a[href="/xc"]{background-position: -160px -165px}
 }
 
 .flair-org          {background-image: url(%%orgs-2020%%)}
-.flair-pennant      {background-image: url(%%teamflairs%%)}
+.flair-pennant      {background-image: url(%%pennants%%)}
 .flair-custom       {background-image: url(%%custom%%)}
 
 /* Print Out Flair to comments */
@@ -2441,6 +2441,10 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-teambeastcoast, a[href="/pennant-beastcoast"]:after { background-position: 0 -2100px }
 .flair-teamaster, a[href="/pennant-aster"]:after         { background-position: 0 -2128px }
 .flair-teamarkosh, a[href="/pennant-arkosh"]:after       { background-position: 0 -2156px }
+.flair-teamvikingg, a[href="/pennant-vikingg"]:after     { background-position: 0 -2184px }
+.flair-teamqc, a[href="/pennant-qc"]:after               { background-position: 0 -2212px }
+.flair-team4zoomers, a[href="/pennant-4zoomers"]:after   { background-position: 0 -2240px }
+.flair-teamboom, a[href="/pennant-boom"]:after           { background-position: 0 -2268px }
 
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after              { background-position: 0 -0px }
