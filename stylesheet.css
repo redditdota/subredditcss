@@ -2280,6 +2280,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-mars,a[href="/hero-mars"]:after                    { background-position: 0 -3276px }
 .flair-inai,a[href="/hero-voidspirit"]:after              { background-position: 0 -3304px }
 .flair-snapfire,a[href="/hero-snapfire"]:after            { background-position: 0 -3332px }
+.flair-hoodwink,a[href="/hero-hoodwink"]:after            { background-position: 0 -3360px }
 
 /* Remove (In Order): adl, Zephyr, */
 
