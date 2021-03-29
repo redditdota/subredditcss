@@ -1773,6 +1773,7 @@ html[lang="nf"] .linkflair-fluff { display: none }
 html[lang="fp"] .linkflair-fluff { display: none }
 html[lang="fp"] .linkflair-art { display: none }
 html[lang="fp"] .linkflair-shoutout { display: none }
+html[lang="fp"] .linkflair-anime { display: none }
 
 html[lang="ne"] .linkflair-esports { display: none }
 html[lang="oe"] .link:not(.linkflair-esports) { display: none }
