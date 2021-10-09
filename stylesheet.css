@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " self isolating gamers"
+    content: " gamers watching TI"
 }
 
 .users-online .number:after {
-    content: " hoarded TP scrolls";
+    content: " crowdfunded TP (sc)rolls";
     text-transform: none;
 }
 
@@ -2626,6 +2626,8 @@ a[href|="/logo-quincycrew"]:after     { background-position:-130px -495px }
 a[href|="/logo-4zoomers"]:after       { background-position:-194px -495px }
 a[href|="/logo-5men"]:after           { background-position:-258px -495px }
 a[href|="/logo-sag"]:after            { background-position:-2px -524px }
+a[href|="/logo-elephant"]:after       { background-position:-66px -524px }
+a[href|="/logo-undying"]:after        { background-position:-130px -524px }
 
 /*  NIGHTMODE - I don't know what I'm doing */
 .res-nightmode .link,
