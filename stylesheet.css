@@ -2501,8 +2501,8 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-arcanaqop,a[href="/custom-arcanaqop"]:after                 { background-position: 0 -1288px }
 .flair-arcanawr,a[href="/custom-arcanawr"]:after                   { background-position: 0 -1316px }
 .flair-personaam,a[href="/custom-personaam"]:after                 { background-position: 0 -1344px }
-/*.flair-holidaylanaya,a[href="/custom-holidaylanaya"]:after         { background-position: 0 -1232px }
-.flair-holidayogremagi,a[href="/custom-holidayogremagi"]:after     { background-position: 0 -1260px }*/
+.flair-silveredge,a[href="/custom-silveredge"]:after               { background-position: 0 -1372px }
+.flair-shadowamulet,a[href="/custom-shadowamulet"]:after           { background-position: 0 -1400px }
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
