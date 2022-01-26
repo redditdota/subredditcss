@@ -2490,7 +2490,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-arcanapudgegrand,a[href="/custom-arcanapudgegrand"]:after   { background-position: 0 -980px }
 .flair-euls,a[href="/custom-euls"]:after                           { background-position: 0 -1008px }
 .flair-meteorhammer,a[href="/custom-meteorhammer"]:after           { background-position: 0 -1036px }
-/*.flair-sadim, a[href="/custom-sadim"]:after                        { background-position: 0 -1064px }*/
+/*.flair-sadim, a[href="/custom-sadim"]:after                      { background-position: 0 -1064px }*/
 .flair-arcanarubick,a[href="/custom-arcanarubick"]:after           { background-position: 0 -1092px }
 .flair-arcanaescelestial,a[href="/custom-arcanaescelestial"]:after { background-position: 0 -1120px }
 .flair-arcanaesburning,a[href="/custom-arcanaesburning"]:after     { background-position: 0 -1148px }
@@ -2503,6 +2503,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-personaam,a[href="/custom-personaam"]:after                 { background-position: 0 -1344px }
 .flair-silveredge,a[href="/custom-silveredge"]:after               { background-position: 0 -1372px }
 .flair-shadowamulet,a[href="/custom-shadowamulet"]:after           { background-position: 0 -1400px }
+.flair-arcanadrow,a[href="/custom-arcanadrow"]:after               { background-position: 0 -1428px }
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
