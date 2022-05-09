@@ -2633,7 +2633,9 @@ a[href|="/logo-4zoomers"]:after       { background-position:-194px -495px }
 a[href|="/logo-5men"]:after           { background-position:-258px -495px }
 a[href|="/logo-sag"]:after            { background-position:-2px -524px }
 a[href|="/logo-elephant"]:after       { background-position:-66px -524px }
-a[href|="/logo-undying"]:after        { background-position:-130px -524px }
+a[href|="/logo-tsm"]:after            { background-position:-130px -524px }
+a[href|="/logo-tundra"]:after         { background-position:-194px -524px }
+a[href|="/logo-gg"]:after             { background-position:-258px -524px }
 
 /*  NIGHTMODE - I don't know what I'm doing */
 .res-nightmode .link,
