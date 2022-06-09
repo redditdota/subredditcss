@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " Dota players"
+    content: " players avoided"
 }
 
 .users-online .number:after {
-    content: " crowdfunded TP (sc)rolls";
+    content: " days until Battle Pass";
     text-transform: none;
 }
 
