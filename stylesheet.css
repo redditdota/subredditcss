@@ -1850,6 +1850,7 @@ a[href$='#salt-icon'] { background:rgba(89,110,144,0.8) url(%%flair-icons2%%) no
 .side .usertext a[href*='#wrench'] {background:#202125 url(%%sidebar-icons4%%) no-repeat 275px -490px;}
 .side .usertext a[href*='#discord'] {background:#202125 url(%%sidebar-icons4%%) no-repeat 275px -525px;}
 .side .usertext a[href*='#twitter'] {background:#202125 url(%%sidebar-icons4%%) no-repeat 275px -560px;}
+.side .usertext a[href*='#bug'] {background:#202125 url(%%sidebar-icons4%%) no-repeat 275px -595px;}
 
 /* FLAIR BOX */
 .flairselection .linkflair .linkflairlabel, .flairsample-left .linkflair .linkflairlabel, .flairsample-right .linkflair .flair {
