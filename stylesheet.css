@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " players avoided"
+    content: " BP complaint threads"
 }
 
 .users-online .number:after {
-    content: " days until Battle Pass";
+    content: " cavern crawl enjoyers";
     text-transform: none;
 }
 
@@ -1571,11 +1571,14 @@ content:""
 ul.tabmenu.formtab {display: inline-block;}
 
 .formtabs-content>div:first-child { background:white; color:black; font-weight:bold; padding:4px; border-radius:4px }
+.res-nightmode .formtabs-content>div:first-child { background: black, color: white }
 .formtabs-content>div:first-child>* { display: none !important }
 .formtabs-content>div:first-child:before { content: "Please read the rules before submitting. Use a descriptive title and remember to add link flair after submitting. Use the search function or check /new to see if your post has already been submitted. Duplicates will be removed. NOTE: If your account is too young or your comment karma is too low, your post will automatically be removed. ";font-size: medium; }
 
 
 .submit-page .roundfield, .roundfield .usertext-edit {border-radius:0;background:#fff}
+.res-nightmode .submit-page .roundfield, .res-nightmode .roundfield .usertext-edit { background: #000 }
+
 .submit-page .roundfield-content textarea, .submit-page .roundfield-content input[type=url], .submit-page .roundfield-content input[type=text] {border: 1px solid lightgrey;}
 
 .submit-page .content.submit .info-notice {border:0;background:#2a2e31;color:#fff}
