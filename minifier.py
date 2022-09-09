@@ -2,7 +2,7 @@ import requests
 
 reddit_css_max_length = 100 * 1024 # 100 KiB
 
-url = 'https://cssminifier.com/raw'
+url = 'https://www.toptal.com/developers/cssminifier/api/raw'
 data = {'input': open('stylesheet.css', 'rb').read()}
 response = requests.post(url, data=data)
 
