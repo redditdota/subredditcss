@@ -2639,6 +2639,11 @@ a[href|="/logo-elephant"]:after       { background-position:-66px -524px }
 a[href|="/logo-tsm"]:after            { background-position:-130px -524px }
 a[href|="/logo-tundra"]:after         { background-position:-194px -524px }
 a[href|="/logo-gg"]:after             { background-position:-258px -524px }
+a[href|="/logo-talon"]:after          { background-position:-2px -553px }
+a[href|="/logo-entity"]:after         { background-position:-66px -553px }
+a[href|="/logo-betboom"]:after        { background-position:-130px -553px }
+a[href|="/logo-hokori"]:after         { background-position:-194px -553px }
+a[href|="/logo-soniqs"]:after         { background-position:-258px -553px }
 
 /*  NIGHTMODE - I don't know what I'm doing */
 .res-nightmode .link,
