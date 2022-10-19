@@ -2158,6 +2158,20 @@ a[href|="/logo"] {
     font-size: 0pt;
 }
 
+/* Prevent accidental clicks on images */
+
+a[href|="/custom"],
+a[href|="/hero"],
+a[href|="/logo"],
+a[href|="/org"],
+a[href|="/pennant"] {
+    pointer-events:none
+}
+
+a[href$="spoiler"] {
+  pointer-events: auto;
+}
+
 a[href|="/hero"]:after        {background-image: url(%%heroes%%)}
 a[href|="/org"]:after         {background-image: url(%%orgs-2020%%)}
 a[href|="/pennant"]:after     {background-image: url(%%teamflairs%%)}
