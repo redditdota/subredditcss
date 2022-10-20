@@ -2469,6 +2469,11 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-teamboom, a[href="/pennant-boom"]:after           { background-position: 0 -2268px }
 .flair-teamt1, a[href="/pennant-t1"]:after               { background-position: 0 -2296px }
 .flair-teamspirit, a[href="/pennant-spirit"]:after       { background-position: 0 -2324px }
+.flair-teamtundra, a[href="/pennant-tundra"]:after       { background-position: 0 -2352px }
+.flair-teamthunder, a[href="/pennant-thunder"]:after     { background-position: 0 -2380px }
+.flair-teamhokori, a[href="/pennant-hokori"]:after       { background-position: 0 -2408px }
+.flair-teamgg, a[href="/pennant-gg"]:after      		 { background-position: 0 -2436px }
+.flair-teamentity, a[href="/pennant-entity"]:after       { background-position: 0 -2464px }
 
 
 .flair-arcanalina, a[href="/custom-arcanalina"]:after              { background-position: 0 -0px }
