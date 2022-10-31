@@ -1939,12 +1939,12 @@ a[href="/ae"], a[href="/af"], a[href="/al"], a[href="/ao"], a[href="/ar"],a[href
 a[href="/bg"], a[href="/bo"], a[href="/br"], a[href="/by"], a[href="/ca"], a[href="/ch"], a[href="/cl"], a[href="/cn"],a[href="/co"], a[href="/cr"],
 a[href="/cu"], a[href="/cz"], a[href="/de"], a[href="/dk"], a[href="/ee"], a[href="/eg"], a[href="/es"], a[href="/eu"], a[href="/fi"], a[href="/fr"],
 a[href="/gb"], a[href="/ge"], a[href="/gr"], a[href="/hk"], a[href="/hr"], a[href="/hu"], a[href="/id"], a[href="/ie"], a[href="/il"], a[href="/in"],
-a[href="/iq"], a[href="/ir"], a[href="/is"], a[href="/it"], a[href="/jm"], a[href="/jp"], a[href="/kh"], a[href="/kp"], a[href="/kr"], a[href="/kz"],
-a[href="/la"], a[href="/lb"], a[href="/lk"], a[href="/lt"], a[href="/lu"], a[href="/lv"], a[href="/mk"], a[href="/mm"], a[href="/mn"], a[href="/mx"],
-a[href="/my"], a[href="/ng"], a[href="/nl"], a[href="/no"], a[href="/np"], a[href="/nz"], a[href="/pe"], a[href="/ph"], a[href="/pk"], a[href="/pl"],
-a[href="/pt"], a[href="/ro"], a[href="/rs"], a[href="/ru"], a[href="/se"], a[href="/sg"], a[href="/si"], a[href="/sk"], a[href="/th"], a[href="/tr"],
-a[href="/tw"], a[href="/ua"], a[href="/us"], a[href="/un"], a[href="/uz"], a[href="/vn"], a[href="/za"], a[href="/xx"], a[href="/wo"], a[href="/xa"],
-a[href="/xb"], a[href="/xc"] {
+a[href="/iq"], a[href="/ir"], a[href="/is"], a[href="/it"], a[href="/jm"], a[href="/jo"], a[href="/jp"], a[href="/kh"], a[href="/kp"], a[href="/kr"], 
+a[href="/kz"], a[href="/la"], a[href="/lb"], a[href="/lk"], a[href="/lt"], a[href="/lu"], a[href="/lv"], a[href="/mk"], a[href="/mm"], a[href="/mn"], 
+a[href="/mx"], a[href="/my"], a[href="/ng"], a[href="/nl"], a[href="/no"], a[href="/np"], a[href="/nz"], a[href="/pe"], a[href="/ph"], a[href="/pk"], 
+a[href="/pl"], a[href="/pt"], a[href="/ro"], a[href="/rs"], a[href="/ru"], a[href="/se"], a[href="/sg"], a[href="/si"], a[href="/sk"], a[href="/th"], 
+a[href="/tr"], a[href="/tw"], a[href="/ua"], a[href="/us"], a[href="/un"], a[href="/uz"], a[href="/vn"], a[href="/za"], a[href="/xx"], a[href="/wo"], 
+a[href="/xa"], a[href="/xb"], a[href="/xc"] {
 width: 16px;
   height: 11px;
   display: inline-block;
@@ -2002,6 +2002,7 @@ a[href="/ir"]{background-position: -144px -66px}
 a[href="/is"]{background-position: -160px -66px}
 a[href="/it"]{background-position: -176px -66px}
 a[href="/jm"]{background-position: -208px -66px}
+a[href="/jo"]{background-position: -48px -121px}
 a[href="/jp"]{background-position: -240px -66px}
 a[href="/kh"]{background-position: -32px -77px}
 a[href="/kp"]{background-position: -96px -77px}
