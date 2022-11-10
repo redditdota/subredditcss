@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " BP complaint threads"
+    content: " shuffle rumours"
 }
 
 .users-online .number:after {
-    content: " cavern crawl enjoyers";
+    content: " Marci sets submitted";
     text-transform: none;
 }
 
