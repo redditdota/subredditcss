@@ -2380,9 +2380,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-sts, a[href="/org-sts"]:after                   { background-position: 0 -1988px }
 .flair-openai, a[href="/org-openai"]:after             { background-position: 0 -2016px }
 .flair-beastcoast, a[href="/org-beastcoast"]:after     { background-position: 0 -2044px }
-.flair-epulze, a[href="/org-epulze"]:after             { background-position: 0 -2072px }
-.flair-blast, a[href="/org-blast"]:after               { background-position: 0 -2100px }
-.flair-layerth, a[href="/org-layerth"]:after           { background-position: 0 -2128px }
+.flair-spirit, a[href="/org-spirit"]:after             { background-position: 0 -2072px }
 
 .flair-azgalor, a[href="/hero-underlord"]:after        { background-position: 0 -252px }
 
