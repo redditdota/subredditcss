@@ -2188,6 +2188,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-atropos, a[href="/hero-bane"]:after                { background-position: 0 -196px }
 .flair-aurel, a[href="/hero-gyrocopter"]:after            { background-position: 0 -224px }
 .flair-azgalor, a[href="/hero-abyssalunderlord"]:after    { background-position: 0 -252px }
+.flair-azgalor, a[href="/hero-underlord"]:after           { background-position: 0 -252px }
 .flair-azwraith, a[href="/hero-phantomlancer"]:after      { background-position: 0 -280px }
 .flair-balanar, a[href="/hero-nightstalker"]:after        { background-position: 0 -308px }
 .flair-banehallow, a[href="/hero-lycan"]:after            { background-position: 0 -336px }
@@ -2380,10 +2381,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-sts, a[href="/org-sts"]:after                   { background-position: 0 -1988px }
 .flair-openai, a[href="/org-openai"]:after             { background-position: 0 -2016px }
 .flair-beastcoast, a[href="/org-beastcoast"]:after     { background-position: 0 -2044px }
-.flair-spirit, a[href="/org-spirit"]:after             { background-position: 0 -2072px }
-
-.flair-azgalor, a[href="/hero-underlord"]:after        { background-position: 0 -252px }
-
+.flair-spirit, a[href="/org-spirit"]:after             { background-position: 0 -2100px }
 .flair-teamrs, a[href="/pennant-rs"]:after               { background-position: 0 -0px }
 .flair-teamfnatic, a[href="/pennant-fnatic"]:after       { background-position: 0 -28px }
 .flair-teamdk, a[href="/pennant-dk"]:after               { background-position: 0 -56px }
@@ -2471,7 +2469,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-teamtundra, a[href="/pennant-tundra"]:after       { background-position: 0 -2352px }
 .flair-teamthunder, a[href="/pennant-thunder"]:after     { background-position: 0 -2380px }
 .flair-teamhokori, a[href="/pennant-hokori"]:after       { background-position: 0 -2408px }
-.flair-teamgg, a[href="/pennant-gg"]:after      		 { background-position: 0 -2436px }
+.flair-teamgg, a[href="/pennant-gg"]:after           { background-position: 0 -2436px }
 .flair-teamentity, a[href="/pennant-entity"]:after       { background-position: 0 -2464px }
 
 
