@@ -2524,6 +2524,11 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-silveredge,a[href="/custom-silveredge"]:after               { background-position: 0 -1372px }
 .flair-shadowamulet,a[href="/custom-shadowamulet"]:after           { background-position: 0 -1400px }
 .flair-arcanadrow,a[href="/custom-arcanadrow"]:after               { background-position: 0 -1428px }
+.flair-radiance,a[href="/custom-radiance"]:after                 { background-position: 0 -1456px }
+.flair-lotusorb,a[href="/custom-lotusorb"]:after                 { background-position: 0 -1484px }
+
+/* Fade flairs that have faded class (i.e. ex mods) */
+.flair-faded {opacity: .2;}
 
 /* Joey fixing techiesface creepymaiden MEMES */
 
@@ -2660,6 +2665,7 @@ a[href|="/logo-entity"]:after         { background-position:-66px -553px }
 a[href|="/logo-betboom"]:after        { background-position:-130px -553px }
 a[href|="/logo-hokori"]:after         { background-position:-194px -553px }
 a[href|="/logo-soniqs"]:after         { background-position:-258px -553px }
+a[href|="/logo-rebellion"]:after      { background-position:-2px -582px }
 
 /*  NIGHTMODE - I don't know what I'm doing */
 .res-nightmode .link,
