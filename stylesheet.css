@@ -25,7 +25,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%ti2022-banner%%) no-repeat no-repeat #261c1c; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%muerta-banner%%) no-repeat no-repeat #261c1c; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
