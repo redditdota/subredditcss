@@ -7,7 +7,7 @@
 }
 
 .users-online .number:after {
-    content: " days since patch";
+    content: " minutes paused";
     text-transform: none;
 }
 
@@ -25,7 +25,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%muerta-banner%%) no-repeat no-repeat #261c1c; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%muerta-banner%%) no-repeat no-repeat #16645c; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -104,7 +104,7 @@
     width: 316px!important;
     height: 110px!important;
     display: block!important;
-    background-image: url(%%ti2022-logo%%)!important;
+    background-image: url(%%logo%%)!important;
     background-repeat: no-repeat!important;
     margin: 0 auto!important;
     font-size: 0!important;
