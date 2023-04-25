@@ -3,11 +3,11 @@
 }
 
 .subscribers span.number:after {
-    content: " sad BeyondTheSummit fans"
+    content: " MMR lost"
 }
 
 .users-online .number:after {
-    content: " days of 7.32";
+    content: " deaths to Tormentor";
     text-transform: none;
 }
 
