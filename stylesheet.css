@@ -2678,6 +2678,10 @@ a[href|="/logo-betboom"]:after        { background-position:-130px -553px }
 a[href|="/logo-hokori"]:after         { background-position:-194px -553px }
 a[href|="/logo-soniqs"]:after         { background-position:-258px -553px }
 a[href|="/logo-rebellion"]:after      { background-position:-2px -582px }
+a[href|="/logo-9pandas"]:after        { background-position:-66px -582px }
+a[href|="/logo-azureray"]:after       { background-position:-130px -582px }
+a[href|="/logo-keyd"]:after           { background-position:-194px -582px }
+a[href|="/logo-nouns"]:after          { background-position:-258px -582px }
 
 /*  NIGHTMODE - I don't know what I'm doing */
 .res-nightmode .link,
