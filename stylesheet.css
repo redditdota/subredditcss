@@ -25,7 +25,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%crownfall%%) no-repeat no-repeat #000000; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%ti2024%%) no-repeat no-repeat #000000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -342,7 +342,7 @@ h1.redditname {display: none;}
   color: #91b9b7;
   outline: 0;
 }
-.side .fancy-toggle-button .add {background: #0168a8;color: #ffffff;}
+.side .fancy-toggle-button .add {background: #59a711e8;color: #ffffff;}
 .side .fancy-toggle-button .add:active,
 .side .fancy-toggle-button .remove:active {outline: none;}
 .side .fancy-toggle-button.toggle .option.active {display: block;  width: 95%;  margin: 0 auto;}
@@ -440,12 +440,12 @@ h1.redditname {display: none;}
 }
 
 .side .flairselector.drop-choices.active h2 {
-    background-color: #0168a8;
+    background-color: #59a711e8;
     color: #131313;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.side .flairselector.drop-choices.active form {background-color: #0168a8;}
+.side .flairselector.drop-choices.active form {background-color: #59a711e8;}
 .side .flairselector.drop-choices.active button {margin-bottom: 6px;}
 .side .flairselector.drop-choices.active .flairselection,
 .side .flairselector.drop-choices.active .flairselection a,
@@ -1281,7 +1281,7 @@ a.thumbnail img {
     padding: 5px;
     font-weight: normal;
     border: 0px solid #020202;
-    background: #0168a8;
+    background: #59a711e8;
     content: " Downvote only if you think this post has no value, not if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -1313,10 +1313,10 @@ a.thumbnail img {
     background: #FFF;
     opacity: 1;
     outline: none !important;
-    border:1px solid #0168a8;
-    -webkit-box-shadow:0 0 5px #0168a8;
-    -moz-box-shadow: 0 0 5px #0168a8;
-    box-shadow: 0 0 5px #0168a8;
+    border:1px solid #59a711e8;
+    -webkit-box-shadow:0 0 5px #59a711e8;
+    -moz-box-shadow: 0 0 5px #59a711e8;
+    box-shadow: 0 0 5px #59a711e8;
 }
 
 .res-nightmode .comments-page .usertext-edit div textarea {
@@ -1364,7 +1364,7 @@ a.thumbnail img {
 }
 
 .sidetable nestedlisting{
-    background-color:#0168a8!important;
+    background-color:#59a711e8!important;
 }
 
 
@@ -1407,7 +1407,7 @@ span.awarding-icon-container {
 .comment .expand {
     background-color: transparent;
     transition: all .20s ease;
-    color: #0168a8 !important;
+    color: #59a711e8 !important;
     background-color: #e6e6e6;
     position: absolute;
     top: 0px;
@@ -1439,7 +1439,7 @@ span.awarding-icon-container {
 
 .comment .expand:hover {
     text-decoration: none;
-    background: #0168a8;
+    background: #59a711e8;
     color: #FFF !important;
 }
 
@@ -1555,7 +1555,7 @@ content:""
 
 .self .md th {
     font-weight:700;
-    background-color:#0168a8;
+    background-color:#59a711e8;
     color:#fff;
     text-align:center
 }
@@ -1594,12 +1594,12 @@ ul.tabmenu.formtab {display: inline-block;}
 ********************/
 
 a[href$="/spoiler"] {
-    background:#0168a8!important;
-    color:#0168a8!important
+    background:#59a711e8!important;
+    color:#59a711e8!important
 }
 
 a[href$="/spoiler"]:hover {
-    color:#0168a8!important;
+    color:#59a711e8!important;
     background:transparent!important
 }
 
@@ -1608,12 +1608,12 @@ a[href$="/spoiler"]:hover {
 }
 
 .md .md-spoiler-text:not(.revealed){
-    background: #0168a8;
+    background: #59a711e8;
 }
 
 a[href|="#s"] {
     display:inline-block;
-    background:#0168a8!important;
+    background:#59a711e8!important;
     color:#fff!important;
     cursor:default;
     padding:1px 2px
@@ -1622,8 +1622,8 @@ a[href|="#s"] {
 a[href|="#s"]::after {
     content:attr(title);
     display:inline-block;
-    background:#0168a8!important;
-    color:#0168a8!important;
+    background:#59a711e8!important;
+    color:#59a711e8!important;
     visibility:visible;
     padding:0 8px
 }
@@ -1667,7 +1667,7 @@ a[href="#s-250"]::after {
 #noresults {
     padding: 10px;
     color: #fff;
-    background-color: #0168a8;
+    background-color: #59a711e8;
     margin-left: 5px;
 }
 #noresults.tb-kitteh {background-color: transparent}
@@ -1704,7 +1704,7 @@ a[href="#s-250"]::after {
     width: 210px;
     padding: 5px;
     border: 0px solid #010713;
-    background: #0168a8;
+    background: #59a711e8;
     content: " Downvote only if off-topic or factually wrong, NOT if you disagree.";
     text-align: center;
     font-size: 10px;
@@ -2305,6 +2305,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-marci,a[href="/hero-marci"]:after                  { background-position: 0 -3416px }
 .flair-primalbeast,a[href="/hero-primalbeast"]:after      { background-position: 0 -3444px }
 .flair-muerta,a[href="/hero-muerta"]:after                { background-position: 0 -3472px }
+.flair-ringmaster,a[href="/hero-ringmaster"]:after        { background-position: 0 -3500px }
 
 /* Remove (In Order): adl, Zephyr, */
 
@@ -2574,7 +2575,7 @@ a[href|="/logo"] .md-spoiler-text {
 }
 
 a[href$="spoiler"]:not(:hover):after {
-background:#0168a8;
+background:#59a711e8;
 }
 
 a[href|="/logo-alliance"]:after       { background-position:-2px -2px }
@@ -2601,7 +2602,7 @@ a[href|="/logo-tigers"]:after         { background-position:-2px -118px }
 a[href|="/logo-happyfeet"]:after      { background-position:-66px -118px }
 a[href|="/logo-ig"]:after             { background-position:-130px -118px }
 a[href|="/logo-jstorm"]:after         { background-position:-194px -118px }
-a[href|="/logo-dbg"]:after            { background-position:-258px -118px }
+a[href|="/logo-aurora"]:after         { background-position:-258px -118px }
 a[href|="/logo-lgd"]:after            { background-position:-2px -147px }
 a[href|="/logo-liquid"]:after         { background-position:-66px -147px }
 a[href|="/logo-mineski"]:after        { background-position:-130px -147px }
@@ -2658,7 +2659,7 @@ a[href|="/logo-adroit"]:after         { background-position:-130px -437px }
 a[href|="/logo-b8"]:after             { background-position:-194px -437px }
 a[href|="/logo-flytomoon"]:after      { background-position:-258px -437px }
 a[href|="/logo-geekfam"]:after        { background-position:-2px -466px }
-a[href|="/logo-midasclub"]:after      { background-position:-66px -466px }
+a[href|="/logo-zero"]:after           { background-position:-66px -466px }
 a[href|="/logo-neon"]:after           { background-position:-130px -466px }
 a[href|="/logo-nigma"]:after          { background-position:-194px -466px }
 a[href|="/logo-t1"]:after             { background-position:-258px -466px }
@@ -2666,7 +2667,7 @@ a[href|="/logo-unique"]:after         { background-position:-2px -495px }
 a[href|="/logo-vikingg"]:after        { background-position:-66px -495px }
 a[href|="/logo-quincycrew"]:after     { background-position:-130px -495px }
 a[href|="/logo-4zoomers"]:after       { background-position:-194px -495px }
-a[href|="/logo-5men"]:after           { background-position:-258px -495px }
+a[href|="/logo-aurora"]:after         { background-position:-258px -495px }
 a[href|="/logo-sag"]:after            { background-position:-2px -524px }
 a[href|="/logo-elephant"]:after       { background-position:-66px -524px }
 a[href|="/logo-tsm"]:after            { background-position:-130px -524px }
@@ -2676,12 +2677,14 @@ a[href|="/logo-talon"]:after          { background-position:-2px -553px }
 a[href|="/logo-entity"]:after         { background-position:-66px -553px }
 a[href|="/logo-betboom"]:after        { background-position:-130px -553px }
 a[href|="/logo-hokori"]:after         { background-position:-194px -553px }
-a[href|="/logo-soniqs"]:after         { background-position:-258px -553px }
+a[href|="/logo-heroic"]:after         { background-position:-258px -553px }
 a[href|="/logo-rebellion"]:after      { background-position:-2px -582px }
 a[href|="/logo-9pandas"]:after        { background-position:-66px -582px }
 a[href|="/logo-azureray"]:after       { background-position:-130px -582px }
 a[href|="/logo-keyd"]:after           { background-position:-194px -582px }
 a[href|="/logo-nouns"]:after          { background-position:-258px -582px }
+a[href|="/logo-falcons"]:after        { background-position:-2px -611 }
+a[href|="/logo-xtreme"]:after         { background-position:-66px -611 }
 
 /*  NIGHTMODE - I don't know what I'm doing */
 .res-nightmode .link,
