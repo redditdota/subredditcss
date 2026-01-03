@@ -25,7 +25,7 @@
 **************************/
 
 /* HEADER BACKGROUND */
-#header, body.res-nightmode #header {background: url(%%kez%%) no-repeat no-repeat #000000; background-position: 0px 0px;}
+#header, body.res-nightmode #header {background: url(%%largo%%) no-repeat no-repeat #000000; background-position: 0px 0px;}
 #header-bottom-left{height: 154px;}
 
 /* HEADER SUBREDDITS */
@@ -2210,6 +2210,7 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-furion, a[href="/hero-naturesprophet"]:after       { background-position: 0 -784px }
 .flair-gondar, a[href="/hero-bountyhunter"]:after         { background-position: 0 -812px }
 .flair-harbinger, a[href="/hero-outworlddevourer"]:after  { background-position: 0 -840px }
+.flair-harbinger, a[href="/hero-outworlddestroyer"]:after { background-position: 0 -840px }
 .flair-huskar, a[href="/hero-huskar"]:after               { background-position: 0 -868px }
 .flair-icarus, a[href="/hero-phoenix"]:after              { background-position: 0 -896px }
 .flair-io, a[href="/hero-io"]:after                       { background-position: 0 -924px }
@@ -2307,6 +2308,8 @@ a[href|="/custom"]:after      {background-image: url(%%custom%%)}
 .flair-muerta,a[href="/hero-muerta"]:after                { background-position: 0 -3472px }
 .flair-ringmaster,a[href="/hero-ringmaster"]:after        { background-position: 0 -3500px }
 .flair-kez,a[href="/hero-kez"]:after                      { background-position: 0 -3528px }
+.flair-spiritbear,a[href="/hero-spiritbear"]:after        { background-position: 0 -3556px }
+.flair-largo,a[href="/hero-largo"]:after                  { background-position: 0 -3584px }
 
 /* Remove (In Order): adl, Zephyr, */
 
